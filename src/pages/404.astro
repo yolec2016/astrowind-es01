@@ -1,0 +1,59 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import { getHomePermalink } from '~/utils/permalinks';
+
+const title = 'Página no encontrada | YOLEC Electric';
+---
+
+<Layout metadata={{ title }}>
+  <section class="flex items-center h-full p-16">
+    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+      <div class="max-w-2xl text-center">
+
+        <h2 class="mb-8 font-bold text-9xl">
+          <span class="sr-only">404</span>
+          <span class="text-primary">404</span>
+        </h2>
+
+        <h1 class="text-3xl font-semibold md:text-4xl">
+          Página no encontrada
+        </h1>
+
+        <p class="mt-6 text-lg text-muted dark:text-slate-400">
+          Lo sentimos, la página que buscas no existe, ha sido movida o la dirección URL es incorrecta.
+        </p>
+
+        <p class="mt-4 text-lg text-muted dark:text-slate-400">
+          Si estás buscando un fabricante OEM u ODM de pequeños electrodomésticos en China, te invitamos a visitar nuestra página principal y descubrir nuestras soluciones para marcas, importadores y distribuidores internacionales.
+        </p>
+
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+          <a
+            rel="noopener noreferrer"
+            href={getHomePermalink()}
+            class="btn"
+          >
+            Volver al inicio
+          </a>
+
+          <a
+            rel="noopener noreferrer"
+            href="/productos/hervidores-electricos"
+            class="btn btn-secondary"
+          >
+            Ver productos
+          </a>
+
+          <a
+            rel="noopener noreferrer"
+            href="/contacto"
+            class="btn btn-secondary"
+          >
+            Contactar con nosotros
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</Layout>

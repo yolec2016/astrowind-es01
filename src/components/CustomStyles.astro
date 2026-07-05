@@ -1,0 +1,80 @@
+---
+import '@fontsource-variable/inter';
+---
+
+<style is:inline>
+  :root {
+    /* ==========================================
+       Typography
+    ========================================== */
+    --aw-font-sans: 'Inter Variable';
+    --aw-font-serif: 'Inter Variable';
+    --aw-font-heading: 'Inter Variable';
+
+    /* ==========================================
+       Brand Colors
+       YOLEC Electric
+    ========================================== */
+
+    /* Primary */
+    --aw-color-primary: rgb(37 99 235); /* #2563EB */
+
+    /* Hover */
+    --aw-color-secondary: rgb(29 78 216); /* #1D4ED8 */
+
+    /* Accent */
+    --aw-color-accent: rgb(14 165 233); /* #0EA5E9 */
+
+    /* ==========================================
+       Text
+    ========================================== */
+
+    --aw-color-text-heading: rgb(15 23 42); /* Slate 900 */
+
+    --aw-color-text-default: rgb(51 65 85); /* Slate 700 */
+
+    --aw-color-text-muted: rgb(100 116 139); /* Slate 500 */
+
+    /* ==========================================
+       Background
+    ========================================== */
+
+    --aw-color-bg-page: rgb(255 255 255);
+
+    --aw-color-bg-page-dark: rgb(15 23 42);
+
+    /* ==========================================
+       Selection
+    ========================================== */
+
+    ::selection {
+      background: rgb(37 99 235);
+      color: white;
+    }
+  }
+
+  .dark {
+    --aw-font-sans: 'Inter Variable';
+    --aw-font-serif: 'Inter Variable';
+    --aw-font-heading: 'Inter Variable';
+
+    --aw-color-primary: rgb(96 165 250);
+
+    --aw-color-secondary: rgb(59 130 246);
+
+    --aw-color-accent: rgb(56 189 248);
+
+    --aw-color-text-heading: rgb(248 250 252);
+
+    --aw-color-text-default: rgb(226 232 240);
+
+    --aw-color-text-muted: rgb(148 163 184);
+
+    --aw-color-bg-page: rgb(15 23 42);
+
+    ::selection {
+      background: rgb(96 165 250);
+      color: rgb(15 23 42);
+    }
+  }
+</style>

@@ -1,0 +1,56 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/blog/List.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Pagination from '~/components/blog/Pagination.astro';
+
+import { blogListRobots, getStaticPathsBlogList } from '~/utils/blog';
+
+export const prerender = true;
+
+export const getStaticPaths = (async ({ paginate }) => {
+  return await getStaticPathsBlogList({ paginate });
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { page } = Astro.props as Props;
+const currentPage = page.currentPage ?? 1;
+
+const metadata = {
+  title: `Blog OEM/ODM de Electrodomésticos en China${currentPage > 1 ? ` — Página ${currentPage}` : ''}`,
+
+  description:
+    'Blog profesional sobre fabricación OEM/ODM de pequeños electrodomésticos en China. Aprende sobre hervidores eléctricos, arroceras, ollas a presión y estrategias de abastecimiento para importadores y marcas internacionales.',
+
+  robots: {
+    index: blogListRobots?.index && currentPage === 1,
+    follow: blogListRobots?.follow,
+  },
+
+  openGraph: {
+    type: 'blog',
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+
+    <!-- SEO H1 -->
+    <Headline
+      subtitle="Artículos profesionales sobre fabricación OEM y ODM de electrodomésticos de cocina en China para importadores, distribuidores y marcas privadas"
+    >
+      Blog de Fabricación OEM/ODM en China
+    </Headline>
+
+    <!-- Blog list -->
+    <BlogList posts={page.data} />
+
+    <!-- Pagination -->
+    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+
+  </section>
+</Layout>

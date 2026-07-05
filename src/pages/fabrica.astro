@@ -1,0 +1,228 @@
+---
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Sobre nosotros | Fabricante OEM de electrodomésticos en China - YOLEC Electric',
+  description:
+    'YOLEC Electric es un fabricante OEM/ODM en China especializado en pequeños electrodomésticos de cocina. Conozca nuestra empresa, capacidades de producción y experiencia en exportación global.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Sobre YOLEC Electric"
+    image={{
+      src: '/public/images/about1.png',
+      alt: 'Fabricante OEM de electrodomésticos en China - YOLEC Electric',
+    }}
+  >
+    <Fragment slot="title">
+      Fabricante OEM/ODM de <br />
+      <span class="text-accent dark:text-white">Pequeños Electrodomésticos en China</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <strong>YOLEC Electric</strong> es una empresa fabricante ubicada en Zhongshan, Guangdong, China.
+      Nos especializamos en el desarrollo y producción de electrodomésticos de cocina OEM y ODM para marcas internacionales.
+      Ayudamos a importadores, distribuidores y propietarios de marcas a crear productos competitivos con fabricación directa de fábrica.
+    </Fragment>
+  </Hero>
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title="Nuestra empresa en cifras"
+    stats={[
+      { title: 'Años de experiencia', amount: '15+' },
+      { title: 'Clientes globales', amount: '200+' },
+      { title: 'Producción mensual', amount: '300K+' },
+      { title: 'Mercados exportados', amount: '60+' },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Áreas de especialización"
+    subtitle="Nos enfocamos en la fabricación OEM/ODM de electrodomésticos de cocina con calidad estable y producción escalable."
+    columns={3}
+    isBeforeContent={true}
+    items={[
+      {
+        title: 'Desarrollo OEM',
+        description:
+          'Fabricamos productos según diseño, marca y especificaciones del cliente.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Desarrollo ODM',
+        description:
+          'Ofrecemos modelos listos para personalización y rápida entrada al mercado.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Control de calidad',
+        description:
+          'Inspección estricta en cada etapa de producción para garantizar consistencia.',
+        icon: 'tabler:template',
+      },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    columns={3}
+    isAfterContent={true}
+    items={[
+      {
+        title: 'E-commerce y marcas privadas',
+        description:
+          'Apoyamos marcas privadas y vendedores internacionales en el desarrollo de productos.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Exportación global',
+        description:
+          'Experiencia exportando a Europa, América, Medio Oriente y África.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Soluciones B2B',
+        description:
+          'Servicios completos para importadores, distribuidores y mayoristas.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Branding OEM',
+        description:
+          'Personalización de logotipo, embalaje y diseño de producto.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Soporte técnico',
+        description:
+          'Asistencia en desarrollo de producto y optimización de fabricación.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Fabricación estable',
+        description:
+          'Capacidad de producción constante para pedidos grandes.',
+        icon: 'tabler:template',
+      },
+    ]}
+    image={{
+      src: '/public/images/about2.png',
+      alt: 'Producción de electrodomésticos OEM en China',
+    }}
+  />
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Nuestros valores"
+    subtitle="Nos enfocamos en calidad, eficiencia y relaciones comerciales a largo plazo con nuestros clientes globales."
+    items={[
+      {
+        title: 'Enfoque en el cliente',
+        description:
+          'Trabajamos con cada cliente para desarrollar soluciones OEM personalizadas.',
+      },
+      {
+        title: 'Mejora continua',
+        description:
+          'Optimización constante de procesos de producción y calidad.',
+      },
+      {
+        title: 'Prácticas éticas',
+        description:
+          'Relaciones comerciales transparentes y cooperación a largo plazo.',
+      },
+    ]}
+  />
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Logros"
+    subtitle="Nuestro crecimiento se basa en la confianza de clientes internacionales y producción estable."
+    isReversed={true}
+    callToAction={{
+      text: 'Ver catálogo',
+      href: '/catalogo',
+    }}
+    items={[
+      {
+        title: 'Cobertura global',
+        description:
+          'Exportamos electrodomésticos a más de 60 países.',
+      },
+      {
+        title: 'Clientes satisfechos',
+        description:
+          'Relaciones estables con más de 200 clientes B2B.',
+      },
+      {
+        title: 'Reconocimiento industrial',
+        description:
+          'Proveedor confiable en el sector de electrodomésticos OEM.',
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Ubicación"
+    tagline="Nuestra fábrica"
+    columns={4}
+    items={[
+      {
+        title: 'China - Zhongshan',
+        description: 'Guangdong, China - Fábrica principal de producción OEM/ODM',
+      },
+      {
+        title: 'Producción directa',
+        description: 'Sin intermediarios, envío directo desde fábrica',
+      },
+      {
+        title: 'Exportación global',
+        description: 'Europa, América, Medio Oriente y África',
+      },
+      {
+        title: 'Soporte B2B',
+        description: 'Atención para importadores y distribuidores',
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Soporte técnico"
+    tagline="Contacto"
+    columns={2}
+    items={[
+      {
+        title: 'Comunicación rápida',
+        description:
+          'Respuesta profesional para consultas OEM/ODM.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Soporte completo',
+        description:
+          'Asistencia en desarrollo, producción y exportación.',
+        icon: 'tabler:headset',
+      },
+    ]}
+  />
+</Layout>

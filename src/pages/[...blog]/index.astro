@@ -1,0 +1,94 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+
+import merge from 'lodash.merge';
+import type { ImageMetadata } from 'astro';
+import Layout from '~/layouts/PageLayout.astro';
+import SinglePost from '~/components/blog/SinglePost.astro';
+import ToBlogLink from '~/components/blog/ToBlogLink.astro';
+
+import { getCanonical, getPermalink } from '~/utils/permalinks';
+import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
+import { findImage } from '~/utils/images';
+import type { MetaData } from '~/types';
+import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  return await getStaticPathsBlogPost();
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { post } = Astro.props as Props;
+
+const url = getCanonical(getPermalink(post.permalink, 'post'));
+const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
+
+/**
+ * 🔥 SEO OPTIMIZED METADATA (Spanish B2B OEM/ODM factory signals)
+ */
+const metadata = merge(
+  {
+    title: `${post.title} | Fabricante OEM/ODM de Electrodomésticos en China - YOLEC Electric`,
+
+    description:
+      post.excerpt ||
+      'Artículo profesional sobre fabricación OEM/ODM de pequeños electrodomésticos en China para importadores, distribuidores y marcas privadas.',
+
+    robots: {
+      index: blogPostRobots?.index,
+      follow: blogPostRobots?.follow,
+    },
+
+    openGraph: {
+      type: 'article',
+      ...(image
+        ? {
+            images: [
+              {
+                url: image,
+                width: (image as ImageMetadata)?.width,
+                height: (image as ImageMetadata)?.height,
+              },
+            ],
+          }
+        : {}),
+    },
+
+    /**
+     * 🔥 SEO: canonical URL
+     */
+    alternates: {
+      canonical: url,
+    },
+
+    /**
+     * 🔥 Spanish B2B keyword signals
+     */
+    additionalMetaTags: [
+      {
+        name: 'keywords',
+        content:
+          'fabricante OEM China, fábrica electrodomésticos cocina, proveedor hervidores eléctricos, arrozera eléctrica OEM, fabricante ODM electrodomésticos, cocina pequeños electrodomésticos China',
+      },
+    ],
+  },
+  {
+    ...(post?.metadata
+      ? { ...post.metadata, canonical: post.metadata?.canonical || url }
+      : {}),
+  }
+) as MetaData;
+---
+
+<Layout metadata={metadata}>
+  <SinglePost post={{ ...post, image: image }} url={url}>
+    {post.Content && <post.Content />}
+  </SinglePost>
+
+  <ToBlogLink />
+
+  <RelatedPosts post={post} />
+</Layout>

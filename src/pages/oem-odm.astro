@@ -1,0 +1,171 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Servicios OEM/ODM | Fabricante de Electrodomésticos en China - YOLEC Electric',
+  description:
+    'YOLEC Electric ofrece servicios OEM y ODM de hervidores eléctricos, arroceras, ollas a presión, fiambreras y batidoras. Fabricación directa de fábrica en China.',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <Hero
+    tagline="Servicios OEM/ODM"
+    title="Fabricación OEM y ODM de electrodomésticos en China"
+    subtitle="Somos un fabricante en China especializado en electrodomésticos de cocina. Ofrecemos soluciones OEM y ODM para hervidores eléctricos, arroceras, ollas a presión, fiambreras eléctricas y batidoras de mano para clientes globales."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Contacto', href: '/contacto' }]}
+    image={{
+      src: '/public/images/factory.png',
+      alt: 'Fábrica OEM ODM electrodomésticos China',
+    }}
+  />
+
+  <!-- Features -->
+  <Features2
+    title="Servicios principales"
+    subtitle="Soluciones OEM y ODM para marcas, distribuidores e importadores."
+    columns={3}
+    items={[
+      {
+        title: 'OEM',
+        description: 'Fabricamos productos con su marca, diseño y embalaje personalizado.',
+      },
+      {
+        title: 'ODM',
+        description: 'Ofrecemos modelos existentes que se pueden personalizar para su mercado.',
+      },
+      {
+        title: 'Control de calidad',
+        description: 'Inspección en cada etapa de producción para garantizar calidad estable.',
+      },
+      {
+        title: 'Desarrollo de productos',
+        description: 'Apoyo en diseño y desarrollo de nuevos productos.',
+      },
+      {
+        title: 'Producción en masa',
+        description: 'Capacidad para pedidos grandes y pequeños con entrega estable.',
+      },
+      {
+        title: 'Precio de fábrica',
+        description: 'Suministro directo sin intermediarios.',
+      },
+    ]}
+  />
+
+  <!-- Content 1 -->
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Diseño OEM/ODM',
+        description: 'Transformamos su idea en un producto listo para producción.',
+      },
+      {
+        title: 'Muestras rápidas',
+        description: 'Desarrollo de prototipos para validación del mercado.',
+      },
+      {
+        title: 'Producción estable',
+        description: 'Líneas de fabricación modernas para pedidos continuos.',
+      },
+      {
+        title: 'Inspección final',
+        description: 'Control de calidad antes del envío.',
+      },
+    ]}
+    image={{
+      src: '/public/images/factory3.png',
+      alt: 'Proceso de fabricación OEM ODM',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold">Proceso de fabricación</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Content 2 -->
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Ahorro de tiempo',
+        description: 'Reducimos el tiempo de desarrollo de producto.',
+      },
+      {
+        title: 'Alta calidad',
+        description: 'Fabricación bajo estándares internacionales.',
+      },
+      {
+        title: 'Costo competitivo',
+        description: 'Precio directo de fábrica.',
+      },
+      {
+        title: 'Entrega rápida',
+        description: 'Producción optimizada para exportación.',
+      },
+    ]}
+    image={{
+      src: '/public/images/factory2.png',
+      alt: 'Ventajas OEM ODM',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold">Ventajas</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Testimonials -->
+  <Testimonials
+    title="Clientes internacionales"
+    testimonials={[
+      {
+        testimonial: 'Buen proveedor OEM, calidad estable y comunicación profesional.',
+        name: 'Cliente Internacional',
+        job: 'Importador',
+        image: {
+          src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e',
+          alt: 'Cliente',
+        },
+      },
+      {
+        testimonial: 'Excelente servicio ODM y entrega puntual.',
+        name: 'Distribuidor',
+        job: 'Mayorista',
+        image: {
+          src: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2',
+          alt: 'Cliente',
+        },
+      },
+      {
+        testimonial: 'Muy buen soporte técnico en desarrollo de producto.',
+        name: 'Dueño de marca',
+        job: 'Brand Owner',
+        image: {
+          src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d',
+          alt: 'Cliente',
+        },
+      },
+    ]}
+  />
+
+  <!-- CTA -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Solicitar cotización',
+        href: '/contacto',
+      },
+    ]}
+    title="Fabricación OEM/ODM en China"
+    subtitle="Electrodomésticos de cocina personalizados para su marca."
+  />
+</Layout>

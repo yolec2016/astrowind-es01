@@ -1,0 +1,77 @@
+site:
+  name: YOLEC Electric
+  site: 'https://oemkitchenchina.xyz'
+  base: '/'
+  trailingSlash: false
+
+  # Google Search Console Verification ID
+  googleSiteVerificationId: false
+
+# Default SEO Metadata
+metadata:
+  title:
+    default: 'YOLEC Electric | Fabricante OEM y ODM de Pequeños Electrodomésticos en China'
+    template: '%s | YOLEC Electric'
+
+  description: 'YOLEC Electric es un fabricante OEM y ODM de pequeños electrodomésticos en China desde 2015. Especializado en hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano para marcas, importadores y distribuidores.'
+
+  robots:
+    index: true
+    follow: true
+
+  openGraph:
+    site_name: YOLEC Electric
+    images:
+      - url: '~/assets/images/default.png'
+        width: 1200
+        height: 630
+    type: website
+
+  twitter:
+    handle: ''
+    site: ''
+    cardType: summary_large_image
+
+i18n:
+  language: es
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: true
+    postsPerPage: 9
+
+    post:
+      isEnabled: true
+      permalink: '/blog/%slug%'
+      robots:
+        index: true
+
+    list:
+      isEnabled: true
+      pathname: 'blog'
+      robots:
+        index: true
+
+    category:
+      isEnabled: true
+      pathname: 'categoria'
+      robots:
+        index: true
+
+    tag:
+      isEnabled: false
+      pathname: 'tag'
+      robots:
+        index: false
+
+    isRelatedPostsEnabled: true
+    relatedPostsCount: 3
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null
+
+ui:
+  theme: 'light'

@@ -1,0 +1,215 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Control de Calidad OEM/ODM | Inspección de Fábrica en China | YOLEC Electric',
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- HeroText Widget ******************* -->
+  <HeroText
+    tagline="Control de Calidad OEM/ODM"
+    title="Inspección de Calidad para Electrodomésticos en China"
+    subtitle="Garantizamos la calidad de cada producto mediante inspecciones estrictas durante todo el proceso de fabricación OEM y ODM. Protegemos tu marca antes del envío internacional."
+  />
+
+  <!-- Pricing Widget (Servicios QC) ******************* -->
+  <Prices
+    title="Servicios de Control de Calidad"
+    subtitle="Soluciones de inspección adaptadas a importadores y marcas globales"
+    prices={[
+      {
+        title: 'Inspección de Materiales',
+        subtitle: 'Control antes de producción',
+        price: 0,
+        period: 'servicio',
+        items: [
+          { description: 'Verificación de materias primas' },
+          { description: 'Control de proveedores' },
+          { description: 'Inspección de componentes' },
+          { description: 'Confirmación de especificaciones' },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Solicitar inspección',
+          href: '/contacto',
+        },
+      },
+      {
+        title: 'Control en Producción',
+        subtitle: 'Supervisión durante fabricación',
+        price: 0,
+        period: 'servicio',
+        items: [
+          { description: 'Inspección en línea' },
+          { description: 'Control de procesos OEM/ODM' },
+          { description: 'Pruebas funcionales' },
+          { description: 'Reporte de calidad en tiempo real' },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Solicitar inspección',
+          href: '/contacto',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Más solicitado',
+      },
+      {
+        title: 'Inspección Final AQL',
+        subtitle: 'Antes del embarque',
+        price: 0,
+        period: 'servicio',
+        items: [
+          { description: 'Inspección AQL estándar internacional' },
+          { description: 'Pruebas de funcionamiento' },
+          { description: 'Verificación de embalaje' },
+          { description: 'Reporte con fotos y vídeo' },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Solicitar inspección',
+          href: '/contacto',
+        },
+      },
+    ]}
+  />
+
+  <!-- Features3 Widget ********************** -->
+  <Features3
+    title="Ventajas del Control de Calidad en Fábrica"
+    subtitle="Protegemos tu negocio con inspecciones estrictas en cada etapa de producción OEM/ODM"
+    columns={2}
+    items={[
+      {
+        title: 'Inspección en cada etapa',
+        description: 'Control desde materias primas hasta producto final.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Reducción de defectos',
+        description: 'Detectamos problemas antes del envío.',
+        icon: 'tabler:alert-triangle',
+      },
+      {
+        title: 'Reportes completos',
+        description: 'Fotos, vídeos y datos de inspección detallados.',
+        icon: 'tabler:file-report',
+      },
+      {
+        title: 'Estándar AQL internacional',
+        description: 'Inspección basada en normas globales de calidad.',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        title: 'Soporte OEM/ODM',
+        description: 'Coordinación directa con fábrica para correcciones.',
+        icon: 'tabler:tool',
+      },
+      {
+        title: 'Protección de marca',
+        description: 'Garantizamos consistencia en cada lote de producción.',
+        icon: 'tabler:shield',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+    <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Proceso de Control de Calidad"
+    tagline="Proceso de inspección"
+    isReversed={true}
+    items={[
+      {
+        title: 'Confirmación de especificaciones del producto',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Inspección de materias primas y componentes',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Control de calidad durante la producción',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Pruebas funcionales y de seguridad',
+        icon: 'tabler:number-4',
+      },
+      {
+        title: 'Inspección final basada en el estándar AQL',
+        icon: 'tabler:number-5',
+      },
+      {
+        title: 'Verificación del embalaje y etiquetado',
+        icon: 'tabler:number-6',
+      },
+      {
+        title: 'Informe de inspección y autorización de envío',
+        icon: 'tabler:number-7',
+      },
+    ]}
+    image={{
+      src: '/public/images/oem-4.png',
+      alt: 'Proceso de control de calidad en la fábrica de electrodomésticos',
+    }}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Preguntas Frecuentes sobre el Control de Calidad"
+    subtitle="Respuestas a las dudas más comunes de importadores, distribuidores y marcas OEM/ODM."
+    columns={1}
+    items={[
+      {
+        title: '¿Realizan inspecciones durante la producción?',
+        description:
+          'Sí. Nuestro equipo supervisa diferentes etapas de fabricación para detectar y corregir cualquier problema antes de la producción final.',
+      },
+      {
+        title: '¿Qué estándar de inspección utilizan?',
+        description:
+          'Aplicamos procedimientos de inspección basados en estándares internacionales AQL para garantizar una calidad constante en cada lote.',
+      },
+      {
+        title: '¿Recibiré un informe de inspección?',
+        description:
+          'Sí. Proporcionamos informes detallados con fotografías, resultados de pruebas y observaciones antes de autorizar el envío.',
+      },
+      {
+        title: '¿Pueden realizar pruebas de funcionamiento?',
+        description:
+          'Sí. Todos los electrodomésticos pueden someterse a pruebas funcionales, eléctricas y de seguridad según los requisitos del cliente.',
+      },
+      {
+        title: '¿Aceptan requisitos de calidad personalizados?',
+        description:
+          'Por supuesto. Podemos adaptar el plan de inspección y los criterios de aceptación según las especificaciones de tu marca o mercado.',
+      },
+    ]}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Protege la calidad de tus productos antes del envío"
+    subtitle="Trabaja directamente con YOLEC Electric para obtener un control de calidad profesional, reducir riesgos y garantizar la satisfacción de tus clientes."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Solicitar una Cotización',
+        href: '/contacto',
+      },
+    ]}
+  />
+
+</Layout>

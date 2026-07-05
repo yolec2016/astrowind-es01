@@ -1,0 +1,109 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+
+const metadata = {
+  title: 'Sobre Nosotros | Fabricante OEM/ODM de Electrodomésticos - YOLEC Electric',
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- HERO -->
+  <Hero
+    tagline="Fabricante OEM/ODM en China"
+    title="YOLEC Electric: Fábrica profesional de pequeños electrodomésticos"
+    subtitle="Somos un fabricante especializado en soluciones OEM y ODM de electrodomésticos de cocina para marcas, importadores y distribuidores globales. Desde 2015 ayudamos a empresas a crear productos competitivos y escalables."
+    image={{
+      src: '/public/images/yolec.png',
+      alt: 'Fábrica de electrodomésticos YOLEC Electric',
+    }}
+  />
+
+  <!-- STATS -->
+  <Stats
+    title="Capacidad de fabricación"
+    stats={[
+      { title: 'Años de experiencia', amount: '10+' },
+      { title: 'Capacidad mensual', amount: '100,000+' },
+      { title: 'Clientes internacionales', amount: '50+' },
+      { title: 'Líneas de producción', amount: '6' },
+    ]}
+  />
+
+  <!-- FEATURES -->
+  <Features3
+    title="Quiénes somos"
+    subtitle="YOLEC Electric es una fábrica especializada en electrodomésticos pequeños con enfoque en calidad, innovación y producción OEM/ODM para mercados globales."
+    columns={3}
+    items={[
+      {
+        title: 'Fabricación OEM/ODM',
+        description: 'Desarrollamos productos personalizados según la marca y necesidades del cliente.',
+        icon: 'tabler:building-factory',
+      },
+      {
+        title: 'Control de calidad estricto',
+        description: 'Inspección en cada etapa de producción para garantizar estándares internacionales.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Ingeniería propia',
+        description: 'Equipo de diseño y desarrollo para soluciones ODM completas.',
+        icon: 'tabler:settings-cog',
+      },
+      {
+        title: 'Exportación global',
+        description: 'Experiencia en envío a Europa, América, Oriente Medio y Asia.',
+        icon: 'tabler:world',
+      },
+      {
+        title: 'Producción flexible',
+        description: 'Adaptamos el MOQ y la capacidad según el tipo de cliente.',
+        icon: 'tabler:trending-up',
+      },
+      {
+        title: 'Soporte B2B directo',
+        description: 'Comunicación directa con fábrica sin intermediarios.',
+        icon: 'tabler:message',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+  <!-- PROCESS -->
+  <Steps2
+    title="Cómo trabajamos con clientes B2B"
+    subtitle="Proceso claro para importadores, distribuidores y marcas privadas."
+    items={[
+      {
+        title: 'Consulta del proyecto',
+        description: 'Analizamos requisitos del producto, mercado objetivo y volumen.',
+      },
+      {
+        title: 'Propuesta OEM/ODM',
+        description: 'Recomendamos modelo de fabricación y solución técnica.',
+      },
+      {
+        title: 'Diseño y muestra',
+        description: 'Desarrollo de prototipo o adaptación de modelo existente.',
+      },
+      {
+        title: 'Producción en masa',
+        description: 'Fabricación bajo control de calidad estricto.',
+      },
+      {
+        title: 'Inspección final',
+        description: 'Revisión AQL y pruebas funcionales antes del envío.',
+      },
+      {
+        title: 'Entrega global',
+        description: 'Logística internacional y soporte documental de exportación.',
+      },
+    ]}
+  />
+
+</Layout>
