@@ -1,10 +1,14 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
-  title: 'Catálogo OEM/ODM de Electrodomésticos de Cocina en China | YOLEC Electric',
+  title:
+    'Catálogo de Productos OEM y ODM | Fabricante de Pequeños Electrodomésticos en China | YOLEC Electric',
+
   description:
-    'Catálogo de productos OEM/ODM de YOLEC Electric: hervidores eléctricos, hervidores cuello de cisne, arroceras, ollas a presión, fiambreras y batidoras. Fabricación directa de fábrica en China para marcas globales.',
+    'Explore el catálogo OEM y ODM de YOLEC Electric. Fabricamos hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano para importadores, distribuidores y marcas privadas.',
+
   ignoreTitleTemplate: true,
 };
 ---
@@ -14,13 +18,12 @@ const metadata = {
 
     <!-- SEO H1 -->
     <h1 class="text-3xl md:text-4xl font-bold mb-6">
-      Catálogo de Fabricante OEM de Electrodomésticos en China
+      Catálogo de Productos OEM y ODM de Pequeños Electrodomésticos
     </h1>
 
     <!-- SEO intro -->
     <p class="text-muted mb-10">
-      Explore nuestro catálogo de productos OEM/ODM diseñados para importadores, distribuidores y marcas privadas.
-      Fabricamos electrodomésticos de cocina con personalización completa, control de calidad y producción directa de fábrica en China.
+      Explore nuestro catálogo de pequeños electrodomésticos OEM y ODM fabricados en China. Ofrecemos hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano para importadores, distribuidores, mayoristas y propietarios de marcas privadas de todo el mundo.
     </p>
 
     <!-- Category grid -->
@@ -74,11 +77,11 @@ const metadata = {
     <div class="mt-14 text-center">
 
       <h2 class="text-2xl font-bold mb-4">
-        ¿Buscas un fabricante OEM de electrodomésticos en China?
+        ¿Busca un fabricante OEM y ODM de pequeños electrodomésticos en China?
       </h2>
 
       <p class="text-muted mb-6">
-        Envíanos tu proyecto y te ayudaremos a desarrollar productos personalizados para tu marca.
+        Comparta con nosotros sus requisitos de producto, especificaciones técnicas o diseño de marca. Nuestro equipo le ofrecerá una solución OEM y ODM adaptada a las necesidades de su negocio.
       </p>
 
       <a
@@ -91,4 +94,39 @@ const metadata = {
     </div>
 
   </section>
+
+<FAQs
+  title="Preguntas Frecuentes"
+  subtitle="Respuestas a las preguntas más habituales de importadores y distribuidores sobre nuestros productos OEM y ODM."
+  tagline="FAQ"
+  classes={{ container: 'max-w-6xl mt-20' }}
+  items={[
+    {
+      title: '¿Todos los productos admiten fabricación OEM?',
+      description:
+        'Sí. Todos nuestros pequeños electrodomésticos pueden fabricarse con su logotipo, embalaje, manuales y especificaciones técnicas personalizadas.',
+    },
+    {
+      title: '¿También ofrecen servicios ODM?',
+      description:
+        'Sí. Disponemos de modelos listos para fabricar que pueden adaptarse a las necesidades de su marca y mercado.',
+    },
+    {
+      title: '¿Qué certificaciones tienen sus productos?',
+      description:
+        'Podemos suministrar productos con certificaciones CE, CB, GS, LFGB, RoHS y otros certificados según el mercado de destino.',
+    },
+    {
+      title: '¿Cuál es la cantidad mínima de pedido?',
+      description:
+        'El MOQ depende del producto y del nivel de personalización. Nuestro equipo comercial le ofrecerá la mejor solución según su proyecto.',
+    },
+    {
+      title: '¿Exportan a Europa y Latinoamérica?',
+      description:
+        'Sí. Exportamos regularmente a Europa, América Latina, Oriente Medio, África y otros mercados internacionales.',
+    },
+  ]}
+/>
+
 </Layout>

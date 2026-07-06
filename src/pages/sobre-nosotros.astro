@@ -3,10 +3,15 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import Content from '~/components/widgets/Content.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Sobre Nosotros | Fabricante OEM/ODM de Electrodomésticos - YOLEC Electric',
+  title: 'Sobre Nosotros | Fabricante OEM y ODM de Pequeños Electrodomésticos en China | YOLEC Electric',
+  description:
+    'Conozca YOLEC Electric, fabricante OEM y ODM de pequeños electrodomésticos en China. Más de 20.000 m² de fábrica, fabricación de hervidores eléctricos, arroceras, ollas a presión, fiambreras eléctricas y batidoras para importadores y marcas internacionales.',
+  ignoreTitleTemplate: true,
 };
 ---
 
@@ -14,30 +19,29 @@ const metadata = {
 
   <!-- HERO -->
   <Hero
-    tagline="Fabricante OEM/ODM en China"
-    title="YOLEC Electric: Fábrica profesional de pequeños electrodomésticos"
-    subtitle="Somos un fabricante especializado en soluciones OEM y ODM de electrodomésticos de cocina para marcas, importadores y distribuidores globales. Desde 2015 ayudamos a empresas a crear productos competitivos y escalables."
+    tagline="Fabricante OEM y ODM de Electrodomésticos en China"
+    title="YOLEC Electric: Fabricante OEM y ODM de Pequeños Electrodomésticos para Marcas Globales"
+    subtitle="YOLEC Electric es un fabricante profesional de pequeños electrodomésticos ubicado en Zhongshan, China. Desde 2015 ayudamos a importadores, distribuidores, cadenas minoristas y propietarios de marcas a desarrollar y fabricar hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano mediante soluciones OEM y ODM completas. Con producción directa de fábrica, un estricto sistema de control de calidad y una amplia experiencia en exportación, ofrecemos productos fiables para mercados de Europa, América, Oriente Medio y otras regiones."
     image={{
       src: '~/assets/images/yolec.png',
-      alt: 'Fábrica de electrodomésticos YOLEC Electric',
+      alt: 'Fábrica OEM y ODM de pequeños electrodomésticos en Zhongshan, China - YOLEC Electric',
     }}
   />
-
   <!-- STATS -->
   <Stats
     title="Capacidad de fabricación"
     stats={[
       { title: 'Años de experiencia', amount: '10+' },
-      { title: 'Capacidad mensual', amount: '100,000+' },
-      { title: 'Clientes internacionales', amount: '50+' },
-      { title: 'Líneas de producción', amount: '6' },
+      { title: 'Capacidad mensual', amount: '300K+' },
+      { title: 'Clientes B2B', amount: '200+' },
+      { title: 'Líneas de producción', amount: '3' },
     ]}
   />
 
   <!-- FEATURES -->
   <Features3
-    title="Quiénes somos"
-    subtitle="YOLEC Electric es una fábrica especializada en electrodomésticos pequeños con enfoque en calidad, innovación y producción OEM/ODM para mercados globales."
+    title="¿Por qué elegir YOLEC Electric?"
+    subtitle="Somos un fabricante OEM y ODM especializado en pequeños electrodomésticos para clientes B2B de todo el mundo, ofreciendo desarrollo de productos, producción personalizada y estrictos controles de calidad."
     columns={3}
     items={[
       {
@@ -68,16 +72,48 @@ const metadata = {
       {
         title: 'Soporte B2B directo',
         description: 'Comunicación directa con fábrica sin intermediarios.',
-        icon: 'tabler:message',
+        icon: 'tabler:messages',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
 
+<Content
+  isReversed
+  tagline="VISITE NUESTRA FÁBRICA"
+  title="Le invitamos a visitar nuestra fábrica en China"
+  image={{
+    src: '~/assets/images/factory3.png',
+    alt: 'Clientes internacionales visitando la fábrica de YOLEC Electric en China',
+  }}
+>
+
+  <Fragment slot="content">
+
+    <p class="mb-5">
+      Siempre damos una cálida bienvenida a nuestros clientes y socios comerciales para visitar nuestra fábrica en Zhongshan, Guangdong, China.
+    </p>
+
+    <p class="mb-5">
+      Durante la visita podrá conocer nuestras líneas de producción, procesos de fabricación, laboratorio de pruebas, sistema de control de calidad y equipo de ingeniería.
+    </p>
+
+    <p class="mb-5">
+      Creemos que una visita presencial es la mejor manera de conocer nuestra capacidad de fabricación y establecer una relación de cooperación basada en la confianza.
+    </p>
+
+    <p>
+      Nuestro equipo estará encantado de organizar la recepción, el recorrido por la fábrica y reuniones técnicas para ayudarle a comprender mejor nuestras soluciones OEM y ODM.
+    </p>
+
+  </Fragment>
+
+</Content>
+
   <!-- PROCESS -->
   <Steps2
-    title="Cómo trabajamos con clientes B2B"
-    subtitle="Proceso claro para importadores, distribuidores y marcas privadas."
+    title="Nuestro proceso de cooperación OEM y ODM"
+    subtitle="Desde la consulta inicial hasta la entrega internacional, ofrecemos un proceso eficiente y transparente para compradores profesionales."
     items={[
       {
         title: 'Consulta del proyecto',
@@ -105,5 +141,31 @@ const metadata = {
       },
     ]}
   />
+
+
+<CallToAction
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Solicitar Cotización OEM',
+      href: '/contacto',
+      icon: 'tabler:mail',
+    },
+    {
+      text: 'Contactar por WhatsApp',
+      href: 'https://wa.me/8613922332584',
+    },
+  ]}
+>
+
+  <Fragment slot="title">
+    ¿Busca un fabricante OEM y ODM confiable en China?
+  </Fragment>
+
+  <Fragment slot="subtitle">
+    Nuestro equipo está preparado para ayudarle a desarrollar nuevos productos, fabricar con su propia marca y ofrecer soluciones OEM y ODM adaptadas a su mercado. Contáctenos hoy mismo para recibir una propuesta personalizada.
+  </Fragment>
+
+</CallToAction>  
 
 </Layout>

@@ -3,7 +3,7 @@ publishDate: 2026-07-04T00:00:00Z
 title: ¿Por qué la inspección antes del envío es clave para una importación segura?
 description: Guía práctica para importadores B2B sobre la inspección Pre-Shipment (PSI), incluyendo pruebas funcionales, control de embalaje, seguridad y verificación de carga antes del envío desde China.
 excerpt: La inspección antes del envío (PSI) ayuda a detectar problemas antes de que la mercancía salga de fábrica, reduciendo devoluciones, reclamaciones y riesgos en la importación.
-image: https://yoleckitchen.xyz/images/electric-kettle-manufacturer.jpg
+image: /images/blog/4.jpg
 author: Adrian
 category: Inspección de Envío
 tags:
