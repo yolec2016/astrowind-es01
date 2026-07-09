@@ -15,7 +15,7 @@ tags:
   - logística internacional
   - pequeños electrodomésticos
 metadata:
-  canonical: https://www.yolec-electronics.com/blog/importar-electrodomesticos-china-transporte-maritimo
+  canonical: https://www.yolec-electronics.com
 robots: index, follow
 ---
 
