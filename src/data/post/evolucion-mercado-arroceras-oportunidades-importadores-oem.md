@@ -3,7 +3,7 @@ publishDate: 2026-08-21T10:00:00
 title: "Cómo evoluciona el mercado mundial de arroceras y qué oportunidades ofrece a los importadores"
 author: "Adrian"
 excerpt: "Descubre cómo está cambiando el mercado mundial de arroceras eléctricas y qué estrategias pueden utilizar los importadores para crear catálogos más competitivos en Europa y Latinoamérica."
-image: "/images/evolucion-mercado-arroceras-importadores.jpg"
+image: /images/blog/47.jpg
 category: "Mercado de Electrodomésticos"
 tags:
   - mercado mundial arroceras
