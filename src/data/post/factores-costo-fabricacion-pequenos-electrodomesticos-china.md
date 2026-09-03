@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-07-16T11:00:00Z
-title: "¿Qué factores influyen en el costo de fabricación de pequeños electrodomésticos?"
-description: "Guía para importadores y marcas privadas sobre los factores que afectan al costo de fabricación de pequeños electrodomésticos en China. Aprende cómo comparar precios de fábrica, calcular costes reales de compra y elegir un fabricante OEM confiable."
-excerpt: "Dos fabricantes chinos pueden ofrecer precios muy diferentes para el mismo producto. Descubre qué factores influyen en el coste real de fabricación y cómo tomar mejores decisiones de compra B2B."
+title: '¿Qué factores influyen en el costo de fabricación de pequeños electrodomésticos?'
+description: 'Guía para importadores y marcas privadas sobre los factores que afectan al costo de fabricación de pequeños electrodomésticos en China. Aprende cómo comparar precios de fábrica, calcular costes reales de compra y elegir un fabricante OEM confiable.'
+excerpt: 'Dos fabricantes chinos pueden ofrecer precios muy diferentes para el mismo producto. Descubre qué factores influyen en el coste real de fabricación y cómo tomar mejores decisiones de compra B2B.'
 image: /images/blog/14.jpg
-author: "Adrian"
-category: "Fabricantes China"
+author: 'Adrian'
+category: 'Fabricantes China'
 tags:
   - precio fábrica China
   - fabricante OEM pequeños electrodomésticos
@@ -13,8 +13,6 @@ tags:
   - proveedor chino electrodomésticos
   - compras B2B China
   - importación pequeños electrodomésticos
-metadata:
-  canonical: "https://www.yolec-electronics.com/"
 ---
 
 ## ¿Por qué dos fabricantes chinos pueden ofrecer precios tan diferentes?

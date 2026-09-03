@@ -13,8 +13,6 @@ tags:
   - importación desde China
   - inspección de fábrica
   - reducción de riesgos
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -32,11 +30,11 @@ Y si algo está mal, el problema ya es caro.
 
 Los problemas más comunes suelen ser:
 
-- productos que funcionan en fábrica pero fallan en destino  
-- accesorios faltantes en el embalaje  
-- etiquetas incorrectas para el mercado final  
-- mezcla de lotes diferentes en un mismo envío  
-- cajas dañadas o mal selladas  
+- productos que funcionan en fábrica pero fallan en destino
+- accesorios faltantes en el embalaje
+- etiquetas incorrectas para el mercado final
+- mezcla de lotes diferentes en un mismo envío
+- cajas dañadas o mal selladas
 
 Ahí es donde entra la inspección antes del envío.
 
@@ -56,18 +54,18 @@ Es revisar el producto real, listo para enviar.
 
 En productos como:
 
-- hervidores eléctricos  
-- arroceras  
-- ollas a presión eléctricas  
-- lunch boxes eléctricas  
-- batidoras de mano  
+- hervidores eléctricos
+- arroceras
+- ollas a presión eléctricas
+- lunch boxes eléctricas
+- batidoras de mano
 
 un pequeño error puede convertirse en un problema grande:
 
-- un cable mal conectado  
-- un termostato defectuoso  
-- una tapa que no encaja bien  
-- un embalaje que no protege el producto  
+- un cable mal conectado
+- un termostato defectuoso
+- una tapa que no encaja bien
+- un embalaje que no protege el producto
 
 Y en importación internacional, eso significa devoluciones, reclamaciones o pérdida de clientes.
 
@@ -87,9 +85,9 @@ No se revisa todo el lote, sino una muestra representativa.
 
 Se utiliza normalmente el estándar AQL, que define:
 
-- cuántas unidades se inspeccionan  
-- cuántos defectos se aceptan  
-- cuándo se aprueba o rechaza el lote  
+- cuántas unidades se inspeccionan
+- cuántos defectos se aceptan
+- cuándo se aprueba o rechaza el lote
 
 💡 Esto permite equilibrar coste y control real.
 
@@ -101,10 +99,10 @@ Aquí se prueba si el producto realmente funciona como debería.
 
 Por ejemplo:
 
-- encendido y apagado  
-- control de temperatura  
-- función de seguridad automática  
-- rendimiento continuo  
+- encendido y apagado
+- control de temperatura
+- función de seguridad automática
+- rendimiento continuo
 
 En un hervidor eléctrico, esto es crítico:
 si no apaga automáticamente, es un riesgo directo.
@@ -115,10 +113,10 @@ si no apaga automáticamente, es un riesgo directo.
 
 Se revisan aspectos básicos de seguridad:
 
-- aislamiento de cables  
-- calentamiento excesivo  
-- estabilidad del producto  
-- riesgos eléctricos  
+- aislamiento de cables
+- calentamiento excesivo
+- estabilidad del producto
+- riesgos eléctricos
 
 Esto es lo que evita problemas serios en el mercado final.
 
@@ -130,11 +128,11 @@ El producto puede ser perfecto, pero si el embalaje falla, todo falla.
 
 Se verifica:
 
-- calidad de la caja  
-- protección interna  
-- etiquetas correctas  
-- manuales incluidos  
-- accesorios completos  
+- calidad de la caja
+- protección interna
+- etiquetas correctas
+- manuales incluidos
+- accesorios completos
 
 ---
 
@@ -142,10 +140,10 @@ Se verifica:
 
 Antes del envío también se revisa:
 
-- cantidad total  
-- consistencia del lote  
-- marcado de cajas  
-- organización del pallet o contenedor  
+- cantidad total
+- consistencia del lote
+- marcado de cajas
+- organización del pallet o contenedor
 
 Esto evita errores de mezcla o faltantes.
 
@@ -155,11 +153,11 @@ Esto evita errores de mezcla o faltantes.
 
 Aquí es donde muchos importadores aprenden la lección de la forma difícil:
 
-- el cliente recibe productos defectuosos  
-- el contenedor llega con errores de cantidad  
-- el producto no cumple normas del mercado  
-- el coste de devolución es muy alto  
-- la reputación del importador se afecta  
+- el cliente recibe productos defectuosos
+- el contenedor llega con errores de cantidad
+- el producto no cumple normas del mercado
+- el coste de devolución es muy alto
+- la reputación del importador se afecta
 
 Y lo peor es que todo esto se pudo evitar.
 
@@ -170,15 +168,17 @@ Y lo peor es que todo esto se pudo evitar.
 Hay dos formas de hacer la inspección:
 
 ### Inspección interna de fábrica
-- más rápida  
-- menos coste  
-- pero menos objetiva  
+
+- más rápida
+- menos coste
+- pero menos objetiva
 
 ### Inspección de terceros
-- más independiente  
-- más confiable para importadores  
-- informe detallado  
-- mayor seguridad en decisiones de pago y envío  
+
+- más independiente
+- más confiable para importadores
+- informe detallado
+- mayor seguridad en decisiones de pago y envío
 
 💡 Muchos compradores internacionales prefieren la segunda opción.
 
@@ -200,10 +200,10 @@ Pero en la práctica:
 
 Si quieres reducir riesgos, la clave es simple:
 
-- hacer PSI antes de pagar el balance final  
-- definir estándares claros desde el inicio  
-- usar AQL como referencia  
-- exigir reportes de inspección reales  
+- hacer PSI antes de pagar el balance final
+- definir estándares claros desde el inicio
+- usar AQL como referencia
+- exigir reportes de inspección reales
 
 ---
 
@@ -215,9 +215,9 @@ Es el punto donde realmente se protege tu dinero.
 
 Porque una vez que el contenedor sale de la fábrica:
 
-- el riesgo ya es tuyo  
-- el coste de error es mucho mayor  
-- la solución es más difícil  
+- el riesgo ya es tuyo
+- el coste de error es mucho mayor
+- la solución es más difícil
 
 Una buena PSI no solo evita problemas.
 

@@ -4,8 +4,8 @@ title: 10 preguntas que debes hacer antes de elegir un proveedor chino de peque�
 description: Guía práctica para compradores B2B sobre las 10 preguntas clave que deben hacer antes de elegir un proveedor chino de pequeños electrodomésticos. Incluye fábrica, certificaciones, capacidad de producción, control de calidad, OEM/ODM y cooperación a largo plazo.
 excerpt: Elegir un proveedor chino no consiste solo en comparar precios. Estas 10 preguntas ayudan a los importadores a evaluar fábricas, reducir riesgos y encontrar un socio confiable para proyectos de pequeños electrodomésticos.
 image: /images/blog/9.jpg
-author: "Adrian"
-category: "Selección de proveedores"
+author: 'Adrian'
+category: 'Selección de proveedores'
 tags:
   - proveedor chino
   - fabricante electrodomésticos
@@ -14,8 +14,6 @@ tags:
   - importación China
   - evaluación proveedor
   - compras B2B
-metadata:
-  canonical: https://www.yolec-electronics.com/
 ---
 
 ## Elegir una fábrica en China: el precio es solo una parte de la decisión
@@ -317,7 +315,7 @@ Antes de tomar una decisión, comprueba:
 ✅ capacidad OEM/ODM  
 ✅ comunicación profesional  
 ✅ producción estable  
-✅ soporte después de la venta  
+✅ soporte después de la venta
 
 ---
 

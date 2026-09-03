@@ -14,8 +14,6 @@ tags:
   - Incoterms
   - logística internacional
   - pequeños electrodomésticos
-metadata:
-  canonical: https://www.yolec-electronics.com
 robots: index, follow
 ---
 
@@ -23,9 +21,9 @@ robots: index, follow
 
 Cuando un comprador internacional negocia con una fábrica china, normalmente se concentra en tres cosas:
 
-- precio del producto  
-- calidad  
-- tiempo de producción  
+- precio del producto
+- calidad
+- tiempo de producción
 
 Pero hay un cuarto factor que puede cambiar completamente la rentabilidad del proyecto:
 
@@ -33,10 +31,10 @@ Pero hay un cuarto factor que puede cambiar completamente la rentabilidad del pr
 
 Un buen precio de fábrica puede perder ventaja si:
 
-- el transporte es demasiado caro  
-- el contenedor no se aprovecha bien  
-- aparecen costes inesperados en el puerto  
-- la mercancía llega tarde al mercado  
+- el transporte es demasiado caro
+- el contenedor no se aprovecha bien
+- aparecen costes inesperados en el puerto
+- la mercancía llega tarde al mercado
 
 Por eso, entender cómo funciona el transporte marítimo es una parte esencial de cualquier importación profesional.
 
@@ -124,11 +122,13 @@ Es una buena opción cuando:
 Una regla práctica:
 
 ### Usa LCL cuando:
+
 - estás empezando
 - compras pocas cantidades
 - quieres probar el mercado
 
 ### Usa FCL cuando:
+
 - tienes pedidos regulares
 - el volumen es estable
 - buscas reducir coste unitario
@@ -335,7 +335,7 @@ Hay que comparar:
 ❌ ignorar costes del puerto destino  
 ❌ no revisar capacidad del contenedor  
 ❌ elegir transporte según precio más bajo únicamente  
-❌ no preparar documentación con tiempo  
+❌ no preparar documentación con tiempo
 
 ---
 

@@ -1,19 +1,17 @@
 ---
 publishDate: 2026-08-10T10:00:00
-title: "Certificaciones necesarias para exportar hervidores eléctricos al mercado europeo y latinoamericano"
-author: "Adrian"
-excerpt: "Guía práctica para importadores y marcas que buscan comprar hervidores eléctricos desde China, con los principales requisitos de certificación, documentación técnica y puntos clave para reducir riesgos."
-description: "Descubra qué certificaciones necesita un hervidor eléctrico para Europa y Latinoamérica y cómo trabajar con un fabricante OEM preparado para exportación."
+title: 'Certificaciones necesarias para exportar hervidores eléctricos al mercado europeo y latinoamericano'
+author: 'Adrian'
+excerpt: 'Guía práctica para importadores y marcas que buscan comprar hervidores eléctricos desde China, con los principales requisitos de certificación, documentación técnica y puntos clave para reducir riesgos.'
+description: 'Descubra qué certificaciones necesita un hervidor eléctrico para Europa y Latinoamérica y cómo trabajar con un fabricante OEM preparado para exportación.'
 image: /images/blog/37.jpg
-category: "Certificaciones"
+category: 'Certificaciones'
 tags:
   - requisitos importar hervidores eléctricos
   - fabricante hervidores eléctricos certificado
   - CE RoHS CB LFGB
   - proveedor OEM China
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Cuando una empresa decide importar hervidores eléctricos desde China, una de las primeras preguntas que debe responder no es solamente:

@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-21T10:00:00
-title: "Cómo evoluciona el mercado mundial de arroceras y qué oportunidades ofrece a los importadores"
-author: "Adrian"
-excerpt: "Descubre cómo está cambiando el mercado mundial de arroceras eléctricas y qué estrategias pueden utilizar los importadores para crear catálogos más competitivos en Europa y Latinoamérica."
+title: 'Cómo evoluciona el mercado mundial de arroceras y qué oportunidades ofrece a los importadores'
+author: 'Adrian'
+excerpt: 'Descubre cómo está cambiando el mercado mundial de arroceras eléctricas y qué estrategias pueden utilizar los importadores para crear catálogos más competitivos en Europa y Latinoamérica.'
 image: /images/blog/47.jpg
-category: "Mercado de Electrodomésticos"
+category: 'Mercado de Electrodomésticos'
 tags:
   - mercado mundial arroceras
   - tendencias pequeños electrodomésticos
   - importar arroceras eléctricas
   - OEM electrodomésticos cocina
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Para muchos importadores de pequeños electrodomésticos, la pregunta actual ya no es simplemente:

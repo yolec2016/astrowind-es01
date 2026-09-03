@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-22T10:00:00
-title: "Cómo ampliar tu catálogo con arroceras dentro de una estrategia de pequeños electrodomésticos"
-author: "Adrian"
-excerpt: "Descubre cómo los importadores y marcas pueden ampliar su catálogo con arroceras eléctricas y crear una línea completa de pequeños electrodomésticos de cocina para mejorar ventas, eficiencia de compra y posicionamiento de marca."
+title: 'Cómo ampliar tu catálogo con arroceras dentro de una estrategia de pequeños electrodomésticos'
+author: 'Adrian'
+excerpt: 'Descubre cómo los importadores y marcas pueden ampliar su catálogo con arroceras eléctricas y crear una línea completa de pequeños electrodomésticos de cocina para mejorar ventas, eficiencia de compra y posicionamiento de marca.'
 image: /images/blog/48.jpg
-category: "Estrategia de Producto"
+category: 'Estrategia de Producto'
 tags:
   - ampliar catálogo pequeños electrodomésticos
   - arroceras OEM
   - proveedor electrodomésticos cocina
   - línea completa pequeños electrodomésticos
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Para muchos importadores de pequeños electrodomésticos, crecer no siempre significa encontrar más clientes.

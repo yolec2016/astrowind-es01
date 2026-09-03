@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-17T10:00:00
-title: "Cómo elegir arroceras para restaurantes, hoteles y servicios de catering"
-author: "Adrian"
-excerpt: "Guía para compradores profesionales que buscan arroceras para restaurantes, hoteles y catering. Descubra qué factores evaluar antes de seleccionar un proveedor y un modelo adecuado."
+title: 'Cómo elegir arroceras para restaurantes, hoteles y servicios de catering'
+author: 'Adrian'
+excerpt: 'Guía para compradores profesionales que buscan arroceras para restaurantes, hoteles y catering. Descubra qué factores evaluar antes de seleccionar un proveedor y un modelo adecuado.'
 image: /images/blog/43.jpg
-category: "Guía de compra B2B"
+category: 'Guía de compra B2B'
 tags:
   - arroceras profesionales
   - arrocera para restaurantes
   - equipamiento hostelería
   - fabricante OEM arroceras
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Cuando un restaurante, hotel o empresa de catering compra una arrocera eléctrica, la decisión no debería basarse únicamente en el precio.

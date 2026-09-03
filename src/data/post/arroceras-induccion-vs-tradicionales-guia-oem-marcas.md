@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-18T09:00:00
-title: "Arroceras de inducción vs. arroceras tradicionales: ¿qué prefieren los consumidores?"
-author: "Adrian"
-excerpt: "Guía para importadores y marcas que comparan arroceras IH y tradicionales para definir una estrategia de producto más competitiva."
+title: 'Arroceras de inducción vs. arroceras tradicionales: ¿qué prefieren los consumidores?'
+author: 'Adrian'
+excerpt: 'Guía para importadores y marcas que comparan arroceras IH y tradicionales para definir una estrategia de producto más competitiva.'
 image: /images/blog/44.jpg
-category: "Estrategia de producto"
+category: 'Estrategia de producto'
 tags:
   - arrocera de inducción
   - arrocera IH
   - fabricante de arroceras OEM
   - electrodomésticos premium
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Cuando una marca de electrodomésticos analiza una nueva línea de arroceras eléctricas, una de las decisiones más importantes no es solamente elegir un modelo.

@@ -5,15 +5,18 @@ site:
   trailingSlash: false
 
   # Google Search Console Verification ID
+  # Pega aquí el código que Google te da en Search Console > Configuración > Verificación de la propiedad
+  # Ejemplo: googleSiteVerificationId: 'NxM4f9s7VexampleVALIDx9qLxJ4c'
   googleSiteVerificationId: false
 
 # Default SEO Metadata
 metadata:
   title:
-    default: 'YOLEC Electric | Fabricante OEM y ODM de Pequeños Electrodomésticos en China'
+    default: 'YOLEC Electric | Fabricante OEM de Electrodomésticos en China'
     template: '%s | YOLEC Electric'
 
-  description: 'Fabricante OEM y ODM de pequeños electrodomésticos en China. Producción de hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano para importadores, distribuidores y marcas privadas.'
+  # Mantener < 160 caracteres para evitar truncamiento en SERPs
+  description: 'Fabricante OEM y ODM de pequeños electrodomésticos en China desde 2015. Hervidores, arroceras, ollas a presión y fiambreras con CE, CB y RoHS para importadores y marcas privadas.'
 
   robots:
     index: true
@@ -21,15 +24,18 @@ metadata:
 
   openGraph:
     site_name: YOLEC Electric
+    # Formato locale exigido por Facebook: idioma_PAIS
+    locale: es_ES
     images:
       - url: '~/assets/images/oem.png'
         width: 1200
         height: 630
+        alt: 'YOLEC Electric - Fabricante OEM de pequeños electrodomésticos en China'
     type: website
 
   twitter:
-    handle: ''
-    site: ''
+    handle: '@yolec_electric'
+    site: '@yolec_electric'
     cardType: summary_large_image
 
 i18n:

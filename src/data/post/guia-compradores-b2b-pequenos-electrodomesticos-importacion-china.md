@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-07-21T18:00:00Z
-title: "La guía definitiva para compradores B2B de pequeños electrodomésticos"
-description: "Guía práctica para importadores, distribuidores y marcas privadas que quieren comprar pequeños electrodomésticos al por mayor. Aprende cómo seleccionar proveedores chinos, evaluar fábricas OEM, controlar calidad, revisar certificaciones y optimizar la importación."
-excerpt: "Comprar pequeños electrodomésticos desde China puede ser una gran oportunidad, pero una decisión incorrecta puede generar problemas de calidad, costes inesperados y retrasos. Esta guía explica cómo tomar mejores decisiones de compra B2B paso a paso."
+title: 'La guía definitiva para compradores B2B de pequeños electrodomésticos'
+description: 'Guía práctica para importadores, distribuidores y marcas privadas que quieren comprar pequeños electrodomésticos al por mayor. Aprende cómo seleccionar proveedores chinos, evaluar fábricas OEM, controlar calidad, revisar certificaciones y optimizar la importación.'
+excerpt: 'Comprar pequeños electrodomésticos desde China puede ser una gran oportunidad, pero una decisión incorrecta puede generar problemas de calidad, costes inesperados y retrasos. Esta guía explica cómo tomar mejores decisiones de compra B2B paso a paso.'
 image: /images/blog/18.jpg
-author: "Adrian"
-category: "Guía de Compras B2B"
+author: 'Adrian'
+category: 'Guía de Compras B2B'
 tags:
   - pequeños electrodomésticos al por mayor
   - importar desde China
@@ -14,8 +14,6 @@ tags:
   - compras B2B
   - marca privada
   - control de calidad
-metadata:
-  canonical: "https://www.yolec-electronics.com/"
 robots: index, follow
 ---
 
@@ -156,15 +154,15 @@ Una forma más profesional es crear una evaluación completa.
 
 Puedes utilizar criterios como:
 
-| Factor | Importancia |
-| --- | --- |
-| Calidad del producto | Muy alta |
-| Precio | Alta |
-| Capacidad de producción | Alta |
-| Certificaciones | Alta |
-| Comunicación | Media |
-| Tiempo de entrega | Alta |
-| Desarrollo OEM | Alta |
+| Factor                  | Importancia |
+| ----------------------- | ----------- |
+| Calidad del producto    | Muy alta    |
+| Precio                  | Alta        |
+| Capacidad de producción | Alta        |
+| Certificaciones         | Alta        |
+| Comunicación            | Media       |
+| Tiempo de entrega       | Alta        |
+| Desarrollo OEM          | Alta        |
 
 El mejor proveedor no siempre será el más barato.
 

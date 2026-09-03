@@ -16,7 +16,6 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-
   <!-- HERO -->
   <Hero
     tagline="Fabricante OEM y ODM de Electrodomésticos en China"
@@ -78,37 +77,37 @@ const metadata = {
     classes={{ container: 'max-w-5xl' }}
   />
 
-<Content
-  isReversed
-  tagline="VISITE NUESTRA FÁBRICA"
-  title="Le invitamos a visitar nuestra fábrica en China"
-  image={{
-    src: '~/assets/images/factory3.png',
-    alt: 'Clientes internacionales visitando la fábrica de YOLEC Electric en China',
-  }}
->
+  <Content
+    isReversed
+    tagline="VISITE NUESTRA FÁBRICA"
+    title="Le invitamos a visitar nuestra fábrica en China"
+    image={{
+      src: '~/assets/images/factory3.png',
+      alt: 'Clientes internacionales visitando la fábrica de YOLEC Electric en China',
+    }}
+  >
+    <Fragment slot="content">
+      <p class="mb-5">
+        Siempre damos una cálida bienvenida a nuestros clientes y socios comerciales para visitar nuestra fábrica en
+        Zhongshan, Guangdong, China.
+      </p>
 
-  <Fragment slot="content">
+      <p class="mb-5">
+        Durante la visita podrá conocer nuestras líneas de producción, procesos de fabricación, laboratorio de pruebas,
+        sistema de control de calidad y equipo de ingeniería.
+      </p>
 
-    <p class="mb-5">
-      Siempre damos una cálida bienvenida a nuestros clientes y socios comerciales para visitar nuestra fábrica en Zhongshan, Guangdong, China.
-    </p>
+      <p class="mb-5">
+        Creemos que una visita presencial es la mejor manera de conocer nuestra capacidad de fabricación y establecer
+        una relación de cooperación basada en la confianza.
+      </p>
 
-    <p class="mb-5">
-      Durante la visita podrá conocer nuestras líneas de producción, procesos de fabricación, laboratorio de pruebas, sistema de control de calidad y equipo de ingeniería.
-    </p>
-
-    <p class="mb-5">
-      Creemos que una visita presencial es la mejor manera de conocer nuestra capacidad de fabricación y establecer una relación de cooperación basada en la confianza.
-    </p>
-
-    <p>
-      Nuestro equipo estará encantado de organizar la recepción, el recorrido por la fábrica y reuniones técnicas para ayudarle a comprender mejor nuestras soluciones OEM y ODM.
-    </p>
-
-  </Fragment>
-
-</Content>
+      <p>
+        Nuestro equipo estará encantado de organizar la recepción, el recorrido por la fábrica y reuniones técnicas para
+        ayudarle a comprender mejor nuestras soluciones OEM y ODM.
+      </p>
+    </Fragment>
+  </Content>
 
   <!-- PROCESS -->
   <Steps2
@@ -142,30 +141,25 @@ const metadata = {
     ]}
   />
 
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Solicitar Cotización OEM',
+        href: '/contacto',
+        icon: 'tabler:mail',
+      },
+      {
+        text: 'Contactar por WhatsApp',
+        href: 'https://wa.me/8613922332584',
+      },
+    ]}
+  >
+    <Fragment slot="title"> ¿Busca un fabricante OEM y ODM confiable en China? </Fragment>
 
-<CallToAction
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Solicitar Cotización OEM',
-      href: '/contacto',
-      icon: 'tabler:mail',
-    },
-    {
-      text: 'Contactar por WhatsApp',
-      href: 'https://wa.me/8613922332584',
-    },
-  ]}
->
-
-  <Fragment slot="title">
-    ¿Busca un fabricante OEM y ODM confiable en China?
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    Nuestro equipo está preparado para ayudarle a desarrollar nuevos productos, fabricar con su propia marca y ofrecer soluciones OEM y ODM adaptadas a su mercado. Contáctenos hoy mismo para recibir una propuesta personalizada.
-  </Fragment>
-
-</CallToAction>  
-
+    <Fragment slot="subtitle">
+      Nuestro equipo está preparado para ayudarle a desarrollar nuevos productos, fabricar con su propia marca y ofrecer
+      soluciones OEM y ODM adaptadas a su mercado. Contáctenos hoy mismo para recibir una propuesta personalizada.
+    </Fragment>
+  </CallToAction>
 </Layout>

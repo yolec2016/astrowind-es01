@@ -16,8 +16,6 @@ tags:
   - importación Europa
   - Latinoamérica
   - certificación productos China
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -27,10 +25,10 @@ Si hablas con cualquier comprador en Europa o Latinoamérica, verás que el prob
 
 El problema real aparece después:
 
-- la aduana pide documentos que no tienes  
-- el producto no puede venderse en Amazon o retail  
-- el cliente final rechaza el lote por cumplimiento  
-- el certificado “del proveedor” no es válido  
+- la aduana pide documentos que no tienes
+- el producto no puede venderse en Amazon o retail
+- el cliente final rechaza el lote por cumplimiento
+- el certificado “del proveedor” no es válido
 
 Y ahí es donde muchos descubren algo tarde:
 
@@ -60,18 +58,21 @@ Está buscando esto:
 La certificación CE es la más conocida, pero también una de las más mal entendidas.
 
 ### Qué significa realmente:
+
 No es un certificado único. Es una declaración de cumplimiento de normativas europeas.
 
 ### Aplica a:
-- hervidores eléctricos  
-- arroceras  
-- ollas a presión eléctricas  
-- electrodomésticos de cocina  
+
+- hervidores eléctricos
+- arroceras
+- ollas a presión eléctricas
+- electrodomésticos de cocina
 
 ### Lo que revisa:
-- seguridad eléctrica  
-- riesgos de uso  
-- compatibilidad con normas europeas  
+
+- seguridad eléctrica
+- riesgos de uso
+- compatibilidad con normas europeas
 
 💡 Error común:
 Muchos proveedores solo envían un “CE certificate PDF”, pero no siempre incluye pruebas reales.
@@ -83,12 +84,14 @@ Muchos proveedores solo envían un “CE certificate PDF”, pero no siempre inc
 RoHS es obligatorio para la mayoría de electrodomésticos eléctricos en Europa.
 
 ### Qué controla:
-- plomo  
-- mercurio  
-- cadmio  
-- sustancias restringidas  
+
+- plomo
+- mercurio
+- cadmio
+- sustancias restringidas
 
 ### Por qué importa:
+
 Si no cumples RoHS, el producto puede ser bloqueado incluso si es seguro de usar.
 
 ---
@@ -98,9 +101,11 @@ Si no cumples RoHS, el producto puede ser bloqueado incluso si es seguro de usar
 CB no es obligatorio, pero es muy útil.
 
 ### Para qué sirve:
+
 Permite que un test de seguridad sea reconocido en múltiples países.
 
 ### Ventaja:
+
 Reduce tiempo y coste si quieres vender en varios mercados.
 
 ---
@@ -110,12 +115,14 @@ Reduce tiempo y coste si quieres vender en varios mercados.
 Este punto suele sorprender a muchos importadores.
 
 ### Qué significa:
+
 El producto no debe interferir con otros dispositivos eléctricos.
 
 ### Aplica a:
-- hervidores eléctricos  
-- mixers  
-- electrodomésticos con motores o resistencias  
+
+- hervidores eléctricos
+- mixers
+- electrodomésticos con motores o resistencias
 
 ---
 
@@ -124,9 +131,10 @@ El producto no debe interferir con otros dispositivos eléctricos.
 LVD se enfoca en la seguridad del usuario.
 
 ### Revisa:
-- aislamiento eléctrico  
-- riesgo de descarga  
-- temperatura de funcionamiento  
+
+- aislamiento eléctrico
+- riesgo de descarga
+- temperatura de funcionamiento
 
 💡 En productos de cocina eléctricos, este punto es crítico.
 
@@ -137,13 +145,15 @@ LVD se enfoca en la seguridad del usuario.
 Si vendes en Europa, especialmente Alemania, este es obligatorio en muchos casos.
 
 ### Aplica a:
-- hervidores  
-- recipientes  
-- piezas en contacto con agua o alimentos  
+
+- hervidores
+- recipientes
+- piezas en contacto con agua o alimentos
 
 ### Qué revisa:
-- seguridad alimentaria de materiales  
-- migración de sustancias  
+
+- seguridad alimentaria de materiales
+- migración de sustancias
 
 💡 Este es uno de los certificados más revisados en auditorías reales.
 
@@ -155,10 +165,10 @@ Latinoamérica no es un solo mercado.
 
 ### Ejemplos:
 
-- México: suele aceptar normas tipo NOM  
-- Brasil: certificaciones INMETRO  
-- Argentina: regulaciones eléctricas locales  
-- Chile/Colombia: controles más flexibles pero en crecimiento  
+- México: suele aceptar normas tipo NOM
+- Brasil: certificaciones INMETRO
+- Argentina: regulaciones eléctricas locales
+- Chile/Colombia: controles más flexibles pero en crecimiento
 
 💡 Problema real:
 Muchos proveedores chinos solo hablan de “CE”, pero eso no siempre sirve fuera de Europa.
@@ -173,10 +183,10 @@ El error más común es este:
 
 Pero en realidad necesitas confirmar:
 
-- qué norma exacta cubre el certificado  
-- si aplica a tu modelo específico  
-- si el laboratorio es reconocido  
-- si cubre tu mercado final  
+- qué norma exacta cubre el certificado
+- si aplica a tu modelo específico
+- si el laboratorio es reconocido
+- si cubre tu mercado final
 
 ---
 
@@ -186,11 +196,11 @@ Antes de cerrar un pedido con una fábrica en China, revisa esto:
 
 ### Lista rápida:
 
-- certificados reales, no solo PDFs  
-- pruebas de laboratorio reconocidas  
-- modelo exacto del producto incluido  
-- compatibilidad con tu país objetivo  
-- historial de exportación del proveedor  
+- certificados reales, no solo PDFs
+- pruebas de laboratorio reconocidas
+- modelo exacto del producto incluido
+- compatibilidad con tu país objetivo
+- historial de exportación del proveedor
 
 ---
 
@@ -200,10 +210,10 @@ Una fábrica con experiencia no solo produce.
 
 También entiende:
 
-- qué documentos necesitas para aduanas  
-- qué certificaciones son obligatorias por país  
-- cómo evitar retrasos en inspección  
-- cómo preparar lotes para exportación  
+- qué documentos necesitas para aduanas
+- qué certificaciones son obligatorias por país
+- cómo evitar retrasos en inspección
+- cómo preparar lotes para exportación
 
 ---
 
@@ -213,8 +223,8 @@ Las certificaciones no son solo un requisito técnico.
 
 Son la diferencia entre:
 
-- vender sin problemas  
-- o tener un contenedor bloqueado en aduana  
+- vender sin problemas
+- o tener un contenedor bloqueado en aduana
 
 Antes de importar desde China, la pregunta no es “¿tiene certificado?”
 

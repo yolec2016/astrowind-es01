@@ -13,8 +13,6 @@ tags:
   - AQL
   - pequeños electrodomésticos
   - proveedor China
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -28,11 +26,11 @@ Pero en la práctica, lo que realmente decide si un proveedor es confiable o no 
 
 En productos como hervidores eléctricos, arroceras, ollas a presión o batidoras, una pequeña desviación puede convertirse en un problema grande:
 
-- productos que no calientan bien  
-- piezas plásticas defectuosas  
-- fugas de agua  
-- fallos eléctricos  
-- devoluciones en el mercado final  
+- productos que no calientan bien
+- piezas plásticas defectuosas
+- fugas de agua
+- fallos eléctricos
+- devoluciones en el mercado final
 
 Por eso las fábricas serias no dependen de una sola inspección, sino de un sistema completo.
 
@@ -44,10 +42,10 @@ El control de calidad en una fábrica profesional no ocurre al final.
 
 Se divide en cuatro etapas principales:
 
-- IQC (Inspección de entrada)  
-- IPQC (Control en proceso)  
-- FQC (Control final)  
-- OQC (Inspección de salida)  
+- IQC (Inspección de entrada)
+- IPQC (Control en proceso)
+- FQC (Control final)
+- OQC (Inspección de salida)
 
 Cada etapa tiene una función diferente, y juntas forman un sistema completo.
 
@@ -59,11 +57,11 @@ IQC significa controlar la calidad antes de producir.
 
 Aquí se revisan todos los materiales que entran a la fábrica:
 
-- acero inoxidable  
-- plásticos  
-- cables eléctricos  
-- componentes electrónicos  
-- resistencias de calentamiento  
+- acero inoxidable
+- plásticos
+- cables eléctricos
+- componentes electrónicos
+- resistencias de calentamiento
 
 💡 ¿Por qué es tan importante?
 
@@ -79,11 +77,11 @@ Aquí el objetivo es detectar problemas antes de que sea demasiado tarde.
 
 Se revisa:
 
-- ensamblaje de piezas  
-- soldaduras eléctricas  
-- ajuste de componentes  
-- temperatura de producción  
-- funcionamiento parcial del producto  
+- ensamblaje de piezas
+- soldaduras eléctricas
+- ajuste de componentes
+- temperatura de producción
+- funcionamiento parcial del producto
 
 💡 En electrodomésticos, este paso evita que miles de unidades defectuosas lleguen al final de la línea.
 
@@ -95,17 +93,17 @@ FQC significa inspección del producto ya terminado.
 
 Aquí se revisa el 100% o una muestra del lote final:
 
-- encendido y apagado  
-- funciones principales  
-- seguridad eléctrica  
-- apariencia del producto  
-- embalaje  
+- encendido y apagado
+- funciones principales
+- seguridad eléctrica
+- apariencia del producto
+- embalaje
 
 Por ejemplo, en un hervidor eléctrico:
 
-- que caliente correctamente  
-- que no tenga fugas  
-- que el apagado automático funcione  
+- que caliente correctamente
+- que no tenga fugas
+- que el apagado automático funcione
 
 ---
 
@@ -115,11 +113,11 @@ OQC es la última barrera antes de salir de la fábrica.
 
 Aquí se revisa:
 
-- cantidad total del pedido  
-- estado del embalaje  
-- etiquetado correcto  
-- consistencia del lote  
-- carga de contenedor (si aplica)  
+- cantidad total del pedido
+- estado del embalaje
+- etiquetado correcto
+- consistencia del lote
+- carga de contenedor (si aplica)
 
 💡 Este paso es clave para evitar sorpresas en destino.
 
@@ -133,16 +131,17 @@ En lugar de revisar el 100% de las unidades, se toma una muestra.
 
 Se define:
 
-- cuántas unidades se revisan  
-- cuántos defectos son aceptables  
-- qué pasa si se supera el límite  
+- cuántas unidades se revisan
+- cuántos defectos son aceptables
+- qué pasa si se supera el límite
 
 💡 Ejemplo simple:
 
 En un lote de 1.000 piezas:
-- se revisan 80–125 unidades  
-- se permiten pocos defectos menores  
-- defectos graves = rechazo del lote  
+
+- se revisan 80–125 unidades
+- se permiten pocos defectos menores
+- defectos graves = rechazo del lote
 
 ---
 
@@ -151,19 +150,22 @@ En un lote de 1.000 piezas:
 En la inspección normalmente se clasifican en:
 
 ### Defectos críticos
-- riesgo de seguridad eléctrica  
-- producto no funciona  
-- peligro para el usuario  
+
+- riesgo de seguridad eléctrica
+- producto no funciona
+- peligro para el usuario
 
 ### Defectos mayores
-- fallos de función  
-- rendimiento inestable  
-- problemas de durabilidad  
+
+- fallos de función
+- rendimiento inestable
+- problemas de durabilidad
 
 ### Defectos menores
-- rayaduras  
-- pequeños errores estéticos  
-- variaciones de color  
+
+- rayaduras
+- pequeños errores estéticos
+- variaciones de color
 
 ---
 
@@ -173,11 +175,11 @@ Un buen sistema de calidad no solo detecta problemas, también los corrige.
 
 Las fábricas serias aplican:
 
-- análisis de causa raíz  
-- retroalimentación a producción  
-- ajustes de materiales  
-- mejora continua de procesos  
-- registro de fallos por lote  
+- análisis de causa raíz
+- retroalimentación a producción
+- ajustes de materiales
+- mejora continua de procesos
+- registro de fallos por lote
 
 💡 Esto es lo que diferencia una fábrica estable de una fábrica problemática.
 
@@ -189,11 +191,11 @@ Si compras en China, no basta con decir “quiero buena calidad”.
 
 Debes definir:
 
-- nivel AQL aceptable  
-- tipo de defectos permitidos  
-- requisitos de materiales  
-- pruebas funcionales obligatorias  
-- estándares de embalaje  
+- nivel AQL aceptable
+- tipo de defectos permitidos
+- requisitos de materiales
+- pruebas funcionales obligatorias
+- estándares de embalaje
 
 💡 Cuanto más claro eres, menos problemas tendrás después.
 
@@ -205,7 +207,7 @@ Debes definir:
 ❌ confiar solo en inspección final  
 ❌ no revisar IQC  
 ❌ no pedir reportes de IPQC  
-❌ no establecer estándares claros  
+❌ no establecer estándares claros
 
 ---
 
@@ -217,10 +219,10 @@ Es un sistema completo que empieza desde los materiales y termina en el envío.
 
 Si un proveedor controla bien:
 
-- IQC  
-- IPQC  
-- FQC  
-- OQC  
+- IQC
+- IPQC
+- FQC
+- OQC
 
 entonces tienes un suministro estable.
 

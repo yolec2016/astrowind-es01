@@ -4,8 +4,8 @@ title: Las principales tendencias del mercado mundial de pequeños electrodomés
 description: Descubre las principales tendencias de pequeños electrodomésticos en 2026 y cómo los importadores pueden elegir productos rentables para Europa y Latinoamérica. Análisis de productos inteligentes, ahorro energético, materiales sostenibles, OEM y oportunidades de importación desde China.
 excerpt: El mercado de pequeños electrodomésticos está cambiando. Los compradores B2B deben conocer qué productos de cocina tendrán mayor demanda en 2026 para crear catálogos competitivos y trabajar con fabricantes chinos preparados para el futuro.
 image: /images/blog/11.jpg
-author: "Adrian"
-category: "Tendencias de mercado"
+author: 'Adrian'
+category: 'Tendencias de mercado'
 tags:
   - tendencias pequeños electrodomésticos 2026
   - importar desde China
@@ -14,8 +14,6 @@ tags:
   - productos de cocina
   - mercado europeo
   - mercado latinoamericano
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -357,6 +355,6 @@ Si buscas un proveedor chino para desarrollar productos de cocina competitivos:
 
 🌐 [Fabricante chino de pequeños electrodomésticos OEM](https://www.yolec-electronics.com/)  
 📧 adrian@yolec-electronics.com  
-📱 WhatsApp: +86 13922332584  
+📱 WhatsApp: +86 13922332584
 
 SGS Certified Factory | No. 483515034-P+T

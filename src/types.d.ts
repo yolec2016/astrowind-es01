@@ -60,6 +60,7 @@ export interface MetaDataImage {
   url: string;
   width?: number;
   height?: number;
+  alt?: string;
 }
 
 export interface MetaDataOpenGraph {

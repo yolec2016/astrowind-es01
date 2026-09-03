@@ -1,10 +1,14 @@
+# YOLEC Electric — robots.txt
+# Fabricante OEM/ODM de pequeños electrodomésticos en China
+
 User-agent: *
-
 Allow: /
+Crawl-delay: 1
 
+# Sitemaps (ambos formatos para máxima compatibilidad con buscadores)
 Sitemap: https://oemkitchenchina.xyz/sitemap-index.xml
 
-
+# Bloqueo de bots de scraping / IA no deseados para preservar presupuesto de rastreo
 User-agent: Amazonbot
 Disallow: /
 
@@ -14,7 +18,19 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
+User-agent: DotBot
+Disallow: /
 
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Bots de IA generativa permitidos (pueden generar tráfico referenciado)
 User-agent: GPTBot
 Allow: /
 
@@ -22,4 +38,7 @@ User-agent: Google-Extended
 Allow: /
 
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /

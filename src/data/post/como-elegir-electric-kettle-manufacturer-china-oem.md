@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-26T10:00:00
-title: "Cómo elegir un electric kettle manufacturer confiable para tu marca"
-author: "Adrian"
-excerpt: "Guía para importadores y marcas privadas que buscan un electric kettle manufacturer en China. Descubre cómo evaluar fábrica, calidad, certificaciones, personalización y capacidad OEM antes de iniciar una cooperación."
+title: 'Cómo elegir un electric kettle manufacturer confiable para tu marca'
+author: 'Adrian'
+excerpt: 'Guía para importadores y marcas privadas que buscan un electric kettle manufacturer en China. Descubre cómo evaluar fábrica, calidad, certificaciones, personalización y capacidad OEM antes de iniciar una cooperación.'
 image: /images/blog/9.jpg
-category: "OEM y Fabricación"
+category: 'OEM y Fabricación'
 tags:
   - electric kettle manufacturer
   - fabricante hervidores eléctricos
   - proveedor OEM pequeños electrodomésticos
   - private label electric kettle
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Cuando una empresa busca un **electric kettle manufacturer**, normalmente la primera pregunta suele ser:

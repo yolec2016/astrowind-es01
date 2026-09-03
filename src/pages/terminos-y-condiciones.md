@@ -135,6 +135,6 @@ La versión actualizada será publicada en esta página.
 
 Para cualquier consulta relacionada con estos Términos:
 
-- Email: adrian@yolec-electronics.com  
-- WhatsApp: +86 13922332584  
-- Website: https://www.yolec-electronics.com  
+- Email: adrian@yolec-electronics.com
+- WhatsApp: +86 13922332584
+- Website: https://www.yolec-electronics.com

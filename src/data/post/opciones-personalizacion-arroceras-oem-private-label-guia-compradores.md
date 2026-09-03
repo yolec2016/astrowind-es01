@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-20T10:00:00
-title: "Opciones de personalización para arroceras OEM y Private Label"
-author: "Adrian"
-excerpt: "Guía para importadores y marcas privadas que quieren desarrollar arroceras personalizadas, analizando opciones OEM, costes, MOQ y tiempos de producción."
+title: 'Opciones de personalización para arroceras OEM y Private Label'
+author: 'Adrian'
+excerpt: 'Guía para importadores y marcas privadas que quieren desarrollar arroceras personalizadas, analizando opciones OEM, costes, MOQ y tiempos de producción.'
 image: /images/blog/46.jpg
-category: "OEM y Desarrollo de Producto"
+category: 'OEM y Desarrollo de Producto'
 tags:
   - arroceras OEM
   - private label
   - personalización electrodomésticos
   - fabricante de arroceras
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Cuando una empresa decide lanzar una nueva línea de arroceras eléctricas con su propia marca, normalmente aparece una pregunta importante:

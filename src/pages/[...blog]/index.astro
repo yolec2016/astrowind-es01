@@ -7,11 +7,12 @@ import Layout from '~/layouts/PageLayout.astro';
 import SinglePost from '~/components/blog/SinglePost.astro';
 import ToBlogLink from '~/components/blog/ToBlogLink.astro';
 
-import { getCanonical, getPermalink } from '~/utils/permalinks';
+import { getCanonical, getPermalink, getBlogPermalink } from '~/utils/permalinks';
 import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
 import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+import { SITE, I18N } from 'astrowind:config';
 
 export const prerender = true;
 
@@ -26,61 +27,86 @@ const { post } = Astro.props as Props;
 const url = getCanonical(getPermalink(post.permalink, 'post'));
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
 
-/**
- * 🔥 SEO OPTIMIZED METADATA (Spanish B2B OEM/ODM factory signals)
- */
+const siteUrl = String(SITE?.site || '').replace(/\/$/, '');
+const blogUrl = String(getCanonical(getBlogPermalink()));
+const organizationId = `${siteUrl}/#organization`;
+
+// Imagen absoluta para OpenGraph y Article schema
+const imageUrl =
+  typeof image === 'string'
+    ? image.startsWith('http')
+      ? image
+      : image.startsWith('/')
+        ? `${siteUrl}${image}`
+        : `${siteUrl}/${image}`
+    : undefined;
+
 const metadata = merge(
   {
-    title: `${post.title} | Fabricante OEM/ODM de Electrodomésticos en China - YOLEC Electric`,
-
+    title: post.title,
     description:
       post.excerpt ||
       'Artículo profesional sobre fabricación OEM/ODM de pequeños electrodomésticos en China para importadores, distribuidores y marcas privadas.',
-
     robots: {
       index: blogPostRobots?.index,
       follow: blogPostRobots?.follow,
     },
-
     openGraph: {
       type: 'article',
-      ...(image
+      ...(imageUrl
         ? {
             images: [
               {
-                url: image,
+                url: imageUrl,
                 width: (image as ImageMetadata)?.width,
                 height: (image as ImageMetadata)?.height,
+                alt: post.title,
               },
             ],
           }
         : {}),
     },
-
-    /**
-     * 🔥 SEO: canonical URL
-     */
-    alternates: {
-      canonical: url,
-    },
-
-    /**
-     * 🔥 Spanish B2B keyword signals
-     */
-    additionalMetaTags: [
-      {
-        name: 'keywords',
-        content:
-          'fabricante OEM China, fábrica electrodomésticos cocina, proveedor hervidores eléctricos, arrozera eléctrica OEM, fabricante ODM electrodomésticos, cocina pequeños electrodomésticos China',
-      },
-    ],
   },
   {
-    ...(post?.metadata
-      ? { ...post.metadata, canonical: post.metadata?.canonical || url }
-      : {}),
+    ...(post?.metadata ? { ...post.metadata } : {}),
   }
 ) as MetaData;
+
+// Article schema (Google rich result elegible)
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': `${url}#article`,
+  headline: post.title,
+  description: post.excerpt || metadata.description,
+  ...(imageUrl ? { image: { '@type': 'ImageObject', url: imageUrl } } : {}),
+  datePublished: post.publishDate ? post.publishDate.toISOString() : undefined,
+  dateModified: (post.updateDate || post.publishDate)?.toISOString(),
+  author: {
+    '@type': 'Person',
+    name: post.author || 'YOLEC Electric',
+    url: siteUrl,
+  },
+  publisher: { '@id': organizationId },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': url,
+  },
+  inLanguage: I18N?.language || 'es',
+  ...(post.category?.title ? { articleSection: post.category.title } : {}),
+  ...(post.tags?.length ? { keywords: post.tags.map((t) => t.title).join(', ') } : {}),
+};
+
+// Breadcrumb schema (Inicio > Blog > Artículo)
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl || '/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: blogUrl },
+    { '@type': 'ListItem', position: 3, name: post.title, item: url },
+  ],
+};
 ---
 
 <Layout metadata={metadata}>
@@ -92,3 +118,6 @@ const metadata = merge(
 
   <RelatedPosts post={post} />
 </Layout>
+
+<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

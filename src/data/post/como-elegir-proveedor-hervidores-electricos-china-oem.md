@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-07-23T12:00:00Z
-title: "Cómo elegir un fabricante de hervidores eléctricos en China para tu marca"
-description: "Guía para compradores B2B que buscan un fabricante de hervidores eléctricos en China. Aprende cómo evaluar proveedores OEM, calidad, certificaciones, MOQ, capacidad de producción y soporte antes de realizar un pedido."
-excerpt: "Elegir un proveedor chino de hervidores eléctricos no significa encontrar el precio más bajo. Esta guía explica qué debe revisar una marca antes de trabajar con un fabricante OEM."
+title: 'Cómo elegir un fabricante de hervidores eléctricos en China para tu marca'
+description: 'Guía para compradores B2B que buscan un fabricante de hervidores eléctricos en China. Aprende cómo evaluar proveedores OEM, calidad, certificaciones, MOQ, capacidad de producción y soporte antes de realizar un pedido.'
+excerpt: 'Elegir un proveedor chino de hervidores eléctricos no significa encontrar el precio más bajo. Esta guía explica qué debe revisar una marca antes de trabajar con un fabricante OEM.'
 image: /images/blog/20.jpg
-author: "Adrian"
-category: "Hervidores eléctricos"
+author: 'Adrian'
+category: 'Hervidores eléctricos'
 tags:
   - fabricante de hervidores eléctricos China
   - proveedor OEM China
@@ -13,8 +13,6 @@ tags:
   - pequeños electrodomésticos
   - marca privada
   - importar desde China
-metadata:
-  canonical: "https://www.yolec-electronics.com/"
 robots: index, follow
 ---
 

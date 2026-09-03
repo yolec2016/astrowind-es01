@@ -13,42 +13,46 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Fabricante OEM y ODM de Electrodomésticos en China | Hervidores Eléctricos, Arroceras y Ollas a Presión | YOLEC Electric',
+  // Title template añadirá ' | YOLEC Electric' automáticamente
+  title: 'Fabricante OEM de Electrodomésticos en China',
+  // < 160 caracteres para evitar truncamiento en SERPs
   description:
-    'Fabricante OEM y ODM de pequeños electrodomésticos en China. Especialistas en hervidores eléctricos, arroceras, ollas a presión, fiambreras eléctricas y batidoras de mano para importadores y marcas internacionales.',
-  ignoreTitleTemplate: true,
+    'Fabricante OEM y ODM de pequeños electrodomésticos en China desde 2015. Hervidores, arroceras, ollas a presión y fiambreras con certificaciones CE, CB y RoHS.',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-<Hero
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Solicitar Cotización',
-      href: '/contacto',
-      icon: 'tabler:message',
-    },
-    {
-      text: 'Ver Productos',
-      href: 'https://www.yolec-electronics.com/products/',
-    },
-  ]}
-  image={{
-    src: '~/assets/images/oem.png',
-    alt: 'Fabricante OEM y ODM de hervidores eléctricos, arroceras y pequeños electrodomésticos en China - YOLEC Electric',  }}
->
-  <Fragment slot="title">
-    Fabricante <span class="text-accent dark:text-white">OEM y ODM de Pequeños Electrodomésticos</span> en China
-  </Fragment>
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Solicitar Cotización',
+        href: '/contacto',
+        icon: 'tabler:message',
+      },
+      {
+        text: 'Ver Productos',
+        href: 'https://www.yolec-electronics.com/products/',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/oem.png',
+      alt: 'Fabricante OEM y ODM de hervidores eléctricos, arroceras y pequeños electrodomésticos en China - YOLEC Electric',
+    }}
+  >
+    <Fragment slot="title">
+      Fabricante <span class="text-accent dark:text-white">OEM y ODM de Pequeños Electrodomésticos</span> en China
+    </Fragment>
 
-  <Fragment slot="subtitle">
-    <strong>YOLEC Electric</strong> es un fabricante profesional OEM y ODM de pequeños electrodomésticos en China, especializado en hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas eléctricas a presión, fiambreras eléctricas y batidoras de mano.
-      Desde 2015 ayudamos a importadores, distribuidores y marcas internacionales a desarrollar productos personalizados con fabricación directa de fábrica, estrictos controles de calidad y soluciones adaptadas a cada mercado.
-  </Fragment>
-</Hero>
+    <Fragment slot="subtitle">
+      <strong>YOLEC Electric</strong> es un fabricante profesional OEM y ODM de pequeños electrodomésticos en China, especializado
+      en hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas eléctricas a presión, fiambreras eléctricas
+      y batidoras de mano. Desde 2015 ayudamos a importadores, distribuidores y marcas internacionales a desarrollar productos
+      personalizados con fabricación directa de fábrica, estrictos controles de calidad y soluciones adaptadas a cada mercado.
+    </Fragment>
+  </Hero>
 
   <!-- Note Widget ******************* -->
 
@@ -79,20 +83,17 @@ const metadata = {
       },
       {
         title: '3 líneas de producción',
-        description:
-          'Capacidad suficiente para pedidos OEM de gran volumen con entregas puntuales.',
+        description: 'Capacidad suficiente para pedidos OEM de gran volumen con entregas puntuales.',
         icon: 'tabler:settings-automation',
       },
       {
         title: 'Fábrica certificada por SGS',
-        description:
-          'Procesos auditados para ofrecer calidad constante y confianza a compradores internacionales.',
+        description: 'Procesos auditados para ofrecer calidad constante y confianza a compradores internacionales.',
         icon: 'tabler:certificate',
       },
       {
         title: 'Certificaciones internacionales',
-        description:
-          'Productos conformes con CE, CB, LFGB, RoHS, ERP y otros requisitos de los mercados europeos.',
+        description: 'Productos conformes con CE, CB, LFGB, RoHS, ERP y otros requisitos de los mercados europeos.',
         icon: 'tabler:shield-check',
       },
       {
@@ -113,18 +114,15 @@ const metadata = {
     items={[
       {
         title: 'OEM para marcas privadas',
-        description:
-          'Fabricamos productos con su logotipo, embalaje y especificaciones técnicas.',
+        description: 'Fabricamos productos con su logotipo, embalaje y especificaciones técnicas.',
       },
       {
         title: 'Desarrollo ODM',
-        description:
-          'Nuestro equipo de I+D desarrolla nuevos productos adaptados a las necesidades de su mercado.',
+        description: 'Nuestro equipo de I+D desarrolla nuevos productos adaptados a las necesidades de su mercado.',
       },
       {
         title: 'Diseño de embalaje',
-        description:
-          'Personalizamos cajas de color, manuales, etiquetas y accesorios para fortalecer su marca.',
+        description: 'Personalizamos cajas de color, manuales, etiquetas y accesorios para fortalecer su marca.',
       },
       {
         title: 'Control de calidad',
@@ -142,7 +140,8 @@ const metadata = {
         Soluciones completas desde el diseño hasta la producción en masa
       </h3>
 
-      Trabajamos con importadores, distribuidores, supermercados y marcas internacionales para ofrecer servicios OEM y ODM rápidos, flexibles y rentables.
+      Trabajamos con importadores, distribuidores, supermercados y marcas internacionales para ofrecer servicios OEM y
+      ODM rápidos, flexibles y rentables.
     </Fragment>
 
     <Fragment slot="bg">
@@ -188,7 +187,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      Nuestros productos están diseñados para mercados internacionales con certificaciones y estándares de calidad exigidos en Europa, América y Asia.
+      Nuestros productos están diseñados para mercados internacionales con certificaciones y estándares de calidad
+      exigidos en Europa, América y Asia.
     </Fragment>
 
     <Fragment slot="bg">
@@ -211,8 +211,7 @@ const metadata = {
       },
       {
         title: 'Fabricación de moldes y muestras',
-        description:
-          'Desarrollamos moldes, prototipos y muestras para confirmar todos los detalles del producto.',
+        description: 'Desarrollamos moldes, prototipos y muestras para confirmar todos los detalles del producto.',
       },
       {
         title: 'Producción en serie',
@@ -231,7 +230,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      Desde la idea inicial hasta la entrega final, ofrecemos un servicio integral para ayudar a nuestros clientes a lanzar productos competitivos con rapidez y seguridad.
+      Desde la idea inicial hasta la entrega final, ofrecemos un servicio integral para ayudar a nuestros clientes a
+      lanzar productos competitivos con rapidez y seguridad.
     </Fragment>
 
     <Fragment slot="bg">
@@ -262,8 +262,7 @@ const metadata = {
       },
       {
         title: 'Inspección final y envío internacional',
-        description:
-          'Revisión final, embalaje profesional y coordinación logística para entrega segura a su país.',
+        description: 'Revisión final, embalaje profesional y coordinación logística para entrega segura a su país.',
       },
     ]}
     image={{
@@ -349,89 +348,85 @@ const metadata = {
 
   <!-- FAQs Widget ******************* -->
 
-<FAQs
-  title="Preguntas Frecuentes"
-  subtitle="Encuentre respuestas a las preguntas más comunes sobre nuestros servicios OEM y ODM para pequeños electrodomésticos."
-  tagline="FAQ"
-  classes={{ container: 'max-w-6xl' }}
-  items={[
-    {
-      title: '¿Qué productos fabrica YOLEC Electric?',
-      description:
-        'Nos especializamos en la fabricación OEM y ODM de pequeños electrodomésticos, incluyendo hervidores eléctricos, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano para marcas de todo el mundo.',
-    },
-    {
-      title: '¿Ofrecen servicios OEM y ODM?',
-      description:
-        'Sí. Podemos fabricar productos según sus diseños, especificaciones técnicas, logotipo, embalaje y requisitos de marca. También disponemos de modelos ODM listos para personalizar.',
-    },
-    {
-      title: '¿Cuál es la cantidad mínima de pedido (MOQ)?',
-      description:
-        'La cantidad mínima depende del producto y del nivel de personalización requerido. Nuestro equipo de ventas le ofrecerá la mejor solución según las necesidades de su proyecto.',
-    },
-    {
-      title: '¿Qué certificaciones tienen sus productos?',
-      description:
-        'Podemos suministrar productos que cumplen con diferentes normativas internacionales, incluyendo CE, CB, GS, LFGB, RoHS y otras certificaciones, según el mercado de destino.',
-    },
-    {
-      title: '¿Cómo garantizan la calidad del producto?',
-      description:
-        'Aplicamos un estricto sistema de control de calidad durante todo el proceso de producción, incluyendo inspección de materiales, pruebas en línea, pruebas funcionales e inspección final antes del envío.',
-    },
-    {
-      title: '¿Exportan a otros países?',
-      description:
-        'Sí. Exportamos pequeños electrodomésticos a Europa, Oriente Medio, Sudamérica, África y otros mercados internacionales, ofreciendo soluciones de fabricación fiables para importadores, distribuidores y propietarios de marcas.',
-    },
-  ]}
-/>
+  <FAQs
+    title="Preguntas Frecuentes"
+    subtitle="Encuentre respuestas a las preguntas más comunes sobre nuestros servicios OEM y ODM para pequeños electrodomésticos."
+    tagline="FAQ"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: '¿Qué productos fabrica YOLEC Electric?',
+        description:
+          'Nos especializamos en la fabricación OEM y ODM de pequeños electrodomésticos, incluyendo hervidores eléctricos, arroceras, ollas a presión eléctricas, fiambreras eléctricas y batidoras de mano para marcas de todo el mundo.',
+      },
+      {
+        title: '¿Ofrecen servicios OEM y ODM?',
+        description:
+          'Sí. Podemos fabricar productos según sus diseños, especificaciones técnicas, logotipo, embalaje y requisitos de marca. También disponemos de modelos ODM listos para personalizar.',
+      },
+      {
+        title: '¿Cuál es la cantidad mínima de pedido (MOQ)?',
+        description:
+          'La cantidad mínima depende del producto y del nivel de personalización requerido. Nuestro equipo de ventas le ofrecerá la mejor solución según las necesidades de su proyecto.',
+      },
+      {
+        title: '¿Qué certificaciones tienen sus productos?',
+        description:
+          'Podemos suministrar productos que cumplen con diferentes normativas internacionales, incluyendo CE, CB, GS, LFGB, RoHS y otras certificaciones, según el mercado de destino.',
+      },
+      {
+        title: '¿Cómo garantizan la calidad del producto?',
+        description:
+          'Aplicamos un estricto sistema de control de calidad durante todo el proceso de producción, incluyendo inspección de materiales, pruebas en línea, pruebas funcionales e inspección final antes del envío.',
+      },
+      {
+        title: '¿Exportan a otros países?',
+        description:
+          'Sí. Exportamos pequeños electrodomésticos a Europa, Oriente Medio, Sudamérica, África y otros mercados internacionales, ofreciendo soluciones de fabricación fiables para importadores, distribuidores y propietarios de marcas.',
+      },
+    ]}
+  />
 
   <!-- Stats Widget ****************** -->
 
-<Stats
-  stats={[
-    { title: 'Años de experiencia OEM', amount: '10+' },
-    { title: 'Clientes globales', amount: '200+' },
-    { title: 'Capacidad mensual', amount: '300K+' },
-    { title: 'Países exportados', amount: '60+' },
-  ]}
-/>
+  <Stats
+    stats={[
+      { title: 'Años de experiencia OEM', amount: '10+' },
+      { title: 'Clientes globales', amount: '200+' },
+      { title: 'Capacidad mensual', amount: '300K+' },
+      { title: 'Países exportados', amount: '60+' },
+    ]}
+  />
   <!-- CallToAction Widget *********** -->
 
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Solicitar cotización OEM',
+        href: '/contacto',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title"> ¿Busca un fabricante OEM de electrodomésticos en China? </Fragment>
 
+    <Fragment slot="subtitle">
+      Solicite hoy mismo una cotización OEM/ODM personalizada. Nuestro equipo responderá rápidamente con la mejor
+      solución para su proyecto.
+    </Fragment>
+  </CallToAction>
 
-<CallToAction
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Solicitar cotización OEM',
-      href: '/contacto',
-      icon: 'tabler:mail',
-    },
-  ]}
->
-  <Fragment slot="title">
-  ¿Busca un fabricante OEM de electrodomésticos en China?
-  </Fragment>
+  <div class="flex flex-col justify-center items-center mt-10 gap-3">
+    <p class="text-sm md:text-base text-gray-600 dark:text-slate-300 text-center">
+      Contacto directo para consultas OEM/ODM (WhatsApp)
+    </p>
 
-  <Fragment slot="subtitle">
-    Solicite hoy mismo una cotización OEM/ODM personalizada. Nuestro equipo responderá rápidamente con la mejor solución para su proyecto.
-  </Fragment>
-</CallToAction>
-
-<div class="flex flex-col justify-center items-center mt-10 gap-3">
-  <p class="text-sm md:text-base text-gray-600 dark:text-slate-300 text-center">
-    Contacto directo para consultas OEM/ODM (WhatsApp)
-  </p>
-
-  <img
-    src= '/images/whatsapp.png',
-    alt="Código QR de WhatsApp de YOLEC Electric para consultas OEM y ODM"
-    class="mx-auto max-w-full h-auto w-[180px] md:w-[220px] rounded-lg shadow-md"
-    loading="lazy"
-  />
-</div>
-
+    <img
+      src="/images/whatsapp.png"
+      alt="Código QR de WhatsApp de YOLEC Electric para consultas OEM y ODM"
+      class="mx-auto max-w-full h-auto w-[180px] md:w-[220px] rounded-lg shadow-md"
+      loading="lazy"
+    />
+  </div>
 </Layout>

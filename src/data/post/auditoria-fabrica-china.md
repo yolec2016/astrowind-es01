@@ -13,8 +13,6 @@ tags:
   - control de calidad
   - importación desde China
   - riesgos de suministro
-metadata:
-  canonical: https://www.yolec-electronics.com/blog/auditoria-fabrica-china
 robots: index, follow
 ---
 
@@ -25,11 +23,11 @@ Si llevas tiempo comprando productos en China, probablemente ya te pasó esto:
 El proveedor parecía confiable. Buen precio, buena comunicación, todo rápido.  
 Pero cuando el pedido crece, empiezan los problemas.
 
-- retrasos en la producción  
-- cambios en materiales sin aviso  
-- calidad diferente entre lotes  
-- problemas en la entrega  
-- dificultades en la aduana  
+- retrasos en la producción
+- cambios en materiales sin aviso
+- calidad diferente entre lotes
+- problemas en la entrega
+- dificultades en la aduana
 
 Y lo más importante: casi siempre se pudo evitar.
 
@@ -45,11 +43,11 @@ Es una revisión completa para comprobar si el proveedor realmente puede cumplir
 
 Se analiza:
 
-- situación legal de la empresa  
-- capacidad real de producción  
-- sistema de control de calidad  
-- organización del equipo  
-- experiencia en exportación  
+- situación legal de la empresa
+- capacidad real de producción
+- sistema de control de calidad
+- organización del equipo
+- experiencia en exportación
 
 En pocas palabras: no es lo que el proveedor dice, sino lo que realmente es.
 
@@ -61,10 +59,10 @@ Antes de hablar de precios, lo primero es confirmar que la empresa es real.
 
 Debes revisar:
 
-- licencia comercial válida  
-- nombre legal registrado  
-- actividad autorizada de producción  
-- capacidad de exportación  
+- licencia comercial válida
+- nombre legal registrado
+- actividad autorizada de producción
+- capacidad de exportación
 
 💡 Consejo práctico:  
 Si el proveedor evita mostrar documentos básicos, es una señal de alerta.
@@ -77,10 +75,10 @@ Muchos proveedores prometen más de lo que realmente pueden producir.
 
 En la auditoría debes observar:
 
-- líneas de producción activas  
-- maquinaria funcionando  
-- volumen real diario de producción  
-- flujo de trabajo en la fábrica  
+- líneas de producción activas
+- maquinaria funcionando
+- volumen real diario de producción
+- flujo de trabajo en la fábrica
 
 Por ejemplo, en productos como hervidores eléctricos, arroceras o batidoras, la diferencia entre una fábrica pequeña y una profesional es enorme.
 
@@ -92,10 +90,10 @@ Este punto define si el producto será estable o problemático.
 
 Se revisa:
 
-- inspección de materiales entrantes  
-- control durante la producción  
-- pruebas finales del producto  
-- gestión de productos defectuosos  
+- inspección de materiales entrantes
+- control durante la producción
+- pruebas finales del producto
+- gestión de productos defectuosos
 
 💡 Pregunta clave:  
 ¿Qué hacen cuando encuentran productos con fallos?
@@ -108,10 +106,10 @@ En proyectos OEM y ODM, esto es muy importante.
 
 Se analiza si la fábrica tiene:
 
-- ingenieros propios  
-- capacidad de personalizar productos  
-- desarrollo de moldes  
-- mejoras de diseño  
+- ingenieros propios
+- capacidad de personalizar productos
+- desarrollo de moldes
+- mejoras de diseño
 
 Esto es clave para marcas privadas.
 
@@ -123,10 +121,10 @@ No todo es maquinaria.
 
 También importa:
 
-- número de trabajadores  
-- organización interna  
-- estabilidad del equipo  
-- turnos de producción  
+- número de trabajadores
+- organización interna
+- estabilidad del equipo
+- turnos de producción
 
 Una fábrica estable suele ofrecer resultados más consistentes.
 
@@ -138,10 +136,10 @@ No todas las fábricas están preparadas para mercados internacionales.
 
 Debes confirmar:
 
-- experiencia en Europa o Latinoamérica  
-- conocimiento de normas internacionales  
-- clientes extranjeros reales  
-- manejo de documentación de exportación  
+- experiencia en Europa o Latinoamérica
+- conocimiento de normas internacionales
+- clientes extranjeros reales
+- manejo de documentación de exportación
 
 ---
 
@@ -151,10 +149,10 @@ Cada vez más compradores lo revisan.
 
 Se evalúa:
 
-- condiciones de trabajo  
-- seguridad en la fábrica  
-- cumplimiento básico de normas laborales  
-- entorno de producción  
+- condiciones de trabajo
+- seguridad en la fábrica
+- cumplimiento básico de normas laborales
+- entorno de producción
 
 ---
 
@@ -164,9 +162,9 @@ Si no puedes viajar a China, puedes contratar empresas externas.
 
 Por ejemplo:
 
-- SGS  
-- TÜV  
-- Intertek  
+- SGS
+- TÜV
+- Intertek
 
 Estas empresas ofrecen una visión independiente de la fábrica.
 
@@ -177,34 +175,39 @@ Estas empresas ofrecen una visión independiente de la fábrica.
 Antes de firmar contrato, revisa:
 
 ### Legal
-- empresa registrada  
-- licencia válida  
+
+- empresa registrada
+- licencia válida
 
 ### Producción
-- capacidad real  
-- maquinaria operativa  
+
+- capacidad real
+- maquinaria operativa
 
 ### Calidad
-- sistema de control interno  
-- pruebas de producto  
+
+- sistema de control interno
+- pruebas de producto
 
 ### Exportación
-- experiencia internacional  
-- documentos de exportación  
+
+- experiencia internacional
+- documentos de exportación
 
 ### Condiciones generales
-- organización de la fábrica  
-- estabilidad del equipo  
+
+- organización de la fábrica
+- estabilidad del equipo
 
 ---
 
 ## Errores comunes de los compradores
 
-- confiar solo en fotos o catálogo  
-- no visitar la fábrica  
-- no verificar capacidad real  
-- no revisar experiencia de exportación  
-- ahorrar en auditoría y perder en producción  
+- confiar solo en fotos o catálogo
+- no visitar la fábrica
+- no verificar capacidad real
+- no revisar experiencia de exportación
+- ahorrar en auditoría y perder en producción
 
 ---
 
@@ -214,10 +217,10 @@ Una auditoría de fábrica no es un gasto, es una protección.
 
 Te ayuda a:
 
-- evitar proveedores poco confiables  
-- asegurar calidad estable  
-- reducir riesgos en la cadena de suministro  
-- proteger tu inversión  
+- evitar proveedores poco confiables
+- asegurar calidad estable
+- reducir riesgos en la cadena de suministro
+- proteger tu inversión
 
 Antes de firmar un contrato, recuerda esto:
 

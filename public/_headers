@@ -1,2 +1,44 @@
+# ============================================================
+# YOLEC Electric — Headers (Cloudflare Pages / Netlify)
+# ============================================================
+
+# Recursos estáticos del build de Astro: cacheo inmutable de 1 año
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Fuentes y favicones (larga duración)
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+/*.ico
+  Cache-Control: public, max-age=604800
+/*.svg
+  Cache-Control: public, max-age=604800
+
+# Imágenes optimizadas y assets públicos (1 semana)
+/images/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
+# HTML: corta duración, debe revalidarse para que cambios se propaguen rápido
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Sitemap y robots: baja duración para que buscadores vean cambios rápido
+/sitemap-index.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+/sitemap-*.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+/robots.txt
+  Cache-Control: public, max-age=3600, must-revalidate
+/rss.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# ============================================================
+# Cabeceras de seguridad básicas (no afectan a renderizado Astro)
+# ============================================================
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=()

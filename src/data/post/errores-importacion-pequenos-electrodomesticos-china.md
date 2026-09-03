@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-07-14T08:00:00Z
-title: "10 errores que debes evitar al importar pequeños electrodomésticos desde China"
+title: '10 errores que debes evitar al importar pequeños electrodomésticos desde China'
 description: Descubre los errores más comunes al importar pequeños electrodomésticos desde China y aprende cómo elegir un proveedor confiable, controlar la calidad, verificar certificaciones y reducir riesgos en compras B2B.
 excerpt: Muchos importadores pierden tiempo y dinero por errores antes y durante la compra. Esta guía explica los principales problemas al importar pequeños electrodomésticos desde China y cómo evitarlos con un proceso de compra profesional.
 image: /images/blog/12.jpg
-author: "Adrian"
-category: "Importación China"
+author: 'Adrian'
+category: 'Importación China'
 tags:
   - importar pequeños electrodomésticos desde China
   - proveedor chino
@@ -14,8 +14,6 @@ tags:
   - control de calidad China
   - importación desde China
   - riesgos de proveedores
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -403,6 +401,6 @@ Si buscas un fabricante chino para desarrollar productos de cocina:
 [Fabricante chino de pequeños electrodomésticos OEM](https://www.yolec-electronics.com/)
 
 📧 adrian@yolec-electronics.com  
-📱 WhatsApp: +86 13922332584  
+📱 WhatsApp: +86 13922332584
 
 SGS Certified Factory | No. 483515034-P+T

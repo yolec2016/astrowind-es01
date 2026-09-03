@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-07-24T08:30:00Z
-title: "¿Qué debe ofrecer un proveedor profesional de hervidores eléctricos?"
-description: "Guía práctica para compradores B2B que buscan un proveedor profesional de hervidores eléctricos. Aprende cómo evaluar fabricantes chinos según calidad, capacidad OEM, certificaciones, tiempos de entrega y soporte antes de realizar una compra."
-excerpt: "Elegir un proveedor de hervidores eléctricos va mucho más allá de comparar precios. Descubre los criterios que utilizan los compradores profesionales para evaluar fabricantes y reducir riesgos en la importación."
+title: '¿Qué debe ofrecer un proveedor profesional de hervidores eléctricos?'
+description: 'Guía práctica para compradores B2B que buscan un proveedor profesional de hervidores eléctricos. Aprende cómo evaluar fabricantes chinos según calidad, capacidad OEM, certificaciones, tiempos de entrega y soporte antes de realizar una compra.'
+excerpt: 'Elegir un proveedor de hervidores eléctricos va mucho más allá de comparar precios. Descubre los criterios que utilizan los compradores profesionales para evaluar fabricantes y reducir riesgos en la importación.'
 image: /images/blog/21.jpg
-author: "Adrian"
-category: "Proveedores B2B"
+author: 'Adrian'
+category: 'Proveedores B2B'
 tags:
   - proveedor de hervidores eléctricos
   - fabricante de hervidores eléctricos China
@@ -13,8 +13,6 @@ tags:
   - importar electrodomésticos
   - compras B2B
   - pequeños electrodomésticos
-metadata:
-  canonical: "https://www.yolec-electronics.com/"
 robots: index, follow
 ---
 

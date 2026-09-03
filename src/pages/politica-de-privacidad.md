@@ -149,6 +149,6 @@ La versión actualizada se publicará en esta página.
 
 Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos:
 
-- Email: adrian@yolec-electronics.com  
-- WhatsApp: +86 13922332584  
-- Website: https://www.yolec-electronics.com  
+- Email: adrian@yolec-electronics.com
+- WhatsApp: +86 13922332584
+- Website: https://www.yolec-electronics.com

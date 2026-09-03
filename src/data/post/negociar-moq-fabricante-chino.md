@@ -13,8 +13,6 @@ tags:
   - negociación proveedores
   - importación China
   - pequeños electrodomésticos
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -52,10 +50,10 @@ Por eso no tiene sentido producir pocas unidades.
 
 Las fábricas compran materiales en volumen:
 
-- acero inoxidable  
-- plásticos  
-- componentes eléctricos  
-- resistencias de calentamiento  
+- acero inoxidable
+- plásticos
+- componentes eléctricos
+- resistencias de calentamiento
 
 Si el pedido es pequeño, el coste por unidad sube mucho.
 
@@ -67,10 +65,10 @@ Las líneas de producción no se cambian por pocas unidades.
 
 Una fábrica organiza su producción por lotes:
 
-- preparación de línea  
-- ensamblaje  
-- pruebas  
-- empaquetado  
+- preparación de línea
+- ensamblaje
+- pruebas
+- empaquetado
 
 Cambiar todo eso para un pedido pequeño no es eficiente.
 
@@ -80,10 +78,10 @@ Cambiar todo eso para un pedido pequeño no es eficiente.
 
 El embalaje también tiene MOQ:
 
-- cajas impresas  
-- manuales  
-- etiquetas  
-- accesorios incluidos  
+- cajas impresas
+- manuales
+- etiquetas
+- accesorios incluidos
 
 Si el volumen es bajo, el coste se dispara.
 
@@ -111,9 +109,9 @@ No se trata de pedir “bajar MOQ”, sino de ajustar estructura.
 
 En lugar de pedir un solo modelo:
 
-- puedes combinar varios hervidores eléctricos  
-- o mezclar colores de una misma serie  
-- o incluir diferentes capacidades de producto  
+- puedes combinar varios hervidores eléctricos
+- o mezclar colores de una misma serie
+- o incluir diferentes capacidades de producto
 
 Esto ayuda a mantener volumen total.
 
@@ -125,9 +123,9 @@ El packaging personalizado aumenta el MOQ.
 
 Una estrategia común es:
 
-- usar caja neutra  
-- reducir impresión personalizada  
-- simplificar manuales  
+- usar caja neutra
+- reducir impresión personalizada
+- simplificar manuales
 
 Esto reduce presión de producción.
 
@@ -141,9 +139,9 @@ Una de las estrategias más efectivas:
 
 Por ejemplo:
 
-- primer pedido pequeño  
-- segundo pedido planificado  
-- crecimiento progresivo  
+- primer pedido pequeño
+- segundo pedido planificado
+- crecimiento progresivo
 
 Esto da seguridad a la fábrica.
 
@@ -153,7 +151,7 @@ Esto da seguridad a la fábrica.
 
 En lugar de 1 modelo x 2000 unidades:
 
-- 4 modelos x 500 unidades  
+- 4 modelos x 500 unidades
 
 Esto mantiene eficiencia de producción.
 
@@ -163,9 +161,9 @@ Esto mantiene eficiencia de producción.
 
 Los productos ya desarrollados tienen MOQ más bajo porque:
 
-- no requieren moldes nuevos  
-- ya tienen proceso estable  
-- materiales ya definidos  
+- no requieren moldes nuevos
+- ya tienen proceso estable
+- materiales ya definidos
 
 ---
 
@@ -175,7 +173,7 @@ Los productos ya desarrollados tienen MOQ más bajo porque:
 ❌ comparar fábricas sin entender su estructura de costos  
 ❌ pedir personalización con MOQ bajo  
 ❌ cambiar especificaciones constantemente  
-❌ no planificar crecimiento del pedido  
+❌ no planificar crecimiento del pedido
 
 ---
 
@@ -197,9 +195,9 @@ El objetivo no es solo bajar MOQ.
 
 Es encontrar un punto donde:
 
-- tú puedes empezar sin sobreinvertir  
-- la fábrica no pierde dinero  
-- el producto sigue siendo estable  
+- tú puedes empezar sin sobreinvertir
+- la fábrica no pierde dinero
+- el producto sigue siendo estable
 
 ---
 

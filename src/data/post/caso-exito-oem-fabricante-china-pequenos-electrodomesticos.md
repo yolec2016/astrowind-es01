@@ -1,11 +1,11 @@
 ---
 publishDate: 2026-07-18T18:00:00Z
-title: "Caso práctico: cómo una marca desarrolló una línea completa de pequeños electrodomésticos mediante OEM"
-description: "Descubre cómo una marca internacional creó una nueva línea de pequeños electrodomésticos trabajando con un fabricante OEM en China. Explicamos el proceso completo: selección del proveedor, desarrollo de productos, muestras, certificaciones, producción y lanzamiento al mercado."
-excerpt: "Muchas marcas quieren lanzar sus propios electrodomésticos, pero no cuentan con fábrica propia. Este caso práctico muestra cómo un proyecto OEM con un fabricante chino puede reducir riesgos y acelerar la entrada al mercado."
+title: 'Caso práctico: cómo una marca desarrolló una línea completa de pequeños electrodomésticos mediante OEM'
+description: 'Descubre cómo una marca internacional creó una nueva línea de pequeños electrodomésticos trabajando con un fabricante OEM en China. Explicamos el proceso completo: selección del proveedor, desarrollo de productos, muestras, certificaciones, producción y lanzamiento al mercado.'
+excerpt: 'Muchas marcas quieren lanzar sus propios electrodomésticos, pero no cuentan con fábrica propia. Este caso práctico muestra cómo un proyecto OEM con un fabricante chino puede reducir riesgos y acelerar la entrada al mercado.'
 image: /images/blog/15.jpg
-author: "Adrian"
-category: "OEM ODM China"
+author: 'Adrian'
+category: 'OEM ODM China'
 tags:
   - fabricante OEM China
   - pequeños electrodomésticos OEM
@@ -13,8 +13,6 @@ tags:
   - marca propia electrodomésticos
   - desarrollo productos China
   - fábrica China electrodomésticos
-metadata:
-  canonical: "https://www.yolec-electronics.com/"
 ---
 
 ## Cómo una marca creó su propia línea de pequeños electrodomésticos con un fabricante OEM en China

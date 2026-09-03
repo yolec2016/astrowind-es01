@@ -13,8 +13,6 @@ tags:
   - cadena de suministro
   - logística internacional
   - pequeños electrodomésticos
-metadata:
-  canonical: https://www.yolec-electronics.com/
 robots: index, follow
 ---
 
@@ -51,11 +49,11 @@ El tiempo de producción en China cambia según varios factores al mismo tiempo.
 
 Antes de producir, la fábrica necesita materiales:
 
-- acero inoxidable  
-- plásticos  
-- componentes eléctricos  
-- resistencias  
-- cables y conectores  
+- acero inoxidable
+- plásticos
+- componentes eléctricos
+- resistencias
+- cables y conectores
 
 Si el material no está en stock, la producción no empieza.
 
@@ -69,10 +67,10 @@ Las fábricas no producen un solo pedido a la vez.
 
 Organizan la producción como una agenda:
 
-- pedidos grandes primero  
-- pedidos confirmados con anticipo  
-- clientes recurrentes  
-- pedidos OEM personalizados  
+- pedidos grandes primero
+- pedidos confirmados con anticipo
+- clientes recurrentes
+- pedidos OEM personalizados
 
 Si llegas tarde en la cola, tu producción se mueve.
 
@@ -82,9 +80,9 @@ Si llegas tarde en la cola, tu producción se mueve.
 
 En China hay momentos donde todo se retrasa:
 
-- antes del Año Nuevo Chino  
-- campañas de verano (electrodomésticos de cocina)  
-- picos de exportación en Q3 y Q4  
+- antes del Año Nuevo Chino
+- campañas de verano (electrodomésticos de cocina)
+- picos de exportación en Q3 y Q4
 
 En esos periodos, los tiempos pueden duplicarse fácilmente.
 
@@ -96,10 +94,10 @@ No es lo mismo pedir un producto estándar que uno personalizado.
 
 Por ejemplo:
 
-- color especial  
-- logo de marca  
-- cambios en materiales  
-- nuevo molde o diseño  
+- color especial
+- logo de marca
+- cambios en materiales
+- nuevo molde o diseño
 
 Cuanta más personalización, más tiempo de producción.
 
@@ -111,10 +109,10 @@ La producción no es solo ensamblar.
 
 Incluye:
 
-- inspección de materiales  
-- pruebas durante la producción  
-- control del producto terminado  
-- revisión antes del envío  
+- inspección de materiales
+- pruebas durante la producción
+- control del producto terminado
+- revisión antes del envío
 
 Cada etapa añade tiempo, pero también reduce riesgos.
 
@@ -124,10 +122,10 @@ Cada etapa añade tiempo, pero también reduce riesgos.
 
 Antes de salir de la fábrica:
 
-- embalaje  
-- etiquetado  
-- revisión de cantidades  
-- carga en contenedor  
+- embalaje
+- etiquetado
+- revisión de cantidades
+- carga en contenedor
 
 Esto también forma parte del tiempo total.
 
@@ -137,9 +135,9 @@ Esto también forma parte del tiempo total.
 
 Depende del producto, pero en pequeños electrodomésticos suele variar:
 
-- productos estándar: 20–30 días  
-- pedidos OEM con marca: 30–45 días  
-- proyectos personalizados: 45–60 días o más  
+- productos estándar: 20–30 días
+- pedidos OEM con marca: 30–45 días
+- proyectos personalizados: 45–60 días o más
 
 💡 Y esto sin contar el transporte internacional.
 
@@ -159,8 +157,8 @@ Compran con planificación.
 
 Lo ideal es trabajar con previsión:
 
-- 2 a 3 meses de antelación para pedidos estándar  
-- 3 a 4 meses para productos personalizados  
+- 2 a 3 meses de antelación para pedidos estándar
+- 3 a 4 meses para productos personalizados
 
 Esto evita urgencias y sobrecostes.
 
@@ -174,8 +172,8 @@ Un concepto clave en importación:
 
 Ejemplo:
 
-- ventas mensuales: 1.000 unidades  
-- stock de seguridad: 1–1,5 meses  
+- ventas mensuales: 1.000 unidades
+- stock de seguridad: 1–1,5 meses
 
 Esto protege contra retrasos logísticos o producción.
 
@@ -187,9 +185,9 @@ No esperar al último momento.
 
 Los compradores profesionales:
 
-- reservan producción  
-- confirman pedidos antes de temporada alta  
-- negocian calendario con fábrica  
+- reservan producción
+- confirman pedidos antes de temporada alta
+- negocian calendario con fábrica
 
 ---
 
@@ -199,9 +197,9 @@ El tiempo de producción no es todo.
 
 También hay que sumar:
 
-- transporte marítimo  
-- despacho de aduanas  
-- entrega final  
+- transporte marítimo
+- despacho de aduanas
+- entrega final
 
 Muchos problemas de stock no vienen de la fábrica, sino de la logística.
 
@@ -213,7 +211,7 @@ Muchos problemas de stock no vienen de la fábrica, sino de la logística.
 ❌ no considerar temporada alta en China  
 ❌ no confirmar materiales con anticipación  
 ❌ no tener stock de seguridad  
-❌ calcular solo producción, no logística total  
+❌ calcular solo producción, no logística total
 
 ---
 
@@ -221,10 +219,10 @@ Muchos problemas de stock no vienen de la fábrica, sino de la logística.
 
 Desde el lado del fabricante, todo es programación:
 
-- capacidad diaria de producción  
-- uso de líneas de ensamblaje  
-- disponibilidad de materiales  
-- calendario de exportación  
+- capacidad diaria de producción
+- uso de líneas de ensamblaje
+- disponibilidad de materiales
+- calendario de exportación
 
 Por eso, cuando un cliente planifica bien, todo fluye mejor.
 

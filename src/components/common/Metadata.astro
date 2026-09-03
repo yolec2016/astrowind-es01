@@ -108,23 +108,88 @@ const seoProps: SEOProps = {
   twitter: mergedTwitter,
   surpressWarnings: true,
 };
+
+// === Structured data: Organization + WebSite (rendered on every page) ===
+const siteUrl = String(SITE?.site || '').replace(/\/$/, '');
+const organizationId = `${siteUrl}/#organization`;
+
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': organizationId,
+  name: SITE?.name || 'YOLEC Electric',
+  url: siteUrl,
+  logo: `${siteUrl}/images/logo.png`,
+  image: `${siteUrl}/images/logo.png`,
+  description:
+    'Fabricante OEM y ODM de pequeños electrodomésticos en China. Hervidores eléctricos, arroceras, ollas a presión, fiambreras eléctricas y batidoras de mano para importadores, distribuidores y marcas privadas.',
+  foundingDate: '2015',
+  email: 'adrian@yolec-electronics.com',
+  telephone: '+86-139-2233-2584',
+  foundingLocation: {
+    '@type': 'Place',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'No.411 Dongfu Road, Dongfeng Town',
+      addressLocality: 'Zhongshan City',
+      addressRegion: 'Guangdong',
+      addressCountry: 'CN',
+    },
+  },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'No.411 Dongfu Road, Dongfeng Town',
+    addressLocality: 'Zhongshan City',
+    addressRegion: 'Guangdong',
+    addressCountry: 'CN',
+  },
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      email: 'adrian@yolec-electronics.com',
+      telephone: '+86-139-2233-2584',
+      areaServed: ['ES', 'EU', 'MX', 'AR', 'CO', 'CL', 'PE', 'BR', 'US'],
+      availableLanguage: ['Spanish', 'English', 'Chinese'],
+    },
+  ],
+  knowsAbout: [
+    'OEM manufacturing',
+    'ODM manufacturing',
+    'small household appliances',
+    'electric kettles',
+    'gooseneck kettles',
+    'rice cookers',
+    'electric pressure cookers',
+    'electric lunch boxes',
+    'hand blenders',
+    'private label',
+    'quality control',
+    'CE certification',
+    'CB certification',
+    'RoHS certification',
+    'LFGB',
+  ],
+  sameAs: [
+    'https://www.linkedin.com/in/adrian2010/',
+    'https://www.youtube.com/@yolec-electric-adrian',
+    'https://www.facebook.com/people/Yolec-Electric/61590792321803/',
+    'https://www.yolec-electronics.com/',
+  ],
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${siteUrl}/#website`,
+  url: siteUrl,
+  name: SITE?.name || 'YOLEC Electric',
+  description: METADATA?.description || '',
+  inLanguage: I18N?.language || 'es',
+  publisher: { '@id': organizationId },
+};
 ---
 
 <SEO {...seoProps} />
-<script type="application/ld+json" set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "YOLEC Electric",
-  "url": "https://oemkitchenchina.xyz",
-  "logo": "https://oemkitchenchina.xyz/images/logo.png",
-  "description": "Fabricante OEM y ODM de pequeños electrodomésticos en China.",
-  "foundingDate": "2015",
-  "email": "adrian@yolec-electronics.com",
-  "telephone": "+86 13922332584",
-  "sameAs": [
-    "https://www.linkedin.com/in/adrian2010/",
-    "https://www.youtube.com/@yolec-electric-adrian",
-    "https://www.facebook.com/people/Yolec-Electric/61590792321803/",
-    "https://www.yolec-electronics.com/"
-  ]
-})} />
+<script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
