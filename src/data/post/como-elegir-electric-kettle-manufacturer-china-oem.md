@@ -281,7 +281,7 @@ Trabajamos con importadores y marcas privadas que necesitan productos personaliz
 
 Más información sobre nuestra fábrica:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 Proceso de producción:
 

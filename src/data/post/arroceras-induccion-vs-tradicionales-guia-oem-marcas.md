@@ -303,7 +303,7 @@ Ayudamos a importadores, distribuidores y marcas privadas a desarrollar producto
 
 Más información sobre nuestra capacidad OEM:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de arroceras eléctricas](/electric-rice-cooker-manufacturer)
 
 También puede conocer nuestro proceso de fabricación:
 

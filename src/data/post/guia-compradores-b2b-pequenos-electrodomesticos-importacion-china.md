@@ -325,7 +325,7 @@ Un buen proveedor puede convertirse en una ventaja competitiva.
 
 Cuando un comprador busca un proveedor, es útil revisar fabricantes especializados.
 
-Por ejemplo, [Yolec Electric](https://www.yolec-electronics.com/) trabaja con importadores y marcas privadas internacionales en proyectos OEM y ODM.
+Por ejemplo, [Yolec Electric](/oem-odm) trabaja con importadores y marcas privadas internacionales en proyectos OEM y ODM.
 
 La fábrica produce:
 
@@ -410,7 +410,7 @@ Es encontrar un socio de fabricación que pueda apoyar el crecimiento del negoci
 
 Si buscas desarrollar productos para tu marca:
 
-https://www.yolec-electronics.com/
+[Mire nuestros servicios OEM y ODM de pequeños electrodomésticos](/oem-odm)
 
 Email: adrian@yolec-electronics.com
 

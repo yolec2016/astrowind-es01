@@ -294,7 +294,7 @@ Una relación OEM a largo plazo genera mejores resultados.
 
 ## Ejemplo de fabricante OEM de pequeños electrodomésticos en China
 
-[Yolec Electric](https://www.yolec-electronics.com/) es un fabricante chino especializado en proyectos OEM y ODM para clientes internacionales.
+[Yolec Electric](/oem-odm) es un fabricante chino especializado en proyectos OEM y ODM para clientes internacionales.
 
 La fábrica desarrolla productos como:
 
@@ -357,7 +357,7 @@ Es encontrar un socio de fabricación capaz de crecer junto con tu marca.
 
 Si buscas un fabricante para desarrollar productos OEM y ODM:
 
-https://www.yolec-electronics.com/
+[Mire nuestros servicios OEM y ODM de pequeños electrodomésticos](/oem-odm)
 
 Email: adrian@yolec-electronics.com
 

@@ -283,7 +283,7 @@ Cuando una empresa busca un proveedor chino, es importante revisar información 
 - capacidad de fabricación;
 - procesos de calidad.
 
-[Yolec Electric](https://www.yolec-electronics.com/) es un fabricante chino especializado en pequeños electrodomésticos OEM y ODM.
+[Yolec Electric](/electric-kettle-manufacturer) es un fabricante chino especializado en pequeños electrodomésticos OEM y ODM.
 
 La fábrica desarrolla productos como:
 
@@ -356,7 +356,7 @@ Es encontrar un socio de fabricación que pueda ayudarte a desarrollar productos
 
 Si buscas desarrollar tu propia línea de hervidores eléctricos:
 
-https://www.yolec-electronics.com/
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 Email:
 adrian@yolec-electronics.com

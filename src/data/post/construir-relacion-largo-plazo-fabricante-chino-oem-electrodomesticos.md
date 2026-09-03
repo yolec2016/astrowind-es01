@@ -261,7 +261,7 @@ Cuando un comprador busca un socio de fabricación, es recomendable revisar info
 - experiencia exportadora;
 - procesos internos.
 
-Por ejemplo, [Yolec Electric](https://www.yolec-electronics.com/) es un fabricante chino especializado en pequeños electrodomésticos para proyectos OEM y ODM.
+Por ejemplo, [Yolec Electric](/oem-odm) es un fabricante chino especializado en pequeños electrodomésticos para proyectos OEM y ODM.
 
 Su gama de productos incluye:
 
@@ -344,7 +344,7 @@ Es encontrar un socio de fabricación que pueda acompañar el crecimiento de tu 
 
 Si estás buscando un fabricante para desarrollar productos de cocina y pequeños electrodomésticos:
 
-https://www.yolec-electronics.com/
+[Mire nuestros servicios OEM y ODM de pequeños electrodomésticos](/oem-odm)
 
 Email: adrian@yolec-electronics.com
 

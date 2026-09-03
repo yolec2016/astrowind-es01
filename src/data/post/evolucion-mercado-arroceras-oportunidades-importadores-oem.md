@@ -319,7 +319,7 @@ Desde 2016, nuestra fábrica trabaja con clientes internacionales y cuenta con:
 
 Para conocer más sobre nuestra capacidad de fabricación:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de arroceras eléctricas](/electric-rice-cooker-manufacturer)
 
 También puede ver nuestro proceso de producción:
 

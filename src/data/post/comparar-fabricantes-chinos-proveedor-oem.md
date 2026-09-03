@@ -279,7 +279,7 @@ También pueden conocer más sobre el equipo y actualizaciones profesionales med
 
 Para proyectos OEM y ODM, trabajar directamente con una fábrica especializada puede reducir muchos riesgos.
 
-[Yolec Electric](https://www.yolec-electronics.com/) es un fabricante chino de pequeños electrodomésticos enfocado en clientes internacionales.
+[Yolec Electric](/oem-odm) es un fabricante chino de pequeños electrodomésticos enfocado en clientes internacionales.
 
 La fábrica desarrolla y produce:
 
@@ -319,7 +319,7 @@ Es el fabricante que puede convertirse en un socio confiable durante los próxim
 
 Si estás buscando un fabricante para proyectos OEM o ODM:
 
-https://www.yolec-electronics.com/
+[Mire nuestros servicios OEM y ODM de pequeños electrodomésticos](/oem-odm)
 
 Email: adrian@yolec-electronics.com
 

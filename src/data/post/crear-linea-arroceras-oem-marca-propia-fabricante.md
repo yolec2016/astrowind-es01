@@ -283,7 +283,7 @@ Ayudamos a nuestros clientes con:
 
 Puede conocer más sobre nuestra fábrica:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de arroceras eléctricas](/electric-rice-cooker-manufacturer)
 
 También puede ver nuestros procesos reales de producción:
 

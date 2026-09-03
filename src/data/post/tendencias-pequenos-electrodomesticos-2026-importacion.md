@@ -316,7 +316,7 @@ También debe poder ayudarte a desarrollar nuevas oportunidades.
 
 Para los importadores que buscan un **fabricante chino de pequeños electrodomésticos**, trabajar directamente con una fábrica con experiencia puede ayudar a reducir riesgos y mejorar la estabilidad del suministro.
 
-[Yolec Electric](https://www.yolec-electronics.com/) es un fabricante especializado en pequeños electrodomésticos de cocina, incluyendo:
+[Yolec Electric](/oem-odm) es un fabricante especializado en pequeños electrodomésticos de cocina, incluyendo:
 
 - hervidores eléctricos
 - hervidores de cuello de cisne
@@ -353,7 +353,7 @@ Las empresas que analicen hoy las tendencias del mercado tendrán una ventaja pa
 
 Si buscas un proveedor chino para desarrollar productos de cocina competitivos:
 
-🌐 [Fabricante chino de pequeños electrodomésticos OEM](https://www.yolec-electronics.com/)  
+🌐 [Fabricante chino de pequeños electrodomésticos OEM](/oem-odm)  
 📧 adrian@yolec-electronics.com  
 📱 WhatsApp: +86 13922332584
 

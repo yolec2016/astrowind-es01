@@ -366,7 +366,7 @@ Antes de una relación a largo plazo, es recomendable revisar:
 
 Para los importadores que buscan un **fabricante chino de pequeños electrodomésticos confiable**, trabajar con una fábrica con experiencia OEM puede ayudar a reducir riesgos y mejorar la estabilidad del suministro.
 
-[Yolec Electric](https://www.yolec-electronics.com/) es un fabricante especializado en pequeños electrodomésticos, incluyendo:
+[Yolec Electric](/electric-pressure-cooker-manufacturer) es un fabricante especializado en pequeños electrodomésticos, incluyendo:
 
 - hervidores eléctricos
 - hervidores de cuello de cisne
@@ -404,7 +404,7 @@ Es un socio estratégico para el futuro.
 
 Si buscas un proveedor chino para proyectos OEM y ODM a largo plazo:
 
-🌐 [Fabricante chino de pequeños electrodomésticos OEM](https://www.yolec-electronics.com/)  
+🌐 [Fabricante chino de pequeños electrodomésticos OEM](/electric-pressure-cooker-manufacturer)  
 📧 adrian@yolec-electronics.com  
 📱 WhatsApp: +86 13922332584  
 💼 [LinkedIn Adrian - Yolec Electric](https://www.linkedin.com/in/adrian2010/)  

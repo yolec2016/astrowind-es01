@@ -233,7 +233,7 @@ Contamos con experiencia exportando a mercados internacionales y disponemos de c
 
 Puede conocer más sobre nuestra capacidad de fabricación OEM y nuestros productos en nuestro sitio oficial:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 También puede ver nuestros procesos de producción y desarrollo de productos:
 

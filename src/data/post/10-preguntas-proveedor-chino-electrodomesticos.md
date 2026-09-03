@@ -358,7 +358,7 @@ La parte importante es encontrar un fabricante que pueda ofrecer:
 - capacidad de desarrollo
 - experiencia exportadora
 
-Por ejemplo, [Yolec Electric](https://www.yolec-electronics.com/) es un fabricante chino especializado en pequeños electrodomésticos, incluyendo hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, lunch boxes y batidoras de mano.
+Por ejemplo, [Yolec Electric](/oem-odm) es un fabricante chino especializado en pequeños electrodomésticos, incluyendo hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, lunch boxes y batidoras de mano.
 
 La fábrica cuenta con talleres propios de estampación metálica e inyección de plástico, líneas de producción, departamento de control de calidad y experiencia en proyectos OEM para mercados internacionales.
 
@@ -387,7 +387,7 @@ Antes de realizar tu próximo pedido, asegúrate de hacer las preguntas correcta
 
 Si buscas un socio de fabricación para proyectos OEM y ODM:
 
-🌐 [Fabricante chino de pequeños electrodomésticos OEM](https://www.yolec-electronics.com/)  
+🌐 [Fabricante chino de pequeños electrodomésticos OEM](/oem-odm)  
 📧 adrian@yolec-electronics.com  
 📱 WhatsApp: +86 13922332584  
 💼 [LinkedIn Adrian - Yolec Electric](https://www.linkedin.com/in/adrian2010/)  

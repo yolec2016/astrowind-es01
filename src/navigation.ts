@@ -11,27 +11,23 @@ export const headerData = {
       links: [
         {
           text: 'Hervidores Eléctricos',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/electric-water-kettle/'),
+          href: getPermalink('/electric-kettle-manufacturer'),
         },
         {
           text: 'Hervidores de Cuello de Cisne',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/electric-coffee-kettle/'),
+          href: getPermalink('/gooseneck-kettle-manufacturer'),
         },
         {
           text: 'Arroceras Eléctricas',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/multi-cooker/'),
+          href: getPermalink('/electric-rice-cooker-manufacturer'),
         },
         {
           text: 'Ollas a Presión Eléctricas',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/pressure-cooker/'),
+          href: getPermalink('/electric-pressure-cooker-manufacturer'),
         },
         {
           text: 'Fiambreras Eléctricas',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/electric-lunch-box/'),
-        },
-        {
-          text: 'Batidoras de Mano',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/breakfast-machine/'),
+          href: getPermalink('/electric-lunch-box-manufacturer'),
         },
       ],
     },
@@ -86,27 +82,23 @@ export const footerData = {
       links: [
         {
           text: 'Hervidores Eléctricos',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/electric-water-kettle/'),
+          href: getPermalink('/electric-kettle-manufacturer'),
         },
         {
           text: 'Hervidores de Cuello de Cisne',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/electric-coffee-kettle/'),
+          href: getPermalink('/gooseneck-kettle-manufacturer'),
         },
         {
           text: 'Arroceras Eléctricas',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/multi-cooker/'),
+          href: getPermalink('/electric-rice-cooker-manufacturer'),
         },
         {
           text: 'Ollas a Presión Eléctricas',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/pressure-cooker/'),
+          href: getPermalink('/electric-pressure-cooker-manufacturer'),
         },
         {
           text: 'Fiambreras Eléctricas',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/electric-lunch-box/'),
-        },
-        {
-          text: 'Batidoras de Mano',
-          href: getPermalink('https://www.yolec-electronics.com/product-category/breakfast-machine/'),
+          href: getPermalink('/electric-lunch-box-manufacturer'),
         },
       ],
     },

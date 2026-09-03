@@ -448,7 +448,7 @@ Después será mucho más fácil calcular MOQ, coste y plazo de producción.
 
 Puedes conocer más sobre Yolec Electric en:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de fiambreras eléctricas](/electric-lunch-box-manufacturer)
 
 También puedes ver vídeos de producción y productos en nuestro canal de YouTube:
 

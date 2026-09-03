@@ -7,9 +7,21 @@ const metadata = {
     'Fabricante OEM y ODM de hervidores eléctricos en China. Producción directa de fábrica con control de calidad, certificados CE y CB, y personalización de marca privada para importadores.',
   ignoreTitleTemplate: true,
 };
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Hervidores eléctricos OEM/ODM',
+  description: metadata.description,
+  image: 'https://oemkitchenchina.xyz/images/blog/47.jpg',
+  brand: { '@type': 'Brand', name: 'YOLEC Electric' },
+  manufacturer: { '@type': 'Organization', name: 'YOLEC Electric' },
+  category: 'Electric Kettles',
+};
 ---
 
 <Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
   <!-- =========================================================
        HERO
   ========================================================== -->
@@ -27,7 +39,7 @@ const metadata = {
           </div>
 
           <h1 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
-            Electric Kettle Manufacturer
+            Fabricante de Hervidores Eléctricos OEM
             <span class="block text-accent"> en China </span>
           </h1>
 

@@ -350,7 +350,7 @@ Antes de firmar una cooperación, un comprador B2B debería revisar:
 - claridad;
 - seguimiento.
 
-Por ejemplo, al evaluar un fabricante como referencia, los compradores pueden revisar la información de [Yolec Electric](https://www.yolec-electronics.com/), fabricante chino especializado en pequeños electrodomésticos OEM y ODM.
+Por ejemplo, al evaluar un fabricante como referencia, los compradores pueden revisar la información de [Yolec Electric](/electric-kettle-manufacturer), fabricante chino especializado en pequeños electrodomésticos OEM y ODM.
 
 La empresa trabaja con productos como:
 
@@ -408,7 +408,7 @@ Es encontrar un socio de fabricación que pueda acompañar el crecimiento de tu 
 
 Si estás buscando desarrollar una línea propia de hervidores eléctricos:
 
-https://www.yolec-electronics.com/
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 Email: adrian@yolec-electronics.com
 

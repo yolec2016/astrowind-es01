@@ -286,7 +286,7 @@ Un fabricante con experiencia puede ayudar a:
 - desarrollar nuevas categorías;
 - planificar compras.
 
-Por ejemplo, [Yolec Electric](https://www.yolec-electronics.com/) trabaja con clientes internacionales en proyectos OEM y ODM de pequeños electrodomésticos.
+Por ejemplo, [Yolec Electric](/electric-kettle-manufacturer) trabaja con clientes internacionales en proyectos OEM y ODM de pequeños electrodomésticos.
 
 La fábrica desarrolla productos como:
 
@@ -350,7 +350,7 @@ También ayuda a construir una marca más competitiva y una cadena de suministro
 
 Si buscas desarrollar productos para cafeterías, distribuidores o marcas de café:
 
-https://www.yolec-electronics.com/
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 Email:
 

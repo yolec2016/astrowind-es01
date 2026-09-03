@@ -305,7 +305,7 @@ Contamos con experiencia exportando a mercados internacionales y trabajamos con 
 
 Puede conocer más sobre nuestra capacidad OEM:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de hervidores de cuello de cisne](/gooseneck-kettle-manufacturer)
 
 También puede ver nuestros procesos de fabricación:
 

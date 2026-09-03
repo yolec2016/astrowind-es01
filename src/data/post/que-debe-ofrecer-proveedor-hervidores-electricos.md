@@ -298,7 +298,7 @@ Cuando un comprador analiza un proveedor chino, es recomendable revisar informac
 - capacidad;
 - experiencia.
 
-Por ejemplo, [Yolec Electric](https://www.yolec-electronics.com/) es un fabricante especializado en pequeños electrodomésticos OEM y ODM.
+Por ejemplo, [Yolec Electric](/electric-kettle-manufacturer) es un fabricante especializado en pequeños electrodomésticos OEM y ODM.
 
 Su línea de productos incluye:
 
@@ -365,7 +365,7 @@ El objetivo es construir una cadena de suministro estable que permita crecer en 
 
 Si estás buscando un fabricante para desarrollar tu propia línea de hervidores eléctricos:
 
-https://www.yolec-electronics.com/
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 Email: adrian@yolec-electronics.com
 

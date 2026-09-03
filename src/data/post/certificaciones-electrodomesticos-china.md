@@ -236,7 +236,7 @@ La pregunta correcta es:
 
 ## Contacto fabricante OEM/ODM en China
 
-🌐 https://www.yolec-electronics.com/  
+🌐 [Mire nuestros servicios OEM y ODM de pequeños electrodomésticos](/oem-odm)  
 📧 adrian@yolec-electronics.com  
 📱 WhatsApp: +86 13922332584  
 💼 https://www.linkedin.com/in/adrian2010/  

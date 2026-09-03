@@ -230,7 +230,7 @@ Antes de firmar un contrato, recuerda esto:
 
 ## Contacto fabricante de electrodomésticos en China
 
-🌐 https://www.yolec-electronics.com/  
+🌐 [Mire nuestros servicios OEM y ODM de pequeños electrodomésticos](/oem-odm)  
 📧 adrian@yolec-electronics.com  
 📱 WhatsApp: +86 13922332584  
 💼 https://www.linkedin.com/in/adrian2010/  

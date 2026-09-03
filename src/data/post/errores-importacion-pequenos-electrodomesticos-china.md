@@ -341,7 +341,7 @@ Antes de iniciar una cooperación, los compradores deberían revisar:
 
 Trabajar con un fabricante especializado reduce muchos riesgos durante la importación.
 
-Por ejemplo, [Yolec Electric](https://www.yolec-electronics.com/) es un fabricante chino de pequeños electrodomésticos enfocado en proyectos OEM para clientes internacionales.
+Por ejemplo, [Yolec Electric](/oem-odm) es un fabricante chino de pequeños electrodomésticos enfocado en proyectos OEM para clientes internacionales.
 
 La fábrica produce:
 
@@ -398,7 +398,7 @@ Es encontrar un socio de fabricación capaz de apoyar el crecimiento de tu marca
 
 Si buscas un fabricante chino para desarrollar productos de cocina:
 
-[Fabricante chino de pequeños electrodomésticos OEM](https://www.yolec-electronics.com/)
+[Fabricante chino de pequeños electrodomésticos OEM](/oem-odm)
 
 📧 adrian@yolec-electronics.com  
 📱 WhatsApp: +86 13922332584

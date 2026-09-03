@@ -7,9 +7,21 @@ const metadata = {
     'Fabricante OEM y ODM de fiambreras eléctricas en China. Producción directa con control de calidad, certificaciones CE y CB, y personalización de marca para importadores y distribuidores.',
   ignoreTitleTemplate: true,
 };
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Fiambreras eléctricas OEM/ODM',
+  description: metadata.description,
+  image: 'https://oemkitchenchina.xyz/images/blog/73.jpg',
+  brand: { '@type': 'Brand', name: 'YOLEC Electric' },
+  manufacturer: { '@type': 'Organization', name: 'YOLEC Electric' },
+  category: 'Electric Lunch Boxes',
+};
 ---
 
 <Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
   <!-- =========================================================
        HERO
   ========================================================== -->
@@ -27,7 +39,7 @@ const metadata = {
           </div>
 
           <h1 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
-            Electric Lunch Box Manufacturer
+            Fabricante de Fiambreras Eléctricas OEM
             <span class="block text-accent"> en China </span>
           </h1>
 

@@ -149,7 +149,7 @@ Nuestra fábrica cuenta con talleres propios de estampación de metal e inyecci�
 
 Para conocer más sobre nuestra capacidad de fabricación y soluciones OEM, puede visitar nuestro sitio oficial:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de hervidores eléctricos](/electric-kettle-manufacturer)
 
 También puede conocer más sobre nuestro proceso de fabricación y productos a través de nuestro canal de YouTube:
 

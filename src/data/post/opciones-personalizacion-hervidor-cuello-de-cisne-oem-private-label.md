@@ -215,7 +215,7 @@ Contamos con experiencia en exportación internacional y certificaciones como CE
 
 Puede conocer más sobre nuestra capacidad OEM en nuestra página oficial:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de hervidores de cuello de cisne](/gooseneck-kettle-manufacturer)
 
 También puede ver nuestros procesos de producción y productos reales en nuestro canal:
 

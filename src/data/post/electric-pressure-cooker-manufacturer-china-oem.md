@@ -414,7 +414,7 @@ También contamos con experiencia en exportación a mercados europeos y trabajam
 
 Puedes conocer mejor nuestra capacidad de fabricación en:
 
-https://www.yolec-electronics.com
+[Mire nuestra línea de fabricación OEM de ollas a presión eléctricas](/electric-pressure-cooker-manufacturer)
 
 Y ver parte del proceso de producción en nuestro canal:
 
