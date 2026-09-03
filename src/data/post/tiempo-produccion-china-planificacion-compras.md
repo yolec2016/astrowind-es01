@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-07-06T00:00:00Z
-title: Cómo calcular el tiempo de producción y planificar las compras desde China
-description: Guía práctica para importadores B2B sobre cómo calcular el tiempo real de producción en fábricas de China y planificar compras, evitando retrasos, roturas de stock y problemas logísticos.
-excerpt: Entender el tiempo de producción en China es clave para evitar retrasos, planificar inventario y asegurar entregas estables en importaciones de pequeños electrodomésticos.
+title: Cómo calcular el tiempo de producción y planificar la
+description: 'Guía práctica para importadores B2B sobre cómo calcular el tiempo real de producción en fábricas de China y planificar compras, evitando retrasos, roturas'
+excerpt: 'Entender el tiempo de producción en China es clave para evitar retrasos, planificar inventario y asegurar entregas estables en importaciones de pequeños el'
 image: /images/blog/6.jpg
 author: Adrian
 category: Planificación de Compras

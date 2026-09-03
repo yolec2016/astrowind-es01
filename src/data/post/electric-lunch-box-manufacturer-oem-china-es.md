@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-08-29T10:00:00
-title: 'Cómo elegir un electric lunch box manufacturer para tu marca en España y Latinoamérica'
+title: Cómo elegir un electric lunch box manufacturer para t
 author: 'Adrian'
-excerpt: 'Qué debe revisar un importador o una marca antes de elegir un fabricante de fiambreras eléctricas en China: calidad, materiales, voltaje, OEM, MOQ, certificaciones, personalización y capacidad de producción.'
+excerpt: 'Qué debe revisar un importador o una marca antes de elegir un fabricante de fiambreras eléctricas en China: calidad, materiales, voltaje, OEM, MOQ, certifi'
 image: /images/blog/72.jpeg
 category: 'OEM y Fabricación'
 tags:

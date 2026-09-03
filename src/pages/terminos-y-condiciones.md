@@ -1,5 +1,5 @@
 ---
-title: 'Términos y Condiciones | YOLEC Electric - Fabricante OEM/ODM'
+title: 'Términos y Condiciones | YOLEC Electric'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

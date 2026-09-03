@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-07-14T08:00:00Z
-title: '10 errores que debes evitar al importar pequeños electrodomésticos desde China'
-description: Descubre los errores más comunes al importar pequeños electrodomésticos desde China y aprende cómo elegir un proveedor confiable, controlar la calidad, verificar certificaciones y reducir riesgos en compras B2B.
-excerpt: Muchos importadores pierden tiempo y dinero por errores antes y durante la compra. Esta guía explica los principales problemas al importar pequeños electrodomésticos desde China y cómo evitarlos con un proceso de compra profesional.
+title: 10 errores que debes evitar al importar pequeños elec
+description: 'Descubre los errores más comunes al importar pequeños electrodomésticos desde China y aprende cómo elegir un proveedor confiable, controlar la calidad, ver'
+excerpt: 'Muchos importadores pierden tiempo y dinero por errores antes y durante la compra. Esta guía explica los principales problemas al importar pequeños electro'
 image: /images/blog/12.jpg
 author: 'Adrian'
 category: 'Importación China'

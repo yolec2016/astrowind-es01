@@ -7,9 +7,9 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Sobre nosotros | Fabricante OEM de electrodomésticos en China - YOLEC Electric',
+  title: 'Nuestra Fábrica en China | YOLEC Electric',
   description:
-    'YOLEC Electric es un fabricante OEM/ODM en China especializado en pequeños electrodomésticos de cocina. Conozca nuestra empresa, capacidades de producción y experiencia en exportación global.',
+    'YOLEC Electric es un fabricante OEM/ODM en China especializado en pequeños electrodomésticos de cocina. Conozca nuestra empresa, capacidades de producción.',
 };
 ---
 
@@ -40,12 +40,245 @@ const metadata = {
   <Stats
     title="Nuestra empresa en cifras"
     stats={[
-      { title: 'Años de experiencia', amount: '15+' },
-      { title: 'Clientes globales', amount: '200+' },
+      { title: 'Superficie de planta', amount: '20.000 m²' },
+      { title: 'Empleados', amount: '200+' },
+      { title: 'Ingenieros I+D', amount: '13' },
       { title: 'Producción mensual', amount: '300K+' },
-      { title: 'Mercados exportados', amount: '60+' },
     ]}
   />
+
+  <!-- TALLERES DE PRODUCCIÓN (fotos reales de la fábrica) *** -->
+
+  <section class="bg-white py-20 dark:bg-slate-950 lg:py-28">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <p class="text-sm font-semibold uppercase tracking-widest text-accent">Instalaciones</p>
+
+      <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
+        Talleres de producción de nuestra fábrica en Zhongshan
+      </h2>
+
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+        Nuestras instalaciones de 20.000 m² en Zhongshan, Guangdong, integran todos los procesos productivos en una sola
+        planta: inyección de plásticos, estampado metálico, pulido, ensamblaje y laboratorio de pruebas. Puede auditar
+        la fábrica en persona o por videollamada antes de iniciar su proyecto OEM.
+      </p>
+
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <figure
+          class="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900"
+        >
+          <img
+            src="/images/factory/taller-inyeccion.jpg"
+            alt="Taller de inyección de plásticos de la fábrica YOLEC Electric en Zhongshan, China"
+            class="aspect-[4/3] w-full object-cover"
+            loading="lazy"
+          />
+          <figcaption class="p-4 text-sm font-semibold text-slate-700 dark:text-slate-200">
+            Taller de inyección de plásticos
+          </figcaption>
+        </figure>
+
+        <figure
+          class="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900"
+        >
+          <img
+            src="/images/factory/taller-estampado.jpg"
+            alt="Taller de estampado metálico para carcasas de electrodomésticos OEM"
+            class="aspect-[4/3] w-full object-cover"
+            loading="lazy"
+          />
+          <figcaption class="p-4 text-sm font-semibold text-slate-700 dark:text-slate-200">
+            Taller de estampado metálico
+          </figcaption>
+        </figure>
+
+        <figure
+          class="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900"
+        >
+          <img
+            src="/images/factory/pulido-producto.jpg"
+            alt="Proceso de pulido de productos en la fábrica de pequeños electrodomésticos YOLEC"
+            class="aspect-[4/3] w-full object-cover"
+            loading="lazy"
+          />
+          <figcaption class="p-4 text-sm font-semibold text-slate-700 dark:text-slate-200">
+            Pulido y acabado de producto
+          </figcaption>
+        </figure>
+
+        <figure
+          class="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900"
+        >
+          <img
+            src="/images/factory/laboratorio-pruebas.jpg"
+            alt="Laboratorio de pruebas de calidad y seguridad de productos en YOLEC Electric"
+            class="aspect-[4/3] w-full object-cover"
+            loading="lazy"
+          />
+          <figcaption class="p-4 text-sm font-semibold text-slate-700 dark:text-slate-200">
+            Laboratorio de pruebas
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICACIONES INTERNACIONALES ************************ -->
+
+  <section class="bg-slate-50 py-20 dark:bg-slate-900 lg:py-28">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <p class="text-sm font-semibold uppercase tracking-widest text-accent">Calidad certificada</p>
+
+      <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
+        Certificaciones internacionales: CE, RoHS, CB, CCC, TÜV y LFGB
+      </h2>
+
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+        Aplicamos un sistema de control de calidad estricto en cada etapa —desde la materia prima hasta la inspección
+        final— para que sus productos entren sin problemas en los mercados de la UE, Latinoamérica y Oriente Medio.
+        También damos soporte a certificaciones específicas según su mercado de destino.
+      </p>
+
+      <ul class="mt-8 grid gap-4 text-base leading-7 text-slate-600 dark:text-slate-300 sm:grid-cols-2">
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>CE</strong> — cumplimiento verificado de la normativa de seguridad de la UE</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>RoHS</strong> — requisitos medioambientales para el mercado europeo</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>CB</strong> — facilita el acceso a múltiples mercados internacionales</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>LFGB</strong> — aptitud de contacto con alimentos (normativa alemana)</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>CCC</strong> — certificación obligatoria para el mercado chino</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>TÜV</strong> — ensayos por organismo alemán de reconocido prestigio</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>ETL</strong> — certificación de seguridad para Norteamérica</span
+          >
+        </li>
+        <li class="flex gap-3">
+          <span class="text-accent">✓</span><span
+            ><strong>Intertek</strong> — ensayado y verificado por laboratorio independiente</span
+          >
+        </li>
+      </ul>
+
+      <div class="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+        <figure
+          class="flex items-center justify-center rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-950"
+        >
+          <img
+            src="/images/factory/certificado-ccc.png"
+            alt="Certificado CCC de YOLEC Electric para el mercado chino"
+            class="max-h-56 w-auto object-contain"
+            loading="lazy"
+          />
+        </figure>
+        <figure
+          class="flex items-center justify-center rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-950"
+        >
+          <img
+            src="/images/factory/certificado-cb.png"
+            alt="Certificado CB internacional de YOLEC Electric"
+            class="max-h-56 w-auto object-contain"
+            loading="lazy"
+          />
+        </figure>
+        <figure
+          class="flex items-center justify-center rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-950"
+        >
+          <img
+            src="/images/factory/certificado-tuv.png"
+            alt="Certificación TÜV de YOLEC Electric ensayada por organismo alemán"
+            class="max-h-56 w-auto object-contain"
+            loading="lazy"
+          />
+        </figure>
+        <figure
+          class="flex items-center justify-center rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-950"
+        >
+          <img
+            src="/images/factory/certificado-ce.png"
+            alt="Certificado CE de conformidad con la normativa de la UE - YOLEC Electric"
+            class="max-h-56 w-auto object-contain"
+            loading="lazy"
+          />
+        </figure>
+        <figure
+          class="flex items-center justify-center rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-950"
+        >
+          <img
+            src="/images/factory/certificado-intertek-1.png"
+            alt="Informe de ensayos verificado por Intertek - YOLEC Electric"
+            class="max-h-56 w-auto object-contain"
+            loading="lazy"
+          />
+        </figure>
+        <figure
+          class="flex items-center justify-center rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-950"
+        >
+          <img
+            src="/images/factory/certificado-intertek-2.png"
+            alt="Certificación de laboratorio independiente Intertek para electrodomésticos YOLEC"
+            class="max-h-56 w-auto object-contain"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- VÍDEOS DE LA FÁBRICA (YouTube) *************************** -->
+
+  <section class="bg-white py-20 dark:bg-slate-950 lg:py-28">
+    <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
+      <p class="text-sm font-semibold uppercase tracking-widest text-accent">Fábrica en vídeo</p>
+
+      <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
+        Vea nuestra fábrica por dentro en YouTube
+      </h2>
+
+      <p class="mt-5 text-lg leading-8 text-slate-600 dark:text-slate-300">
+        Publicamos vídeos reales de producción, pruebas de producto y líneas de ensamblaje en nuestro canal oficial de
+        YouTube. La transparencia total es parte de nuestra forma de trabajar con marcas e importadores.
+      </p>
+
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          href="https://www.youtube.com/@yolec-electric-adrian"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-full bg-red-600 px-6 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-red-700"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5" aria-hidden="true">
+            <path
+              d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.6 15.6V8.4L15.8 12l-6.2 3.6Z"
+            ></path>
+          </svg>
+          Ver vídeos de la fábrica
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- Features3 Widget ************** -->
 

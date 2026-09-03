@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-18T09:00:00
-title: 'Arroceras de inducción vs. arroceras tradicionales: ¿qué prefieren los consumidores?'
+title: 'Arroceras de inducción vs. tradicionales'
 author: 'Adrian'
 excerpt: 'Guía para importadores y marcas que comparan arroceras IH y tradicionales para definir una estrategia de producto más competitiva.'
 image: /images/blog/44.jpg

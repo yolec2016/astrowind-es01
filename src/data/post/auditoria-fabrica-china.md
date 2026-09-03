@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-07-01T00:00:00Z
-title: Cómo realizar una auditoría de fábrica en China antes de firmar un contrato
-description: Guía práctica para compradores e importadores sobre cómo verificar una fábrica en China antes de firmar un contrato, reduciendo riesgos de calidad, producción y suministro en proyectos de importación.
-excerpt: Antes de firmar con un proveedor en China, una auditoría de fábrica bien hecha puede evitar problemas de calidad, retrasos y riesgos en la cadena de suministro.
+title: Cómo realizar una auditoría de fábrica en China antes
+description: 'Guía práctica para compradores e importadores sobre cómo verificar una fábrica en China antes de firmar un contrato, reduciendo riesgos de calidad, producc'
+excerpt: 'Antes de firmar con un proveedor en China, una auditoría de fábrica bien hecha puede evitar problemas de calidad, retrasos y riesgos en la cadena de sumini'
 image: /images/blog/1.jpg
 author: Adrian
 category: Auditoría de Proveedores en China

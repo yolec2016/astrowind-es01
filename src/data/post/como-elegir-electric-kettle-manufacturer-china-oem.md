@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-08-26T10:00:00
-title: 'Cómo elegir un electric kettle manufacturer confiable para tu marca'
+title: 'Cómo elegir un electric kettle manufacturer confiable'
 author: 'Adrian'
-excerpt: 'Guía para importadores y marcas privadas que buscan un electric kettle manufacturer en China. Descubre cómo evaluar fábrica, calidad, certificaciones, personalización y capacidad OEM antes de iniciar una cooperación.'
+excerpt: 'Guía para importadores y marcas privadas que buscan un electric kettle manufacturer en China. Descubre cómo evaluar fábrica, calidad, certificaciones, pers'
 image: /images/blog/9.jpg
 category: 'OEM y Fabricación'
 tags:

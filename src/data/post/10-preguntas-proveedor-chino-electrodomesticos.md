@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-07-11T16:00:00Z
-title: 10 preguntas que debes hacer antes de elegir un proveedor chino de pequeños electrodomésticos
-description: Guía práctica para compradores B2B sobre las 10 preguntas clave que deben hacer antes de elegir un proveedor chino de pequeños electrodomésticos. Incluye fábrica, certificaciones, capacidad de producción, control de calidad, OEM/ODM y cooperación a largo plazo.
-excerpt: Elegir un proveedor chino no consiste solo en comparar precios. Estas 10 preguntas ayudan a los importadores a evaluar fábricas, reducir riesgos y encontrar un socio confiable para proyectos de pequeños electrodomésticos.
+title: 10 preguntas que debes hacer antes de elegir un prove
+description: 'Guía práctica para compradores B2B sobre las 10 preguntas clave que deben hacer antes de elegir un proveedor chino de pequeños electrodomésticos. Incluye f'
+excerpt: 'Elegir un proveedor chino no consiste solo en comparar precios. Estas 10 preguntas ayudan a los importadores a evaluar fábricas, reducir riesgos y encontra'
 image: /images/blog/9.jpg
 author: 'Adrian'
 category: 'Selección de proveedores'

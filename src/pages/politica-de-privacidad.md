@@ -1,5 +1,5 @@
 ---
-title: 'Política de Privacidad | YOLEC Electric - Fabricante OEM/ODM de Electrodomésticos'
+title: 'Política de Privacidad | YOLEC Electric'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

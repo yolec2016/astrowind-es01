@@ -1,18 +1,16 @@
 ---
 publishDate: 2026-08-19T10:00:00
-title: "Las certificaciones necesarias para exportar arroceras a Europa y Latinoamérica"
-author: "Adrian"
-excerpt: "Guía práctica para importadores y marcas que quieren desarrollar una línea de arroceras eléctricas y necesitan conocer certificaciones, documentos técnicos y requisitos de exportación."
+title: 'Certificaciones para exportar arroceras a Europa'
+author: 'Adrian'
+excerpt: 'Guía para importadores y marcas que quieren desarrollar una línea de arroceras eléctricas y necesitan conocer certificaciones y requisitos de exportación.'
 image: /images/blog/45.jpg
-category: "OEM y Exportación"
+category: 'OEM y Exportación'
 tags:
   - certificaciones arroceras eléctricas
   - CE RoHS EMC LVD
   - importar electrodomésticos
   - fabricante OEM arroceras
-metadata:
-  canonical: "https://www.yolec-electronics.com"
-robots: "index, follow"
+robots: 'index, follow'
 ---
 
 Cuando una empresa decide importar arroceras eléctricas para vender en Europa o Latinoamérica, normalmente las primeras preguntas son:
@@ -225,7 +223,6 @@ Producción masiva
 
 Buscar certificaciones
 
-
 Este orden puede generar problemas.
 
 Un proceso más seguro sería:
@@ -350,12 +347,11 @@ Tenemos experiencia en proyectos de exportación internacional y trabajamos con 
 
 Más información sobre nuestra capacidad de fabricación:
 
-https://www.yolec-electronics.com
+[Ver línea de fabricación de arroceras eléctricas OEM](/electric-rice-cooker-manufacturer)
 
 También puede conocer nuestro proceso de producción:
 
 https://www.youtube.com/@yolec-electric-adrian
-
 
 ## Una buena certificación empieza antes de fabricar
 

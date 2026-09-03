@@ -23,7 +23,9 @@ const metadata = {
   title: `Blog OEM/ODM de Electrodomésticos en China${currentPage > 1 ? ` — Página ${currentPage}` : ''}`,
 
   description:
-    'Blog profesional sobre fabricación OEM/ODM de pequeños electrodomésticos en China. Aprende sobre hervidores eléctricos, arroceras, ollas a presión y estrategias de abastecimiento para importadores y marcas internacionales.',
+    currentPage > 1
+      ? 'Blog OEM/ODM de electrodomésticos en China — Página ' + currentPage + '. Hervidores, arroceras y más.'
+      : 'Blog OEM/ODM sobre fabricación de pequeños electrodomésticos en China para importadores.',
 
   robots: {
     index: blogListRobots?.index && currentPage === 1,

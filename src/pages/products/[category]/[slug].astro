@@ -1,0 +1,335 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import modelsData from '~/data/models.json';
+
+export async function getStaticPaths() {
+  return modelsData.map((model) => ({
+    params: { category: model.category, slug: model.slug },
+    props: {
+      model,
+      siblings: modelsData.filter((m) => m.category === model.category && m.sku !== model.sku).slice(0, 4),
+    },
+  }));
+}
+
+const { model, siblings } = Astro.props;
+
+const CAT_PAGE: Record<string, string> = {
+  'electric-coffee-kettle': '/gooseneck-kettle-manufacturer',
+  'electric-water-kettle': '/electric-kettle-manufacturer',
+  'glass-electric-kettle': '/electric-kettle-manufacturer',
+  'electric-health-kettle': '/electric-kettle-manufacturer',
+  'electric-kettle-set': '/electric-kettle-manufacturer',
+  'breakfast-machine': '/electric-kettle-manufacturer',
+  'pressure-cooker': '/electric-pressure-cooker-manufacturer',
+  'multi-cooker': '/multi-cooker-manufacturer',
+  'mini-cooker': '/electric-rice-cooker-manufacturer',
+  'low-sugar-cooker': '/electric-rice-cooker-manufacturer',
+  'ih-cooker': '/electric-rice-cooker-manufacturer',
+  'electric-lunch-box': '/electric-lunch-box-manufacturer',
+};
+const catPage = CAT_PAGE[model.category] || '/electric-kettle-manufacturer';
+
+const SPEC_LABELS: Record<string, string> = {
+  Capacity: 'Capacidad',
+  Power: 'Potencia',
+  'Voltage/Frequency': 'Voltaje / Frecuencia',
+  'Inner Material': 'Material interno',
+  Material: 'Material',
+  Certifications: 'Certificaciones',
+  'Body Material': 'Material del cuerpo',
+  'Lid Material': 'Material de la tapa',
+};
+
+const VALUE_DICT: [RegExp, string][] = [
+  [/Food-Grade|Food Grade/gi, 'grado alimenticio'],
+  [/Stainless Steel/gi, 'Acero inoxidable'],
+  [/Glass/gi, 'Vidrio'],
+  [/Black/gi, 'negro'],
+  [/White/gi, 'blanco'],
+  [/Cream/gi, 'crema'],
+  [/Green/gi, 'verde'],
+];
+const trVal = (s: string) => VALUE_DICT.reduce((acc, [re, es]) => acc.replace(re, es), s);
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: model.titleEs,
+  description: model.descEs,
+  image: model.images[0] ? 'https://oemkitchenchina.xyz' + model.images[0] : undefined,
+  sku: model.sku,
+  category: model.catEs,
+  brand: { '@type': 'Brand', name: 'YOLEC Electric' },
+  manufacturer: { '@type': 'Organization', name: 'YOLEC Electric' },
+};
+
+const CAT_NAME: Record<string, string> = {
+  '/electric-kettle-manufacturer': 'Hervidores eléctricos',
+  '/gooseneck-kettle-manufacturer': 'Hervidores cuello de cisne',
+  '/electric-rice-cooker-manufacturer': 'Arroceras eléctricas',
+  '/electric-pressure-cooker-manufacturer': 'Ollas a presión eléctricas',
+  '/electric-lunch-box-manufacturer': 'Fiambreras eléctricas',
+  '/hand-blender-manufacturer': 'Batidoras de mano',
+  '/multi-cooker-manufacturer': 'Ollas multifunción',
+};
+const catName = CAT_NAME[catPage] || model.catEs;
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://oemkitchenchina.xyz/' },
+    { '@type': 'ListItem', position: 2, name: catName, item: 'https://oemkitchenchina.xyz' + catPage },
+    { '@type': 'ListItem', position: 3, name: model.sku + ' · ' + model.catEs },
+  ],
+};
+
+const specs = Object.entries(model.specs);
+---
+
+<Layout metadata={{ title: model.titleEs, description: model.descEs, ignoreTitleTemplate: true }}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <!-- BREADCRUMB -->
+
+  <section class="border-b border-slate-200 bg-white py-4 dark:border-slate-800 dark:bg-slate-950">
+    <nav class="mx-auto max-w-7xl px-6 text-sm text-slate-500 lg:px-8 dark:text-slate-400">
+      <a href="/" class="hover:text-accent">Inicio</a>
+      <span class="mx-2">/</span>
+      <a href={catPage} class="hover:text-accent">{model.catEs}</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-900 dark:text-white">{model.sku}</span>
+    </nav>
+  </section>
+
+  <!-- HERO -->
+
+  <section class="bg-slate-50 py-16 dark:bg-slate-900 lg:py-20">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="grid items-start gap-12 lg:grid-cols-2">
+        <div class="grid gap-4">
+          <div
+            class="overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-slate-200 dark:bg-slate-800 dark:ring-slate-700"
+          >
+            <img
+              src={model.images[0] || '/images/blog/38.jpg'}
+              alt={`${model.titleEs} - fabricante OEM en China`}
+              class="h-auto w-full object-cover"
+              loading="eager"
+            />
+          </div>
+          {
+            model.images[1] && (
+              <div class="overflow-hidden rounded-2xl bg-white shadow ring-1 ring-slate-200 dark:bg-slate-800 dark:ring-slate-700">
+                <img
+                  src={model.images[1]}
+                  alt={`${model.titleEs} - detalle del producto`}
+                  class="h-auto w-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            )
+          }
+        </div>
+
+        <div>
+          <div
+            class="mb-5 inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 shadow-sm dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+          >
+            Modelo: {model.sku} · OEM / ODM
+          </div>
+
+          <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
+            {model.titleEs}
+          </h1>
+
+          <p class="mt-5 text-lg leading-8 text-slate-600 dark:text-slate-300">{model.descEs}</p>
+
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              href="/contacto"
+              class="inline-flex items-center rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
+            >
+              Solicitar Cotización
+            </a>
+
+            <a
+              href="https://wa.me/8613922332584"
+              class="inline-flex items-center rounded-lg border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
+            >
+              Hablar por WhatsApp
+            </a>
+          </div>
+
+          <!-- SPECS TABLE -->
+
+          {
+            specs.length > 0 && (
+              <div class="mt-10 overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800">
+                <table class="w-full text-left text-sm">
+                  <tbody class="divide-y divide-slate-200 dark:divide-slate-800">
+                    {specs.map(([k, v]) => (
+                      <tr>
+                        <th class="w-2/5 bg-slate-100 px-5 py-3.5 font-semibold text-slate-700 dark:bg-slate-800/60 dark:text-slate-300">
+                          {SPEC_LABELS[String(k)] || String(k)}
+                        </th>
+                        <td class="px-5 py-3.5 text-slate-900 dark:text-white">{trVal(String(v))}</td>
+                      </tr>
+                    ))}
+                    <tr>
+                      <th class="w-2/5 bg-slate-100 px-5 py-3.5 font-semibold text-slate-700 dark:bg-slate-800/60 dark:text-slate-300">
+                        Personalización
+                      </th>
+                      <td class="px-5 py-3.5 text-slate-900 dark:text-white">
+                        Logotipo, color, packaging y especificaciones (OEM/ODM)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+
+  {
+    model.featuresEs.length > 0 && (
+      <section class="bg-white py-16 dark:bg-slate-950 lg:py-20">
+        <div class="mx-auto max-w-5xl px-6 lg:px-8">
+          <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
+            Características principales del modelo {model.sku}
+          </h2>
+
+          <ul class="mt-8 grid gap-4 sm:grid-cols-2">
+            {model.featuresEs.map((f) => (
+              <li class="flex items-start gap-3 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
+                <span class="text-accent">✓</span>
+                <span>{f}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- OEM DESCRIPTION -->
+
+  <section class="bg-slate-50 py-16 dark:bg-slate-900 lg:py-20">
+    <div class="mx-auto max-w-5xl px-6 lg:px-8">
+      <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
+        Fabricación OEM y ODM del modelo {model.sku}
+      </h2>
+
+      <div class="mt-6 space-y-5 text-lg leading-8 text-slate-600 dark:text-slate-300">
+        <p>
+          YOLEC Electric fabrica este producto de forma directa en China con más de 10 años de experiencia en pequeños
+          electrodomésticos. El modelo {model.sku} puede personalizarse con su marca: logotipo, colores, acabados, packaging
+          y determinadas especificaciones técnicas según el proyecto.
+        </p>
+
+        <p>
+          Trabajamos con importadores, distribuidores, mayoristas y marcas privadas de Europa y América Latina. Antes de
+          la producción en masa puede solicitarse una muestra para verificar el diseño y la calidad, con inspecciones de
+          calidad durante las diferentes etapas de fabricación.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-6 sm:grid-cols-4">
+        <div class="rounded-2xl bg-white p-6 text-center shadow-sm dark:bg-slate-800">
+          <div class="text-2xl font-bold text-slate-900 dark:text-white">7-10</div>
+          <div class="mt-1 text-sm text-slate-500">días para muestra</div>
+        </div>
+
+        <div class="rounded-2xl bg-white p-6 text-center shadow-sm dark:bg-slate-800">
+          <div class="text-2xl font-bold text-slate-900 dark:text-white">25-30</div>
+          <div class="mt-1 text-sm text-slate-500">días de producción</div>
+        </div>
+
+        <div class="rounded-2xl bg-white p-6 text-center shadow-sm dark:bg-slate-800">
+          <div class="text-2xl font-bold text-slate-900 dark:text-white">500+</div>
+          <div class="mt-1 text-sm text-slate-500">MOQ por modelo</div>
+        </div>
+
+        <div class="rounded-2xl bg-white p-6 text-center shadow-sm dark:bg-slate-800">
+          <div class="text-2xl font-bold text-slate-900 dark:text-white">CE/RoHS</div>
+          <div class="mt-1 text-sm text-slate-500">certificaciones</div>
+        </div>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a
+          href="/contacto"
+          class="inline-flex items-center rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
+        >
+          Solicitar Cotización del Modelo {model.sku}
+        </a>
+
+        <a
+          href={catPage}
+          class="inline-flex items-center rounded-lg border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
+        >
+          Ver toda la línea de {model.catEs}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELATED MODELS -->
+
+  {
+    siblings.length > 0 && (
+      <section class="bg-white py-16 dark:bg-slate-950 lg:py-20">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
+            Modelos relacionados de {model.catEs}
+          </h2>
+
+          <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {siblings.map((s) => (
+              <a
+                href={`/products/${s.category}/${s.slug}`}
+                class="group overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900"
+              >
+                <div class="aspect-square overflow-hidden bg-white dark:bg-slate-800">
+                  <img
+                    src={s.images[0] || '/images/blog/38.jpg'}
+                    alt={`${s.titleEs} OEM`}
+                    class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="p-5">
+                  <p class="text-xs font-semibold uppercase tracking-wide text-slate-400">{s.sku}</p>
+
+                  <h3 class="mt-2 line-clamp-2 text-sm font-bold leading-5 text-slate-900 transition group-hover:text-accent dark:text-white">
+                    {s.titleEs}
+                  </h3>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- WHATSAPP QR -->
+
+  <div class="flex flex-col items-center justify-center gap-3 bg-white py-10 dark:bg-slate-950">
+    <p class="text-center text-sm text-slate-500 dark:text-slate-400">Contacto directo para consultas OEM / ODM</p>
+
+    <img
+      src="/images/whatsapp.png"
+      alt="WhatsApp de YOLEC Electric para consultas sobre el modelo {model.sku}"
+      class="h-auto w-[180px] rounded-lg shadow-md md:w-[220px]"
+      loading="lazy"
+    />
+  </div>
+</Layout>

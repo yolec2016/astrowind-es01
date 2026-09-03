@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-08-08T11:00:00Z
-title: 'Cómo elegir hervidores eléctricos para cafeterías, hoteles y restaurantes'
-description: 'Guía para compradores B2B que necesitan seleccionar hervidores eléctricos profesionales para hoteles, cafeterías y restaurantes. Descubre qué factores influyen en la durabilidad, seguridad, eficiencia y coste total de compra.'
-excerpt: 'Elegir un hervidor eléctrico para uso profesional requiere analizar mucho más que el precio. Esta guía ayuda a compradores horeca a evaluar capacidad, calidad, seguridad y proveedores antes de realizar un pedido.'
+title: Cómo elegir hervidores eléctricos para cafeterías, ho
+description: 'Guía para compradores B2B que necesitan seleccionar hervidores eléctricos profesionales para hoteles, cafeterías y restaurantes. Descubre qué factores infl'
+excerpt: 'Elegir un hervidor eléctrico para uso profesional requiere analizar mucho más que el precio. Esta guía ayuda a compradores horeca a evaluar capacidad, cali'
 image: /images/blog/34.jpg
 author: 'Adrian'
 category: 'HORECA'

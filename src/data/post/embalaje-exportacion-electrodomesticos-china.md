@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-07-10T09:00:00Z
-title: Cómo diseñar un embalaje de exportación que proteja tus productos y reduzca costos
-description: Guía práctica para importadores B2B sobre cómo diseñar embalajes de exportación para pequeños electrodomésticos, incluyendo materiales, pruebas de caída, protección contra humedad, diseño de cajas y optimización de carga para reducir costes logísticos.
-excerpt: Un buen embalaje de exportación no solo protege los productos durante el transporte, también ayuda a reducir costes logísticos, mejorar la imagen de marca y evitar problemas en el mercado final.
+title: Cómo diseñar un embalaje de exportación que proteja t
+description: 'Guía práctica para importadores B2B sobre cómo diseñar embalajes de exportación para pequeños electrodomésticos, incluyendo materiales, pruebas de caída, p'
+excerpt: 'Un buen embalaje de exportación no solo protege los productos durante el transporte, también ayuda a reducir costes logísticos, mejorar la imagen de marca'
 image: /images/blog/8.jpg
 author: Adrian
 category: Embalaje de Exportación

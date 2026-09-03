@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-20T10:00:00
-title: 'Opciones de personalización para arroceras OEM y Private Label'
+title: 'Opciones de personalización para arroceras OEM y Priv'
 author: 'Adrian'
 excerpt: 'Guía para importadores y marcas privadas que quieren desarrollar arroceras personalizadas, analizando opciones OEM, costes, MOQ y tiempos de producción.'
 image: /images/blog/46.jpg

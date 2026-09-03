@@ -16,7 +16,7 @@ metadata:
     template: '%s | YOLEC Electric'
 
   # Mantener < 160 caracteres para evitar truncamiento en SERPs
-  description: 'Fabricante OEM y ODM de pequeños electrodomésticos en China desde 2015. Hervidores, arroceras, ollas a presión y fiambreras con CE, CB y RoHS para importadores y marcas privadas.'
+  description: 'Fabricante OEM y ODM de pequeños electrodomésticos en China desde 2015. CE, CB y RoHS para importadores y marcas privadas.'
 
   robots:
     index: true

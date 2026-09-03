@@ -26,8 +26,16 @@ export const headerData = {
           href: getPermalink('/electric-pressure-cooker-manufacturer'),
         },
         {
+          text: 'Ollas Eléctricas Multifunción',
+          href: getPermalink('/multi-cooker-manufacturer'),
+        },
+        {
           text: 'Fiambreras Eléctricas',
           href: getPermalink('/electric-lunch-box-manufacturer'),
+        },
+        {
+          text: 'Batidoras de Mano',
+          href: getPermalink('/hand-blender-manufacturer'),
         },
       ],
     },
@@ -97,8 +105,16 @@ export const footerData = {
           href: getPermalink('/electric-pressure-cooker-manufacturer'),
         },
         {
+          text: 'Ollas Eléctricas Multifunción',
+          href: getPermalink('/multi-cooker-manufacturer'),
+        },
+        {
           text: 'Fiambreras Eléctricas',
           href: getPermalink('/electric-lunch-box-manufacturer'),
+        },
+        {
+          text: 'Batidoras de Mano',
+          href: getPermalink('/hand-blender-manufacturer'),
         },
       ],
     },

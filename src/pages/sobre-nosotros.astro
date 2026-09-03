@@ -8,9 +8,9 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Sobre Nosotros | Fabricante OEM y ODM de Pequeños Electrodomésticos en China | YOLEC Electric',
+  title: 'Sobre Nosotros | YOLEC Electric',
   description:
-    'Conozca YOLEC Electric, fabricante OEM y ODM de pequeños electrodomésticos en China. Más de 20.000 m² de fábrica, fabricación de hervidores eléctricos, arroceras, ollas a presión, fiambreras eléctricas y batidoras para importadores y marcas internacionales.',
+    'Conozca YOLEC Electric: fábrica de 20.000 m², más de 200 empleados y certificaciones CE, CB, RoHS y LFGB. Fabricante OEM/ODM de pequeños electrodomésticos.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -36,6 +36,22 @@ const metadata = {
       { title: 'Líneas de producción', amount: '3' },
     ]}
   />
+
+  <!-- CERT STRIP -->
+  <section class="border-y border-slate-200 bg-white py-10 dark:border-slate-800 dark:bg-slate-950">
+    <div class="mx-auto max-w-5xl px-6 text-center lg:px-8">
+      <h2 class="text-lg font-bold uppercase tracking-wide text-slate-900 dark:text-white">
+        Certificaciones: CE · RoHS · CB · CCC · TÜV · ETL · LFGB · Intertek
+      </h2>
+
+      <p class="mt-2 text-slate-600 dark:text-slate-300">
+        Calidad verificada por organismos internacionales.
+        <a href="/fabrica" class="font-semibold text-accent hover:underline"
+          >Ver certificados y talleres de producción →</a
+        >
+      </p>
+    </div>
+  </section>
 
   <!-- FEATURES -->
   <Features3

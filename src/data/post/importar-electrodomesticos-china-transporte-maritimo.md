@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-07-09T00:00:00Z
-title: Guía práctica para importar pequeños electrodomésticos desde China por vía marítima
-description: Guía para importadores B2B sobre cómo transportar pequeños electrodomésticos desde China por vía marítima, explicando FCL, LCL, Incoterms, carga de contenedores, seguros y estrategias para reducir costes logísticos.
-excerpt: Elegir correctamente el transporte marítimo desde China puede ayudarte a reducir costes, evitar retrasos y mejorar la eficiencia de tus importaciones de pequeños electrodomésticos.
+title: Guía práctica para importar pequeños electrodoméstico
+description: 'Guía para importadores B2B sobre cómo transportar pequeños electrodomésticos desde China por vía marítima, explicando FCL, LCL, Incoterms, carga de contene'
+excerpt: 'Elegir correctamente el transporte marítimo desde China puede ayudarte a reducir costes, evitar retrasos y mejorar la eficiencia de tus importaciones de pe'
 image: /images/blog/7.jpg
 author: Adrian
 category: Logística Internacional
