@@ -154,6 +154,10 @@ export const footerData = {
           text: 'Contacto',
           href: getPermalink('/contacto'),
         },
+        {
+          text: 'Automotive Carbon Fiber Parts Manufacturer',
+          href: 'https://ccfrp.com',
+        },
       ],
     },
     {
