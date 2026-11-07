@@ -3,7 +3,7 @@ publishDate: 2026-08-19T10:00:00
 title: 'Certificaciones para exportar arroceras a Europa'
 author: 'Adrian'
 excerpt: 'Guía para importadores y marcas que quieren desarrollar una línea de arroceras eléctricas y necesitan conocer certificaciones y requisitos de exportación.'
-image: /images/blog/45.jpg
+image: /images/blog/45.png
 category: 'OEM y Exportación'
 tags:
   - certificaciones arroceras eléctricas

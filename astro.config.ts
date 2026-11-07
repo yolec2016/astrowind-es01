@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs';
 import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
@@ -19,6 +20,27 @@ import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/uti
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Las categorías con un solo artículo llevan robots noindex; las excluimos también
+// del sitemap para no enviar señales contradictorias a los buscadores.
+const slugify = (t) =>
+  t
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+const categoryCount = {};
+for (const f of fs.readdirSync(path.join(__dirname, 'src/data/post'))) {
+  const m = fs
+    .readFileSync(path.join(__dirname, 'src/data/post', f), 'utf8')
+    .match(/^category:\s*['"]?([^'"\n]+?)['"]?\s*$/m);
+  if (m) {
+    const s = slugify(m[1]);
+    categoryCount[s] = (categoryCount[s] || 0) + 1;
+  }
+}
+const thinCategories = new Set(Object.keys(categoryCount).filter((s) => categoryCount[s] < 2));
+
 const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
@@ -27,7 +49,15 @@ export default defineConfig({
   output: 'static',
 
   integrations: [
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        const pathname = new URL(page).pathname;
+        if (/^\/blog\/\d+\/?$/.test(pathname)) return false;
+        const cat = pathname.match(/^\/categoria\/([^/]+)\/?$/);
+        if (cat && thinCategories.has(cat[1])) return false;
+        return true;
+      },
+    }),
     mdx(),
     icon({
       include: {

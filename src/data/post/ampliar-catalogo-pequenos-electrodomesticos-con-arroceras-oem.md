@@ -3,7 +3,7 @@ publishDate: 2026-08-22T10:00:00
 title: 'Cómo ampliar tu catálogo con arroceras OEM'
 author: 'Adrian'
 excerpt: 'Descubre cómo los importadores y marcas pueden ampliar su catálogo con arroceras eléctricas y crear una línea completa de pequeños electrodomésticos de coc'
-image: /images/blog/48.jpg
+image: /images/blog/48.png
 category: 'Estrategia de Producto'
 tags:
   - ampliar catálogo pequeños electrodomésticos
