@@ -11,6 +11,8 @@ tags:
   - proveedor OEM pequeños electrodomésticos
   - private label electric kettle
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Cuando una empresa busca un **electric kettle manufacturer**, normalmente la primera pregunta suele ser:

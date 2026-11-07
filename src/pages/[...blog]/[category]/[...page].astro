@@ -22,11 +22,16 @@ const currentPage = page.currentPage ?? 1;
 
 const intro = getCategoryIntro(category.title);
 
+// Las categorías con un solo artículo no aportan valor de índice propio:
+// se dejan rastreables pero fuera del índice para evitar páginas casi idénticas.
+const isThinCategory = page.total < 2;
+
 const metadata = {
+  ignoreTitleTemplate: true,
   title: `${category.title}: artículos y guía OEM${currentPage > 1 ? ` — Página ${currentPage}` : ''}`,
   description: intro,
   robots: {
-    index: blogCategoryRobots?.index,
+    index: isThinCategory ? false : blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
   },
 };

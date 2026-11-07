@@ -13,6 +13,8 @@ tags:
   - compras internacionales
   - proveedor chino confiable
   - cadena de suministro China
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo reducir costos al importar pequeños electrodomésticos desde China

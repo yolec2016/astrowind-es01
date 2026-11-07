@@ -1,5 +1,6 @@
 ---
 title: 'Política de Privacidad | YOLEC Electric'
+description: 'Cómo YOLEC Electric recopila, usa y protege los datos de contacto de importadores y compradores B2B que solicitan cotizaciones o muestras.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

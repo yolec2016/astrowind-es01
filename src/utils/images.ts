@@ -58,6 +58,17 @@ export const adaptOpenGraphImages = async (
     openGraph.images.map(async (image) => {
       if (!image?.url) return { url: '' };
 
+      // Los archivos servidos desde /public no pasan por el servicio de imágenes:
+      // ya vienen optimizados y se referencian tal cual.
+      if (image.url.startsWith('/')) {
+        return {
+          url: String(new URL(image.url, astroSite)),
+          width: image.width,
+          height: image.height,
+          alt: image.alt,
+        };
+      }
+
       const resolved = await findImage(image.url);
       if (!resolved) return { url: '' };
 

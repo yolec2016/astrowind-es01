@@ -15,6 +15,8 @@ tags:
   - importación desde China
   - riesgos de proveedores
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Importar pequeños electrodomésticos desde China: lo que los compradores B2B deben saber

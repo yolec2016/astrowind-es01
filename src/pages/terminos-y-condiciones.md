@@ -1,5 +1,6 @@
 ---
 title: 'Términos y Condiciones | YOLEC Electric'
+description: 'Términos y condiciones de uso del sitio de YOLEC Electric: alcance de la información comercial, cotizaciones FOB, pedidos OEM y responsabilidades de las partes.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

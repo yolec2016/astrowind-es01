@@ -14,6 +14,8 @@ tags:
   - logística internacional
   - control de calidad
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo diseñar un embalaje de exportación que proteja tus productos y reduzca costos

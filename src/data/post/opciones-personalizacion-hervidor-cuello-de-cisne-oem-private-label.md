@@ -12,6 +12,8 @@ tags:
   - private label electrodomésticos
   - proveedor OEM China
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Cuando una marca busca lanzar un nuevo hervidor de cuello de cisne, una de las primeras preguntas suele ser:

@@ -11,6 +11,8 @@ tags:
   - equipamiento hostelería
   - fabricante OEM arroceras
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Cuando un restaurante, hotel o empresa de catering compra una arrocera eléctrica, la decisión no debería basarse únicamente en el precio.

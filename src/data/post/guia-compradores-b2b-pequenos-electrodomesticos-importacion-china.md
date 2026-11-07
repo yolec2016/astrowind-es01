@@ -15,6 +15,8 @@ tags:
   - marca privada
   - control de calidad
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo comprar pequeños electrodomésticos desde China de forma profesional

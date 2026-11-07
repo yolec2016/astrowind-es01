@@ -13,6 +13,8 @@ tags:
   - cadena de suministro China
   - reducir costos de importación
   - compras B2B internacionales
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo mejorar la cadena de suministro al importar pequeños electrodomésticos desde China

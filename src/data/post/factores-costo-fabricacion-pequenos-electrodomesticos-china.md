@@ -13,6 +13,8 @@ tags:
   - proveedor chino electrodomésticos
   - compras B2B China
   - importación pequeños electrodomésticos
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## ¿Por qué dos fabricantes chinos pueden ofrecer precios tan diferentes?

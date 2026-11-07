@@ -14,6 +14,8 @@ tags:
   - inspección de fábrica
   - reducción de riesgos
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Lo que realmente preocupa a los importadores antes de enviar un contenedor

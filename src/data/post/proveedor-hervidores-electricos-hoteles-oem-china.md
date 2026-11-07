@@ -14,6 +14,8 @@ tags:
   - compras B2B
   - pequeños electrodomésticos hospitality
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo elegir un hervidor eléctrico adecuado para hoteles y proyectos hospitality

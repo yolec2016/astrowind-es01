@@ -12,6 +12,8 @@ tags:
   - fabricante hervidores eléctricos
   - proveedor OEM China
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Para un consumidor, un hervidor eléctrico parece un producto muy sencillo: añadir agua, pulsar un botón y esperar unos minutos.

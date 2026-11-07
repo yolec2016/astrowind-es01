@@ -14,6 +14,8 @@ tags:
   - control de calidad
   - marca privada
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## La muestra es el único momento barato para equivocarte

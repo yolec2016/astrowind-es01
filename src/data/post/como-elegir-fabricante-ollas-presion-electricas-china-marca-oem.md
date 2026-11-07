@@ -11,6 +11,8 @@ tags:
   - marca propia pequeños electrodomésticos
   - importar electrodomésticos China
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Elegir un fabricante de ollas a presión eléctricas en China es una decisión importante para cualquier marca que quiera entrar o crecer en el mercado de pequeños electrodomésticos.

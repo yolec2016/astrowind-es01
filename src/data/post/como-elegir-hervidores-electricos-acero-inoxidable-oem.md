@@ -14,6 +14,8 @@ tags:
   - compras B2B
   - marca propia electrodomésticos
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo elegir el material adecuado al comprar hervidores eléctricos para tu marca

@@ -14,6 +14,8 @@ tags:
   - café de especialidad
   - compras B2B
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo los compradores B2B pueden aprovechar la tendencia de los hervidores con control de temperatura

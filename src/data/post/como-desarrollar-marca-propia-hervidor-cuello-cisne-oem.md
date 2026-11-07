@@ -14,6 +14,8 @@ tags:
   - equipos café personalizados
   - compras B2B
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo transformar un hervidor de cuello de cisne en un producto propio de marca

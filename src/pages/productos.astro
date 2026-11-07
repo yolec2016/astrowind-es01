@@ -1,0 +1,134 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import modelsData from '~/data/models.json';
+
+const CATS = [
+  { slug: 'electric-water-kettle', name: 'Hervidores eléctricos' },
+  { slug: 'glass-electric-kettle', name: 'Hervidores de vidrio' },
+  { slug: 'electric-coffee-kettle', name: 'Hervidores cuello de cisne' },
+  { slug: 'electric-health-kettle', name: 'Hervidores de salud' },
+  { slug: 'electric-kettle-set', name: 'Sets de hervidor' },
+  { slug: 'breakfast-machine', name: 'Máquinas de desayuno' },
+  { slug: 'pressure-cooker', name: 'Ollas a presión eléctricas' },
+  { slug: 'multi-cooker', name: 'Ollas multifunción' },
+  { slug: 'mini-cooker', name: 'Arroceras mini' },
+  { slug: 'low-sugar-cooker', name: 'Arroceras bajo azúcar' },
+  { slug: 'ih-cooker', name: 'Arroceras de inducción IH' },
+  { slug: 'electric-lunch-box', name: 'Fiambreras eléctricas' },
+];
+
+const groups = CATS.map((cat) => ({
+  ...cat,
+  models: modelsData.filter((m) => m.category === cat.slug),
+})).filter((g) => g.models.length > 0);
+
+const toWebp = (src: string) => src.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+
+const metadata = {
+  title: 'Catálogo de Electrodomésticos OEM',
+  description:
+    'Catálogo completo de hervidores, arroceras, ollas a presión, ollas multifunción y fiambreras eléctricas fabricadas en China con marca propia. 110 referencias OEM/ODM.',
+};
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Catálogo de electrodomésticos OEM YOLEC Electric',
+  numberOfItems: modelsData.length,
+  itemListElement: modelsData.map((model, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: model.titleEs,
+    url: `https://oemkitchenchina.xyz/products/${model.category}/${model.slug}`,
+  })),
+};
+---
+
+<Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+
+  <section class="bg-slate-50 py-14 dark:bg-slate-900 lg:py-20">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <h1 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
+        Catálogo de electrodomésticos OEM y ODM
+      </h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+        {modelsData.length} referencias activas en 12 líneas de producto. Todas se fabrican en nuestra planta de Zhongshan
+        y se suministran con marca propia, embalaje personalizado y certificaciones para el mercado de destino. Los precios
+        se cotizan FOB por proyecto.
+      </p>
+      <p class="mt-4 max-w-3xl leading-7 text-slate-600 dark:text-slate-300">
+        Si no encuentras la capacidad, potencia o acabado que necesitas, <a
+          href="/oem-odm"
+          class="font-semibold text-accent hover:underline">revisa el proceso OEM/ODM</a
+        > o
+        <a href="/contacto" class="font-semibold text-accent hover:underline">envía tu especificación</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-white py-14 dark:bg-slate-950 lg:py-20">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 space-y-16">
+      {
+        groups.map((group) => (
+          <div>
+            <div class="flex flex-wrap items-baseline justify-between gap-3 border-b border-slate-200 pb-4 dark:border-slate-800">
+              <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{group.name}</h2>
+              <span class="text-sm text-slate-500 dark:text-slate-400">{group.models.length} modelos</span>
+            </div>
+
+            <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {group.models.map((model) => (
+                <a
+                  href={`/products/${model.category}/${model.slug}`}
+                  class="group overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900"
+                >
+                  <div class="aspect-square overflow-hidden bg-white dark:bg-slate-800">
+                    <picture>
+                      <source srcset={toWebp(model.images[0] || '/images/blog/38.jpg')} type="image/webp" />
+                      <img
+                        src={model.images[0] || '/images/blog/38.jpg'}
+                        alt={`${model.titleEs} OEM`}
+                        width="750"
+                        height="750"
+                        class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
+                  </div>
+                  <div class="p-5">
+                    <p class="text-xs font-semibold uppercase tracking-wide text-slate-400">{model.sku}</p>
+                    <h3 class="mt-2 line-clamp-2 text-sm font-bold leading-5 text-slate-900 transition group-hover:text-accent dark:text-white">
+                      {model.titleEs}
+                    </h3>
+                    <p class="mt-2 text-xs text-slate-500 dark:text-slate-400">
+                      {model.specs['Capacity'] ? `Capacidad ${model.specs['Capacity']}` : ''}
+                      {model.specs['Power'] ? ` · ${model.specs['Power']}` : ''}
+                    </p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="bg-slate-50 py-14 dark:bg-slate-900 lg:py-20">
+    <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">¿No ves el modelo que buscas?</h2>
+      <p class="mt-4 leading-7 text-slate-600 dark:text-slate-300">
+        Trabajamos con MOQ de 500 unidades por referencia, muestra en 7–10 días y desarrollo de molde propio cuando el
+        proyecto lo requiere.
+      </p>
+      <a
+        href="/contacto"
+        class="mt-8 inline-flex items-center rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
+      >
+        Solicitar Cotización
+      </a>
+    </div>
+  </section>
+</Layout>

@@ -11,6 +11,8 @@ tags:
   - proveedor OEM electrodomésticos
   - private label rice cooker
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Cuando una empresa busca un **rice cooker manufacturer**, normalmente empieza comparando precios.

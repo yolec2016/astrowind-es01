@@ -14,6 +14,8 @@ tags:
   - importar desde China
   - compras B2B
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo encontrar un fabricante de arroceras en China que ayude a crecer tu marca

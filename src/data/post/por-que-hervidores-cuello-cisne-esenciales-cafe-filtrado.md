@@ -14,6 +14,8 @@ tags:
   - fabricante hervidores China
   - compras B2B
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Por qué los compradores de café profesional están apostando por los hervidores de cuello de cisne

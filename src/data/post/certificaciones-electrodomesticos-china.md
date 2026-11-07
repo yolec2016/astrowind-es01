@@ -17,6 +17,8 @@ tags:
   - Latinoamérica
   - certificación productos China
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Por qué este tema es clave para importadores reales

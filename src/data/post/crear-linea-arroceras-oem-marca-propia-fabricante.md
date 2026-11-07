@@ -12,6 +12,8 @@ tags:
   - fabricante arroceras eléctricas
   - private label appliances
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Crear una marca propia de pequeños electrodomésticos es una oportunidad interesante para muchas empresas que ya cuentan con canales de venta, distribuidores o conocimiento del mercado.

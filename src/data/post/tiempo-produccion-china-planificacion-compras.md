@@ -14,6 +14,8 @@ tags:
   - logística internacional
   - pequeños electrodomésticos
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Lo que realmente buscan los compradores cuando preguntan por “tiempo de producción”

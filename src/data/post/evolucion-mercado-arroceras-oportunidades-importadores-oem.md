@@ -11,6 +11,8 @@ tags:
   - importar arroceras eléctricas
   - OEM electrodomésticos cocina
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Para muchos importadores de pequeños electrodomésticos, la pregunta actual ya no es simplemente:

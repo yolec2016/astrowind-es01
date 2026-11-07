@@ -14,6 +14,8 @@ tags:
   - importación China
   - pequeños electrodomésticos
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## El problema real del MOQ en compras desde China

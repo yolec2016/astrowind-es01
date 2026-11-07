@@ -14,6 +14,8 @@ tags:
   - compras horeca
   - pequeños electrodomésticos comerciales
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo elegir un hervidor eléctrico profesional para un negocio horeca

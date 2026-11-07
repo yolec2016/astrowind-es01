@@ -14,62 +14,10 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   ignoreTitleTemplate: true,
-  title: 'YOLEC Electric | Fabricante OEM de Pequeños Electrodomésticos',
+  title: 'YOLEC Electric | Fabricante OEM de Electrodomésticos',
   // < 160 caracteres para evitar truncamiento en SERPs
   description:
     'Fabricante, fábrica y proveedor OEM de pequeños electrodomésticos en China desde 2015. Hervidores, arroceras, ollas y fiambreras. CE, CB y RoHS.',
-};
-
-const ratingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  '@id': 'https://oemkitchenchina.xyz/#organization-rating',
-  name: 'YOLEC Electric',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '128',
-    bestRating: '5',
-    worstRating: '1',
-  },
-  review: [
-    {
-      '@type': 'Review',
-      author: { '@type': 'Organization', name: 'Suministros Ibéricos del Hogar S.L.' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      datePublished: '2025-11-03',
-      reviewBody:
-        'Colaboramos con YOLEC en una línea de hervidores doble pared bajo nuestra marca. Comunicación directa con fábrica, muestras en 8 días y producción estable. Muy recomendable para proyectos de marca privada.',
-      publisher: { '@type': 'Organization', name: 'YOLEC Electric' },
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Organization', name: 'Café & Origen Ltda.' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      datePublished: '2025-09-22',
-      reviewBody:
-        'Elegimos Yolec para nuestra línea de hervidores de cuello de cisne para baristas. El control de temperatura fue exacto, el acabado cumplió nuestras expectativas y el MOQ nos permitió lanzar la línea con riesgo bajo.',
-      publisher: { '@type': 'Organization', name: 'YOLEC Electric' },
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Organization', name: 'Global Home Importaciones' },
-      reviewRating: { '@type': 'Rating', ratingValue: '4', bestRating: '5' },
-      datePublished: '2025-07-15',
-      reviewBody:
-        'Llevamos dos años importando arroceras y ollas a presión. Los lotes son consistentes y el soporte durante la auditoría y la inspección de envío hace que el proceso sea muy seguro para compradores internacionales.',
-      publisher: { '@type': 'Organization', name: 'YOLEC Electric' },
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Organization', name: 'Hostería Latina Proveedora S.A.' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      datePublished: '2026-02-11',
-      reviewBody:
-        'Abastecemos hoteles y servicios de catering. Elegimos los hervidores modelo hotel de YOLEC: compactos, duraderos y con certificaciones para mercados LATAM. El embalaje de exportación se adaptó perfectamente a nuestros envíos marítimos.',
-      publisher: { '@type': 'Organization', name: 'YOLEC Electric' },
-    },
-  ],
 };
 ---
 
@@ -252,6 +200,12 @@ const ratingSchema = {
         <a href="/multi-cooker-manufacturer">ollas eléctricas multifunción</a>,
         <a href="/electric-lunch-box-manufacturer">fiambreras eléctricas</a> y
         <a href="/hand-blender-manufacturer">batidoras de mano</a>.
+      </p>
+
+      <p class="mt-3">
+        O consulte las 110 referencias activas en el
+        <a href="/productos" class="font-semibold">catálogo completo de productos</a>, con capacidad, potencia y
+        certificaciones de cada modelo.
       </p>
     </Fragment>
 
@@ -451,9 +405,7 @@ const ratingSchema = {
     ]}
   />
 
-  <!-- Testimonials + AggregateRating (EEAT Trust) ****** -->
-
-  <script type="application/ld+json" set:html={JSON.stringify(ratingSchema)} />
+  <!-- Testimonios de clientes B2B ****** -->
 
   <section class="bg-white py-16 dark:bg-slate-950 lg:py-20">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -466,14 +418,16 @@ const ratingSchema = {
 
         <p class="mt-5 text-lg leading-8 text-slate-600 dark:text-slate-300">
           Colaboramos con importadores, distribuidores y marcas privadas de Europa, Latinoamérica, Oriente Medio y
-          África desde hace más de 10 años.
+          Sudeste Asiático desde hace más de 10 años.
         </p>
 
         <div class="mt-4 inline-flex items-center gap-3 rounded-xl bg-amber-50 px-4 py-2.5 dark:bg-amber-950/30">
-          <div class="text-lg">⭐⭐⭐⭐⭐</div>
+          <div class="text-lg">🌍</div>
           <div>
-            <div class="text-sm font-bold text-amber-900 dark:text-amber-300">4,9 / 5</div>
-            <div class="text-xs text-amber-700 dark:text-amber-400">basado en 128 evaluaciones de clientes B2B</div>
+            <div class="text-sm font-bold text-amber-900 dark:text-amber-300">Clientes en más de 60 mercados</div>
+            <div class="text-xs text-amber-700 dark:text-amber-400">
+              Europa, Latinoamérica, Oriente Medio y Sudeste Asiático
+            </div>
           </div>
         </div>
       </div>

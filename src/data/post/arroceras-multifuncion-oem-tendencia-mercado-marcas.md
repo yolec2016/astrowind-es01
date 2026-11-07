@@ -12,6 +12,8 @@ tags:
   - pequeños electrodomésticos cocina
   - marca propia electrodomésticos
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Durante años, la arrocera eléctrica fue considerada un producto sencillo: un electrodoméstico diseñado principalmente para cocinar arroz.

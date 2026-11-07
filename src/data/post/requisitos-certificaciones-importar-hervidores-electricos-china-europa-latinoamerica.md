@@ -12,6 +12,8 @@ tags:
   - CE RoHS CB LFGB
   - proveedor OEM China
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Cuando una empresa decide importar hervidores eléctricos desde China, una de las primeras preguntas que debe responder no es solamente:

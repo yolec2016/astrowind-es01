@@ -12,6 +12,8 @@ tags:
   - café de especialidad
   - productos premium cocina
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Durante años, el hervidor eléctrico fue considerado simplemente un pequeño electrodoméstico para calentar agua.

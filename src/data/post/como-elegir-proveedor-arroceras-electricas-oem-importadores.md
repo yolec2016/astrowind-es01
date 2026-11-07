@@ -12,6 +12,8 @@ tags:
   - importar electrodomésticos
   - control calidad proveedores
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Para un importador de pequeños electrodomésticos, encontrar un proveedor de arroceras eléctricas no suele ser la parte más difícil.

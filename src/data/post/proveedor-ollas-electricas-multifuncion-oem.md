@@ -15,6 +15,8 @@ tags:
   - pequeños electrodomésticos
   - fabricante de electrodomésticos
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Si estás buscando un **proveedor de ollas eléctricas multifunción** para tu marca, seguramente ya has recibido más de una cotización.

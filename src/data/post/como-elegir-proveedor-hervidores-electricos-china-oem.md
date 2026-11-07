@@ -14,6 +14,8 @@ tags:
   - marca privada
   - importar desde China
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo elegir un fabricante de hervidores eléctricos en China sin cometer errores costosos

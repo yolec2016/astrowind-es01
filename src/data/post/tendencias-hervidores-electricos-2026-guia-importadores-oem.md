@@ -14,6 +14,8 @@ tags:
   - marca propia electrodomésticos
   - compras B2B
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Qué deben saber los importadores antes de elegir nuevos hervidores eléctricos para 2026

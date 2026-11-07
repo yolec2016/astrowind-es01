@@ -12,6 +12,8 @@ tags:
   - private label
   - electrodomésticos de cocina
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Si estás buscando un **electric pressure cooker manufacturer** para tu marca, probablemente ya hayas encontrado decenas de proveedores en Internet.

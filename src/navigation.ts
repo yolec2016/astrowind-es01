@@ -10,6 +10,10 @@ export const headerData = {
       text: 'Productos',
       links: [
         {
+          text: 'Catálogo Completo',
+          href: getPermalink('/productos'),
+        },
+        {
           text: 'Hervidores Eléctricos',
           href: getPermalink('/electric-kettle-manufacturer'),
         },
@@ -88,6 +92,10 @@ export const footerData = {
     {
       title: 'Productos',
       links: [
+        {
+          text: 'Catálogo Completo',
+          href: getPermalink('/productos'),
+        },
         {
           text: 'Hervidores Eléctricos',
           href: getPermalink('/electric-kettle-manufacturer'),

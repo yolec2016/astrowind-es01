@@ -15,6 +15,8 @@ tags:
   - proveedor confiable
   - ODM
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Encontrar un fabricante chino es fácil, encontrar un socio confiable es lo difícil

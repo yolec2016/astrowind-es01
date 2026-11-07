@@ -14,6 +14,8 @@ tags:
   - importación China
   - evaluación proveedor
   - compras B2B
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Elegir una fábrica en China: el precio es solo una parte de la decisión

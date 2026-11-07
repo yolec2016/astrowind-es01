@@ -13,6 +13,8 @@ tags:
   - comparar fabricantes chinos
   - compras B2B China
   - sourcing China
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo elegir entre varios fabricantes chinos cuando todos parecen similares

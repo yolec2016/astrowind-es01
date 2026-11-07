@@ -14,6 +14,8 @@ tags:
   - hervidor control temperatura
   - compras B2B China
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## Cómo elegir un proveedor de hervidores para café filtrado que reduzca riesgos de compra

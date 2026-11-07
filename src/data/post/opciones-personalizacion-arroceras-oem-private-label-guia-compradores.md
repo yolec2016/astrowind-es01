@@ -11,6 +11,8 @@ tags:
   - personalización electrodomésticos
   - fabricante de arroceras
 robots: 'index, follow'
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 Cuando una empresa decide lanzar una nueva línea de arroceras eléctricas con su propia marca, normalmente aparece una pregunta importante:

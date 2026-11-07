@@ -15,6 +15,8 @@ tags:
   - logística internacional
   - pequeños electrodomésticos
 robots: index, follow
+metadata:
+  ignoreTitleTemplate: true
 ---
 
 ## El transporte marítimo es una de las decisiones más importantes al importar desde China
