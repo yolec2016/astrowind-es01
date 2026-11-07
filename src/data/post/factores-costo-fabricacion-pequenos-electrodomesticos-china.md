@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-16T11:00:00Z
-title: ¿Qué factores influyen en el costo de fabricación de
+title: 'Qué factores influyen en el costo de fabricación'
 description: 'Guía para importadores y marcas privadas sobre los factores que afectan al costo de fabricación de pequeños electrodomésticos en China. Aprende cómo compar'
 excerpt: 'Dos fabricantes chinos pueden ofrecer precios muy diferentes para el mismo producto. Descubre qué factores influyen en el coste real de fabricación y cómo'
 image: /images/blog/14.jpg

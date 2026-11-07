@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-08T09:30:00Z
-title: Las ventajas de los hervidores con control preciso de
+title: 'Ventajas de los hervidores con control de temperatura'
 description: 'Guía para importadores, distribuidores y marcas de café que buscan desarrollar hervidores con control preciso de temperatura. Aprende qué características e'
 excerpt: 'Los hervidores con control de temperatura ofrecen nuevas oportunidades para marcas de café y distribuidores. Descubre cómo elegir el producto adecuado y co'
 image: /images/blog/33.jpg

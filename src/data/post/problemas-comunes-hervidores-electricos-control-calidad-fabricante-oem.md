@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-10T10:00:00
-title: Problemas comunes de los hervidores eléctricos y cómo
+title: 'Problemas comunes de los hervidores eléctricos'
 author: 'Adrian'
 excerpt: 'Guía para importadores y marcas de pequeños electrodomésticos sobre los problemas más comunes de los hervidores eléctricos, sus causas y cómo elegir un fab'
 description: 'Descubra los principales problemas de calidad en hervidores eléctricos y cómo los fabricantes OEM pueden prevenir fallos mediante un mejor diseño, selecció'

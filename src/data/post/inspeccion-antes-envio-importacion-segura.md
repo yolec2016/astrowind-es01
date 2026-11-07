@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-04T00:00:00Z
-title: ¿Por qué la inspección antes del envío es clave para
+title: 'Inspección antes del envío: por qué es clave'
 description: 'Guía práctica para importadores B2B sobre la inspección Pre-Shipment (PSI), incluyendo pruebas funcionales, control de embalaje, seguridad y verificación d'
 excerpt: 'La inspección antes del envío (PSI) ayuda a detectar problemas antes de que la mercancía salga de fábrica, reduciendo devoluciones, reclamaciones y riesgos'
 image: /images/blog/4.jpg

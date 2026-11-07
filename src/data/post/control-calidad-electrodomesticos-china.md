@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-03T00:00:00Z
-title: Cómo funciona el control de calidad en una fábrica ch
+title: 'Control de calidad en una fábrica china'
 description: 'Guía práctica para importadores B2B sobre cómo funciona el control de calidad en fábricas de pequeños electrodomésticos en China, incluyendo IQC, IPQC, FQC'
 excerpt: 'Entender el sistema de control de calidad en China es clave para asegurar productos estables, reducir defectos y garantizar suministros confiables en peque'
 image: /images/blog/3.jpg

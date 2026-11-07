@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-31T10:00:00
-title: ¿Qué debe ofrecer un proveedor profesional de ollas e
+title: 'Qué debe ofrecer un proveedor de ollas multifunción'
 author: 'Adrian'
 excerpt: 'Guía práctica para importadores y marcas que buscan un proveedor de ollas eléctricas multifunción OEM: calidad, I+D, muestras, certificaciones, producción'
 image: /images/blog/60.jpg

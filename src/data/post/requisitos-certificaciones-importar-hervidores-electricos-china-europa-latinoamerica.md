@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-10T10:00:00
-title: Certificaciones necesarias para exportar hervidores e
+title: 'Certificaciones para exportar hervidores a Europa'
 author: 'Adrian'
 excerpt: 'Guía práctica para importadores y marcas que buscan comprar hervidores eléctricos desde China, con los principales requisitos de certificación, documentaci'
 description: 'Descubra qué certificaciones necesita un hervidor eléctrico para Europa y Latinoamérica y cómo trabajar con un fabricante OEM preparado para exportación.'

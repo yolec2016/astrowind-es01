@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-21T10:00:00
-title: Cómo evoluciona el mercado mundial de arroceras y qué
+title: 'Cómo evoluciona el mercado mundial de arroceras'
 author: 'Adrian'
 excerpt: 'Descubre cómo está cambiando el mercado mundial de arroceras eléctricas y qué estrategias pueden utilizar los importadores para crear catálogos más competi'
 image: /images/blog/47.jpg

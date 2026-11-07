@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-20T09:00:00Z
-title: Cómo optimizar la cadena de suministro al importar pe
+title: 'Cómo optimizar la cadena de suministro al importar'
 description: 'Guía para importadores y distribuidores sobre cómo optimizar la cadena de suministro de pequeños electrodomésticos desde China, reducir costos de compra, e'
 excerpt: 'Para los compradores B2B, reducir costos al importar pequeños electrodomésticos desde China no significa solamente conseguir un precio más bajo. La selecci'
 image: /images/blog/17.jpg

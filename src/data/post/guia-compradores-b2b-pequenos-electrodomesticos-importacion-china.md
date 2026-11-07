@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-21T18:00:00Z
-title: 'La guía definitiva para compradores B2B de pequeños e'
+title: 'Guía para compradores B2B de electrodomésticos'
 description: 'Guía práctica para importadores, distribuidores y marcas privadas que quieren comprar pequeños electrodomésticos al por mayor. Aprende cómo seleccionar pro'
 excerpt: 'Comprar pequeños electrodomésticos desde China puede ser una gran oportunidad, pero una decisión incorrecta puede generar problemas de calidad, costes ines'
 image: /images/blog/18.jpg

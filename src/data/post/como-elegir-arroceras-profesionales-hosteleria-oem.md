@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-17T10:00:00
-title: Cómo elegir arroceras para restaurantes, hoteles y se
+title: 'Arroceras para restaurantes, hoteles y hostelería'
 author: 'Adrian'
 excerpt: 'Guía para compradores profesionales que buscan arroceras para restaurantes, hoteles y catering. Descubra qué factores evaluar antes de seleccionar un prove'
 image: /images/blog/43.jpg

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-11T16:00:00Z
-title: 10 preguntas que debes hacer antes de elegir un prove
+title: '10 preguntas antes de elegir un proveedor chino'
 description: 'Guía práctica para compradores B2B sobre las 10 preguntas clave que deben hacer antes de elegir un proveedor chino de pequeños electrodomésticos. Incluye f'
 excerpt: 'Elegir un proveedor chino no consiste solo en comparar precios. Estas 10 preguntas ayudan a los importadores a evaluar fábricas, reducir riesgos y encontra'
 image: /images/blog/9.jpg

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-09T00:00:00Z
-title: Guía práctica para importar pequeños electrodoméstico
+title: 'Guía para importar electrodomésticos por vía marítima'
 description: 'Guía para importadores B2B sobre cómo transportar pequeños electrodomésticos desde China por vía marítima, explicando FCL, LCL, Incoterms, carga de contene'
 excerpt: 'Elegir correctamente el transporte marítimo desde China puede ayudarte a reducir costes, evitar retrasos y mejorar la eficiencia de tus importaciones de pe'
 image: /images/blog/7.jpg
@@ -56,7 +56,7 @@ Los compradores quieren controlar el coste total, no solo el precio del producto
 
 ---
 
-# FCL y LCL: las dos opciones principales de transporte marítimo
+## FCL y LCL: las dos opciones principales de transporte marítimo
 
 Al importar pequeños electrodomésticos desde China, normalmente existen dos opciones:
 
@@ -144,7 +144,7 @@ También debes considerar:
 
 ---
 
-# Entender los Incoterms antes de importar
+## Entender los Incoterms antes de importar
 
 Muchos problemas entre compradores y proveedores vienen de no entender claramente quién es responsable de cada parte del transporte.
 
@@ -205,7 +205,7 @@ Pero siempre conviene revisar qué está incluido exactamente.
 
 ---
 
-# Cómo funciona el proceso de carga de un contenedor
+## Cómo funciona el proceso de carga de un contenedor
 
 El proceso normalmente sigue estos pasos:
 
@@ -262,7 +262,7 @@ Normalmente incluye:
 
 ---
 
-# ¿Es necesario contratar seguro de transporte?
+## ¿Es necesario contratar seguro de transporte?
 
 Aunque muchas empresas intentan ahorrar en este punto, el seguro puede ser importante.
 
@@ -277,7 +277,7 @@ El coste del seguro suele ser pequeño comparado con el valor total de la mercan
 
 ---
 
-# Cómo reducir costes logísticos al importar desde China
+## Cómo reducir costes logísticos al importar desde China
 
 Los compradores con experiencia suelen aplicar estas estrategias:
 
@@ -329,7 +329,7 @@ Hay que comparar:
 
 ---
 
-# Errores comunes al importar por vía marítima
+## Errores comunes al importar por vía marítima
 
 ❌ calcular solo el precio FOB  
 ❌ ignorar costes del puerto destino  
@@ -339,7 +339,7 @@ Hay que comparar:
 
 ---
 
-# Conclusión
+## Conclusión
 
 Importar pequeños electrodomésticos desde China por vía marítima no es complicado cuando entiendes el proceso.
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-09T08:00:00
-title: Opciones de personalización para hervidores de cuello
+title: 'Personalización de hervidores de cuello de cisne'
 author: 'Adrian'
 excerpt: 'Guía para marcas e importadores que buscan fabricar hervidores de cuello de cisne OEM, incluyendo logo, color, packaging, funciones, MOQ, costes y tiempos'
 description: 'Descubra cómo personalizar un hervidor de cuello de cisne OEM para su marca y qué factores afectan al coste, MOQ y plazo de entrega.'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-26T10:00:00
-title: 'Cómo elegir un electric kettle manufacturer confiable'
+title: 'Cómo elegir un fabricante de hervidores en China'
 author: 'Adrian'
 excerpt: 'Guía para importadores y marcas privadas que buscan un electric kettle manufacturer en China. Descubre cómo evaluar fábrica, calidad, certificaciones, pers'
 image: /images/blog/9.jpg

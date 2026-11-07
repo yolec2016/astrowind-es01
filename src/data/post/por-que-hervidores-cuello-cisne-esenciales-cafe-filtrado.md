@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-07T09:30:00Z
-title: ¿Por qué los hervidores de cuello de cisne son esenci
+title: '¿Por qué el cuello de cisne es clave en café filtrado?'
 description: 'Descubre por qué los hervidores de cuello de cisne son fundamentales para el café filtrado y cómo ayudan a controlar el flujo de agua, mejorar la extracció'
 excerpt: 'Para los compradores B2B de café, elegir el hervidor adecuado puede marcar la diferencia. Conoce por qué los hervidores de cuello de cisne se han convertid'
 image: /images/blog/32.jpg

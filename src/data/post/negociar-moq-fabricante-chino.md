@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-05T00:00:00Z
-title: Cómo negociar el MOQ con un fabricante chino sin comp
+title: 'Cómo negociar el MOQ con un fabricante chino'
 description: 'Guía práctica para importadores B2B sobre cómo negociar el MOQ con fabricantes en China, reduciendo riesgos de inventario y manteniendo rentabilidad en pro'
 excerpt: 'El MOQ es uno de los mayores retos en compras desde China. Aquí explicamos por qué existe y cómo negociarlo sin perder rentabilidad ni relación con el prov'
 image: /images/blog/5.jpg

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-07-02T00:00:00Z
-title: Guía completa de certificaciones para exportar pequeñ
+title: 'Certificaciones para exportar electrodomésticos'
 description: 'Guía práctica para importadores B2B sobre certificaciones CE, RoHS, CB, EMC, LVD y LFGB necesarias para exportar pequeños electrodomésticos desde China a E'
 excerpt: 'Antes de importar pequeños electrodomésticos desde China, entender las certificaciones es clave para evitar bloqueos en aduanas y problemas de venta en Eur'
 image: /images/blog/2.jpg

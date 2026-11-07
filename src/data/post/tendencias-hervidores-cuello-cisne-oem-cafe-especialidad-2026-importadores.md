@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-08-11T10:00:00
-title: Tendencias del mercado de hervidores de cuello de cis
+title: 'Tendencias del mercado de hervidores de cuello de cisne'
 author: 'Adrian'
 excerpt: 'Guía para importadores y marcas sobre las tendencias de hervidores de cuello de cisne OEM en 2026, incluyendo control de temperatura, diseño premium y opor'
 description: 'Descubra qué características buscan los compradores de hervidores de cuello de cisne para café de especialidad y cómo optimizar su catálogo para los mercad'
