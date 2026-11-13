@@ -2,127 +2,297 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Contacto | YOLEC Electric',
-  description:
-    'Contacte con YOLEC Electric, fabricante OEM/ODM de pequeños electrodomésticos en China. Respuesta en 24 h, muestras en 7-10 días y soporte para su marca.',
   ignoreTitleTemplate: true,
+  title: 'Fabricante OEM en China: solicite su cotización',
+  description:
+    'Contacte con YOLEC Electric, fabricante OEM/ODM de pequeños electrodomésticos en China. MOQ desde 500 uds., muestra en 7-10 días y respuesta comercial en 24 h.',
+};
+
+const stats = [
+  { value: 'Desde 500', label: 'unidades por modelo (MOQ)' },
+  { value: '7-10 días', label: 'para la muestra' },
+  { value: '25-30 días', label: 'de producción en serie' },
+  { value: '60+', label: 'mercados de exportación' },
+];
+
+const faqs = [
+  {
+    q: '¿Cuál es el pedido mínimo (MOQ) para fabricar con mi marca?',
+    a: 'El MOQ es de 500 unidades por modelo en la mayoría de nuestras líneas de pequeños electrodomésticos. Para proyectos con molde propio, el mínimo se define junto con el utillaje necesario y se confirma en la cotización.',
+  },
+  {
+    q: '¿Cuánto tarda y cuánto cuesta una muestra con mi logotipo?',
+    a: 'La muestra personalizada se entrega en 7 a 10 días. El coste de la muestra se descuenta habitualmente del pedido de producción cuando se confirma el volumen, y las condiciones exactas se detallan en la cotización.',
+  },
+  {
+    q: '¿Qué certificaciones pueden incluir los productos?',
+    a: 'Trabajamos con CE, CB, RoHS, LFGB, CCC, TÜV, ETL e Intertek según el mercado de destino. Los certificados aplicables se entregan junto con la muestra o antes del embarque, para que pueda presentarlos en su aduana o ante su cliente.',
+  },
+  {
+    q: '¿Cómo se calcula el precio FOB?',
+    a: 'El precio depende del modelo, la cantidad, el nivel de personalización (color, panel, embalaje), las certificaciones requeridas y el puerto de destino. Envíe su especificación y recibe una cotización FOB detallada, con MOQ y plazo de producción en el mismo documento.',
+  },
+  {
+    q: '¿Puedo visitar la fábrica antes de firmar el pedido?',
+    a: 'Sí. Recibimos importadores, distribuidores y propietarios de marca en nuestra planta de Zhongshan (Guangdong). Podemos coordinar la agenda, el transporte local y las reuniones técnicas con el equipo de ingeniería.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contacto y cotización OEM/ODM — YOLEC Electric',
+  description: metadata.description,
+  url: 'https://oemkitchenchina.xyz/contacto',
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'YOLEC Electric',
+    email: 'adrian@yolec-electronics.com',
+    telephone: '+86-139-2233-2584',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'No.411 Dongfu Road, Dongfeng Town',
+      addressLocality: 'Zhongshan',
+      addressRegion: 'Guangdong',
+      addressCountry: 'CN',
+    },
+  },
 };
 ---
 
 <Layout metadata={metadata}>
-  <section class="max-w-4xl mx-auto px-4 py-16">
-    <!-- SEO H1 -->
-    <h1 class="text-3xl md:text-4xl font-bold mb-6">Contacto de Fabricante OEM/ODM de Electrodomésticos en China</h1>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(contactSchema)} />
 
-    <!-- SEO intro (B2B intent) -->
-    <p class="text-muted mb-10">
-      Si estás buscando un fabricante OEM/ODM confiable en China para desarrollar o producir pequeños electrodomésticos
-      de cocina, YOLEC Electric ofrece soluciones completas para marcas, importadores y distribuidores internacionales.
-      Trabajamos con producción directa de fábrica, personalización completa y control de calidad en cada etapa.
+  <section class="mx-auto max-w-4xl px-4 py-16">
+    <h1 class="text-3xl font-bold md:text-4xl">Solicite una cotización de fabricante OEM en China</h1>
+
+    <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-slate-300">
+      Si está buscando un fabricante OEM/ODM en China para producir pequeños electrodomésticos de cocina con su marca,
+      YOLEC Electric trabaja con importadores, distribuidores y propietarios de marca en más de 60 mercados. Producción
+      directa de fábrica en Zhongshan, personalización completa y control de calidad en cada etapa.
     </p>
 
-    <!-- Contact Info -->
-    <div class="grid md:grid-cols-2 gap-8 mb-12">
-      <div class="p-6 border rounded-lg">
-        <h2 class="text-xl font-bold mb-2">Información de contacto</h2>
-        <p class="mb-2">📧 Email: Adrian@yolec-electronics.com</p>
-        <p class="mb-2">📱 WhatsApp: +86 13922332584</p>
-        <p class="mb-2">🌐 Web: https://www.yolec-electronics.com</p>
+    <!-- Trust strip -->
+    <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+      {
+        stats.map((s) => (
+          <div class="rounded-xl border border-gray-200 bg-gray-50 p-4 text-center dark:border-slate-700 dark:bg-slate-800">
+            <p class="text-lg font-bold text-gray-900 dark:text-white">{s.value}</p>
+            <p class="mt-1 text-xs leading-5 text-gray-600 dark:text-slate-400">{s.label}</p>
+          </div>
+        ))
+      }
+    </div>
+
+    <!-- Inquiry form -->
+    <div class="mt-12 rounded-2xl border-2 border-accent bg-accent/5 p-6 sm:p-8">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Formulario de solicitud de cotización</h2>
+
+      <p class="mt-3 max-w-2xl text-gray-600 dark:text-slate-300">
+        Complete los datos y el mensaje se abrirá en WhatsApp listo para enviar. Si prefiere correo electrónico, escriba
+        directamente a
+        <a href="mailto:adrian@yolec-electronics.com" class="font-semibold text-accent hover:underline">
+          adrian@yolec-electronics.com
+        </a>. Respondemos en menos de 24 horas laborables.
+      </p>
+
+      <form id="inquiry-form" class="mt-6 grid gap-4 sm:grid-cols-2">
+        <div>
+          <label for="empresa" class="block text-sm font-medium">Empresa / marca</label>
+          <input
+            id="empresa"
+            name="empresa"
+            type="text"
+            autocomplete="organization"
+            placeholder="Nombre de su empresa"
+            class="mt-1 block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-900"
+          />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            placeholder="nombre@empresa.com"
+            class="mt-1 block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-900"
+          />
+        </div>
+        <div>
+          <label for="producto" class="block text-sm font-medium">Producto de interés</label>
+          <input
+            id="producto"
+            name="producto"
+            type="text"
+            placeholder="Hervidor eléctrico, arrocera, olla a presión…"
+            class="mt-1 block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-900"
+          />
+        </div>
+        <div>
+          <label for="cantidad" class="block text-sm font-medium">Cantidad estimada</label>
+          <input
+            id="cantidad"
+            name="cantidad"
+            type="text"
+            inputmode="numeric"
+            placeholder="Ej.: 1.000 unidades"
+            class="mt-1 block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-900"
+          />
+        </div>
+        <div class="sm:col-span-2">
+          <label for="mercado" class="block text-sm font-medium">Mercado de destino</label>
+          <input
+            id="mercado"
+            name="mercado"
+            type="text"
+            placeholder="País o región donde va a vender el producto"
+            class="mt-1 block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-900"
+          />
+        </div>
+        <div class="sm:col-span-2">
+          <label for="mensaje" class="block text-sm font-medium">Detalles del proyecto</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            placeholder="Especificaciones, certificaciones necesarias, plazo previsto, si ya tiene muestra o molde…"
+            class="mt-1 block w-full rounded-lg border border-gray-300 bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-900"
+          ></textarea>
+        </div>
+        <div class="sm:col-span-2">
+          <button
+            type="submit"
+            class="inline-flex w-full items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white transition hover:opacity-90 sm:w-auto"
+          >
+            Enviar solicitud por WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Contact info -->
+    <div class="mt-12 grid gap-6 md:grid-cols-2">
+      <div class="rounded-lg border p-6">
+        <h2 class="mb-3 text-xl font-bold">Contacto directo</h2>
+        <p class="mb-2">
+          <span class="font-semibold">Email:</span>
+          <a href="mailto:adrian@yolec-electronics.com" class="text-accent hover:underline">
+            adrian@yolec-electronics.com
+          </a>
+        </p>
+        <p class="mb-2">
+          <span class="font-semibold">WhatsApp:</span>
+          <a href="https://wa.me/8613922332584" class="text-accent hover:underline">+86 139 2233 2584</a>
+        </p>
+        <p class="mb-2"><span class="font-semibold">Sitio principal:</span> yolec-electronics.com</p>
+        <p><span class="font-semibold">Idiomas:</span> español e inglés</p>
       </div>
 
-      <div class="p-6 border rounded-lg">
-        <h2 class="text-xl font-bold mb-2">Capacidad de fabricación</h2>
-        <p>Fabricante OEM / ODM de electrodomésticos de cocina</p>
-        <p>Producción en masa para marcas globales</p>
+      <div class="rounded-lg border p-6">
+        <h2 class="mb-3 text-xl font-bold">Capacidad de fabricación</h2>
+        <p class="mb-2">Fabricante OEM / ODM de electrodomésticos de cocina</p>
+        <p class="mb-2">Producción en masa para marcas globales</p>
         <p>Exportación a Europa, América, Asia y Oriente Medio</p>
       </div>
     </div>
 
-    <!-- Inquiry form (formulario del sitio principal) -->
-    <div class="mb-12 rounded-2xl border-2 border-accent bg-accent/5 p-8 text-center">
-      <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Formulario de consulta en línea</h2>
-
-      <p class="mx-auto mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
-        Describa su producto, cantidad estimada y mercado de destino en nuestro formulario de contacto y recibirá una
-        respuesta comercial en menos de 24 horas.
+    <!-- Factory location -->
+    <div class="mt-12 rounded-lg border p-6">
+      <h2 class="mb-3 text-xl font-bold">Ubicación de fábrica y oficina</h2>
+      <p class="mb-2">
+        <strong>Fábrica:</strong> No.411 Dongfu Road, Dongfeng Town, Zhongshan City, Guangdong, China
       </p>
-
-      <a
-        href="https://www.yolec-electronics.com/contact/"
-        target="_blank"
-        rel="noopener"
-        class="mt-6 inline-block rounded-full bg-accent px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:opacity-90"
-      >
-        Abrir formulario de consulta →
-      </a>
+      <p>
+        <strong>Oficina:</strong> No.68 Donghai Six Road, Dongfeng Town, Zhongshan City, Guangdong, China
+      </p>
     </div>
 
-    <!-- Factory info SEO block -->
-    <div class="p-6 border rounded-lg mb-12">
-      <h2 class="text-xl font-bold mb-3">Ubicación de fábrica y oficina</h2>
-      <p class="mb-2"><strong>Factory:</strong> No.411 Dongfu Road, Dongfeng Town, Zhongshan City, Guangdong, China</p>
-      <p><strong>Office:</strong> No.68 Donghai Six Road, Dongfeng Town, Zhongshan City, Guangdong, China</p>
-    </div>
+    <!-- FAQ -->
+    <section class="mt-12">
+      <h2 class="text-2xl font-bold">Preguntas frecuentes antes de pedir cotización</h2>
 
-    <!-- Factory invitation -->
-    <div class="mt-6 p-6 border rounded-lg bg-gray-50 dark:bg-slate-800">
-      <h2 class="text-xl font-bold mb-3">Siempre eres bienvenido a visitar nuestra fábrica en China</h2>
+      <div class="mt-6 space-y-6">
+        {
+          faqs.map((f) => (
+            <div class="rounded-lg border p-5">
+              <h3 class="font-bold">{f.q}</h3>
+              <p class="mt-2 leading-7 text-gray-600 dark:text-slate-300">{f.a}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Factory visit -->
+    <div class="mt-12 rounded-lg border bg-gray-50 p-6 dark:bg-slate-800">
+      <h2 class="mb-3 text-xl font-bold">Puede visitar nuestra fábrica en China</h2>
 
       <p class="mb-4">
         En YOLEC Electric creemos que la mejor manera de construir una cooperación a largo plazo es conocernos
-        personalmente. Invitamos cordialmente a importadores, distribuidores, propietarios de marcas y socios
-        comerciales de todo el mundo a visitar nuestras instalaciones de producción en Zhongshan, China.
+        personalmente. Invitamos a importadores, distribuidores, propietarios de marcas y socios comerciales a visitar
+        nuestras instalaciones de producción en Zhongshan.
       </p>
 
       <p class="mb-4">
-        Durante la visita podrás recorrer nuestras líneas de producción, conocer nuestros procesos de fabricación OEM y
-        ODM, revisar los procedimientos de control de calidad, visitar las áreas de ensamblaje, pruebas y embalaje, así
-        como conversar directamente con nuestro equipo de ingeniería y desarrollo de productos. Estaremos encantados de
-        mostrarte cómo trabajamos para garantizar productos fiables y una producción eficiente.
-      </p>
-
-      <p class="mb-4">
-        Tanto si estás desarrollando un nuevo producto como si buscas un fabricante estable para tu marca, estaremos
-        encantados de preparar una visita personalizada según tus necesidades. Nuestro equipo puede ayudarte con la
-        planificación de la agenda, el transporte local y la coordinación de las reuniones técnicas para que aproveches
-        al máximo tu viaje de negocios a China.
+        Durante la visita podrá recorrer las líneas de producción, conocer los procesos de fabricación OEM y ODM,
+        revisar los procedimientos de control de calidad y conversar directamente con el equipo de ingeniería y
+        desarrollo de producto.
       </p>
 
       <p>
-        Esperamos darte la bienvenida muy pronto en nuestra fábrica y comenzar una colaboración basada en la confianza,
-        la transparencia y el crecimiento mutuo.
+        Tanto si está desarrollando un nuevo producto como si busca un fabricante estable para su marca, prepararemos
+        una agenda personalizada según sus necesidades, con apoyo en la planificación del viaje y la coordinación de las
+        reuniones técnicas.
       </p>
-    </div>
-
-    <!-- CTA -->
-    <div class="text-center mb-10">
-      <h2 class="text-2xl font-bold mb-4">Solicita una cotización OEM/ODM ahora</h2>
-
-      <p class="text-muted mb-6">
-        Envíanos tu idea de producto, especificaciones técnicas o requisitos de marca y nuestro equipo te responderá con
-        una solución de fabricación.
-      </p>
-
-      <a
-        href="https://www.yolee-electronics.com/contact/"
-        class="inline-block bg-black text-white px-6 py-3 rounded-md hover:opacity-80"
-      >
-        Abrir Formulario de Consulta OEM/ODM
-      </a>
     </div>
 
     <!-- QR -->
-    <div class="flex flex-col items-center gap-3 mt-12">
-      <p class="text-sm md:text-base text-gray-600 dark:text-slate-300 text-center">
+    <div class="mt-12 flex flex-col items-center gap-3">
+      <p class="text-center text-sm text-gray-600 dark:text-slate-300 md:text-base">
         Contacto directo por WhatsApp para consultas OEM/ODM
       </p>
 
       <img
         src="/images/whatsapp.png"
-        alt="Contacto OEM/ODM WhatsApp y WeChat fabricante electrodomésticos China"
-        class="w-[180px] md:w-[220px] rounded-lg shadow-md"
+        alt="Código QR de WhatsApp para solicitar cotización OEM de electrodomésticos en China"
+        class="w-[180px] rounded-lg shadow-md md:w-[220px]"
         loading="lazy"
       />
     </div>
   </section>
+
+  <script>
+    const form = document.getElementById('inquiry-form') as HTMLFormElement | null;
+
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const data = new FormData(form);
+      const value = (key: string) => String(data.get(key) ?? '').trim();
+
+      const lines = [
+        'Solicitud de cotización — oemkitchenchina.xyz',
+        value('empresa') && `Empresa: ${value('empresa')}`,
+        value('email') && `Email: ${value('email')}`,
+        value('producto') && `Producto: ${value('producto')}`,
+        value('cantidad') && `Cantidad: ${value('cantidad')}`,
+        value('mercado') && `Mercado: ${value('mercado')}`,
+        value('mensaje') && `Detalles: ${value('mensaje')}`,
+      ].filter(Boolean);
+
+      window.open(`https://wa.me/8613922332584?text=${encodeURIComponent(lines.join('\n'))}`, '_blank');
+    });
+  </script>
 </Layout>

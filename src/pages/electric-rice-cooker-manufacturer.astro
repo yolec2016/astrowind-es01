@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import ManufacturerFAQ from '~/components/widgets/ManufacturerFAQ.astro';
 import ModelHighlight from '~/components/widgets/ModelHighlight.astro';
 
 const metadata = {
@@ -959,6 +960,8 @@ const productSchema = {
   </section>
 
   <ModelHighlight page="/electric-rice-cooker-manufacturer" limit={26} />
+
+  <ManufacturerFAQ category="electric-rice-cooker" />
 
   <!-- =========================================================
        WHATSAPP QR
