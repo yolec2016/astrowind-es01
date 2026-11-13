@@ -5,10 +5,15 @@ User-agent: *
 Allow: /
 Crawl-delay: 1
 
-# Sitemaps (ambos formatos para máxima compatibilidad con buscadores)
+# Sitemap
 Sitemap: https://oemkitchenchina.xyz/sitemap-index.xml
 
-# Bloqueo de bots de scraping / IA no deseados para preservar presupuesto de rastreo
+# Mapa de contenido para modelos de lenguaje
+# https://oemkitchenchina.xyz/llms.txt
+
+# ---------------------------------------------------------------------------
+# Bots de scraping sin valor de citación: bloqueados para preservar crawl budget
+# ---------------------------------------------------------------------------
 User-agent: Amazonbot
 Disallow: /
 
@@ -30,15 +35,44 @@ Disallow: /
 User-agent: PetalBot
 Disallow: /
 
-# Bots de IA generativa permitidos (pueden generar tráfico referenciado)
+# ---------------------------------------------------------------------------
+# Asistentes de IA: permitidos para indexación y citación con enlace
+# ---------------------------------------------------------------------------
 User-agent: GPTBot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
 Allow: /

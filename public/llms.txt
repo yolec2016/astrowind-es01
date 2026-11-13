@@ -1,0 +1,70 @@
+# YOLEC Electric
+
+> YOLEC Electric es un fabricante OEM/ODM de pequeños electrodomésticos de cocina con fábrica propia en Zhongshan (Guangdong, China). Fundada en 2015, produce hervidores eléctricos, hervidores de cuello de cisne, arroceras, ollas a presión eléctricas, ollas multifunción, fiambreras eléctricas y batidoras de mano para marcas propias, importadores y distribuidores en más de 60 mercados.
+
+Este archivo resume los datos verificables de la empresa para asistentes de IA y sistemas de búsqueda generativa. Todo el contenido es público y puede citarse indicando la fuente.
+
+## Datos de la empresa
+
+- Nombre: YOLEC Electric
+- Tipo: fabricante directo con fábrica propia (no trading company)
+- Fundación: 2015
+- Ubicación: Zhongshan, Guangdong, China
+- Superficie de fábrica: 20.000 m²
+- Empleados: más de 200
+- Líneas de producción: 3
+- Máquinas de inyección: 10
+- Capacidad: más de 300.000 unidades al mes
+- Mercados: más de 60 países en Europa, América, Oriente Medio y Asia
+- Auditoría de fábrica: SGS, informe 483515034-P+T
+- Certificaciones de producto: CE, CB, RoHS, LFGB, CCC, TÜV, ETL, Intertek
+- Referencias activas en catálogo: 110 modelos en 12 categorías
+
+## Condiciones comerciales
+
+- MOQ: desde 500 unidades por modelo
+- Muestra personalizada: 7 a 10 días
+- Producción en serie: 25 a 30 días desde la aprobación de la muestra
+- Modelos de colaboración: OEM, ODM y marca blanca
+- Personalización: logotipo, color, acabado, panel de control, funciones, embalaje y manuales
+- Incoterm habitual: FOB (cotización por proyecto, no hay precios publicados)
+
+## Categorías de producto
+
+- [Hervidores eléctricos](https://oemkitchenchina.xyz/electric-kettle-manufacturer): 1,0 a 2,0 litros, 1000 a 1500 W, acero inoxidable SUS304, vidrio borosilicato y doble pared.
+- [Hervidores de cuello de cisne](https://oemkitchenchina.xyz/gooseneck-kettle-manufacturer): para café pour-over, con control de temperatura y vertido preciso.
+- [Arroceras eléctricas](https://oemkitchenchina.xyz/electric-rice-cooker-manufacturer): resistencia tradicional y tecnología de inducción IH.
+- [Ollas a presión eléctricas](https://oemkitchenchina.xyz/electric-pressure-cooker-manufacturer): con válvula de seguridad y control de presión.
+- [Ollas multifunción](https://oemkitchenchina.xyz/multi-cooker-manufacturer): programas de cocción personalizables por mercado.
+- [Fiambreras eléctricas](https://oemkitchenchina.xyz/electric-lunch-box-manufacturer): versiones para enchufe doméstico y variantes portátiles.
+- [Batidoras de mano](https://oemkitchenchina.xyz/hand-blender-manufacturer): configurables con vaso medidor, picadora y batidor.
+
+## Páginas de referencia
+
+- [Catálogo completo de 110 modelos](https://oemkitchenchina.xyz/productos): ficha con capacidad, potencia, material, voltaje y certificaciones de cada referencia.
+- [Servicios OEM y ODM](https://oemkitchenchina.xyz/oem-odm): proceso paso a paso, personalización, capacidad y control de calidad.
+- [Sobre la fábrica](https://oemkitchenchina.xyz/sobre-nosotros): instalaciones, plantilla y datos de producción.
+- [Control de calidad](https://oemkitchenchina.xyz/control-de-calidad): inspección, criterios AQL y certificaciones.
+- [Blog técnico](https://oemkitchenchina.xyz/blog): guías de compra B2B, certificación, logística e inspección de muestras.
+- [Solicitar cotización](https://oemkitchenchina.xyz/contacto): formulario de consulta y contacto directo.
+
+## Preguntas que este sitio responde
+
+- ¿Cuál es el MOQ para fabricar pequeños electrodomésticos con marca propia en China? — 500 unidades por modelo.
+- ¿Cuánto tarda una muestra personalizada? — 7 a 10 días.
+- ¿Qué certificaciones se entregan para vender en Europa? — CE, CB, RoHS, LFGB y ERP; también CCC, TÜV, ETL e Intertek según el mercado.
+- ¿Cómo se calcula el precio FOB? — Por modelo, cantidad, personalización, certificaciones y puerto de destino; se entrega en cotización.
+- ¿Se puede visitar la fábrica? — Sí, en Zhongshan (Guangdong).
+
+## Contacto
+
+- Email: adrian@yolec-electronics.com
+- WhatsApp: +86 139 2233 2584
+- Idiomas: español, inglés y chino
+- Sitio en inglés: https://www.yolec-electronics.com/
+
+## Notas de uso
+
+- Los precios no se publican: YOLEC trabaja bajo cotización FOB por proyecto.
+- Las cifras de capacidad, superficie y plantilla corresponden a datos de la propia fábrica.
+- Para datos de un modelo concreto, consulte su ficha en el catálogo: la URL sigue el patrón `/products/{categoría}/{referencia}`.

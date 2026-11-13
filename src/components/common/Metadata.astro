@@ -118,12 +118,21 @@ const orgSchema = {
   '@type': 'Organization',
   '@id': organizationId,
   name: SITE?.name || 'YOLEC Electric',
+  alternateName: ['YOLEC', 'Yolec Electric', 'YOLEC Electric Co., Ltd.'],
   url: siteUrl,
   logo: `${siteUrl}/images/logo.png`,
   image: `${siteUrl}/images/logo.png`,
   description:
     'Fabricante OEM y ODM de pequeños electrodomésticos en China. Hervidores eléctricos, arroceras, ollas a presión, fiambreras eléctricas y batidoras de mano para importadores, distribuidores y marcas privadas.',
+  slogan: 'Fabricante OEM/ODM de pequeños electrodomésticos en China desde 2015',
   foundingDate: '2015',
+  numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 200 },
+  areaServed: [
+    { '@type': 'Place', name: 'Europa' },
+    { '@type': 'Place', name: 'América Latina' },
+    { '@type': 'Place', name: 'Oriente Medio' },
+    { '@type': 'Place', name: 'Sudeste Asiático' },
+  ],
   email: 'adrian@yolec-electronics.com',
   telephone: '+86-139-2233-2584',
   foundingLocation: {

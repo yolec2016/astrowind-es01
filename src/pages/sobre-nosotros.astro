@@ -37,6 +37,53 @@ const metadata = {
     ]}
   />
 
+  <!-- DATOS CLAVE (tabla extraíble para buscadores y asistentes de IA) -->
+  <section class="bg-white py-16 dark:bg-slate-950 lg:py-20">
+    <div class="mx-auto max-w-4xl px-6 lg:px-8">
+      <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
+        Datos clave de YOLEC Electric
+      </h2>
+
+      <p class="mt-3 text-slate-600 dark:text-slate-300">
+        Resumen verificable de la empresa, la fábrica y las condiciones comerciales habituales.
+      </p>
+
+      <div class="mt-8 overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800">
+        <table class="w-full text-left text-sm">
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-800">
+            {
+              [
+                ['Nombre comercial', 'YOLEC Electric'],
+                ['Tipo de proveedor', 'Fabricante directo con fábrica propia (no trading company)'],
+                ['Año de fundación', '2015'],
+                ['Ubicación', 'Zhongshan, Guangdong, China'],
+                ['Superficie de fábrica', '20.000 m²'],
+                ['Empleados', 'Más de 200'],
+                ['Líneas de producción', '3'],
+                ['Capacidad', 'Más de 300.000 unidades al mes'],
+                ['Auditoría de fábrica', 'SGS, informe 483515034-P+T'],
+                ['Certificaciones de producto', 'CE, CB, RoHS, LFGB, CCC, TÜV, ETL, Intertek'],
+                ['MOQ', 'Desde 500 unidades por modelo'],
+                ['Muestra personalizada', '7 a 10 días'],
+                ['Producción en serie', '25 a 30 días desde la aprobación'],
+                ['Referencias en catálogo', '110 modelos en 12 categorías'],
+                ['Mercados de exportación', 'Más de 60 países'],
+                ['Idiomas de atención', 'Español, inglés y chino'],
+              ].map(([label, value]) => (
+                <tr>
+                  <th class="w-1/3 bg-slate-50 px-5 py-3 font-semibold text-slate-900 dark:bg-slate-900 dark:text-white">
+                    {label}
+                  </th>
+                  <td class="px-5 py-3 text-slate-600 dark:text-slate-300">{value}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
   <!-- CERT STRIP -->
   <section class="border-y border-slate-200 bg-white py-10 dark:border-slate-800 dark:bg-slate-950">
     <div class="mx-auto max-w-5xl px-6 text-center lg:px-8">
