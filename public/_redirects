@@ -1,0 +1,16 @@
+# Categorías consolidadas: redirigir las variantes antiguas a la categoría canónica.
+
+/categoria/hervidores-electricos-oem/* /categoria/hervidores-electricos/:splat 301
+/categoria/hervidores-electricos-oem /categoria/hervidores-electricos 301
+
+/categoria/guia-de-compras-b2b/* /categoria/guia-de-compra-b2b/:splat 301
+/categoria/guia-de-compras-b2b /categoria/guia-de-compra-b2b 301
+
+/categoria/cafe-profesional/* /categoria/cafe-profesional-oem/:splat 301
+/categoria/cafe-profesional /categoria/cafe-profesional-oem 301
+
+/categoria/tendencias-de-mercado/* /categoria/tendencias-de-producto/:splat 301
+/categoria/tendencias-de-mercado /categoria/tendencias-de-producto 301
+
+/categoria/certificaciones-de-exportacion/* /categoria/certificaciones/:splat 301
+/categoria/certificaciones-de-exportacion /categoria/certificaciones 301

@@ -22,16 +22,16 @@ const currentPage = page.currentPage ?? 1;
 
 const intro = getCategoryIntro(category.title);
 
-// Las categorías con un solo artículo no aportan valor de índice propio:
+// Las categorías con uno o dos artículos no aportan valor de índice propio:
 // se dejan rastreables pero fuera del índice para evitar páginas casi idénticas.
-const isThinCategory = page.total < 2;
+const isThinCategory = page.total < 3;
 
 const metadata = {
   ignoreTitleTemplate: true,
   title: `${category.title}: artículos y guía OEM${currentPage > 1 ? ` — Página ${currentPage}` : ''}`,
-  description: intro,
+  description: currentPage > 1 ? `${intro} (Página ${currentPage})` : intro,
   robots: {
-    index: isThinCategory ? false : blogCategoryRobots?.index,
+    index: isThinCategory || currentPage > 1 ? false : blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
   },
 };

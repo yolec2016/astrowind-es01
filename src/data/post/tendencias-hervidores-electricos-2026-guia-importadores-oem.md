@@ -5,7 +5,7 @@ description: 'Guía para importadores, distribuidores y marcas privadas que quie
 excerpt: 'El mercado de hervidores eléctricos está evolucionando. Descubre qué características buscan los compradores internacionales y cómo preparar una estrategia'
 image: /images/blog/28.jpg
 author: 'Adrian'
-category: 'Hervidores Eléctricos OEM'
+category: 'Hervidores eléctricos'
 tags:
   - tendencias hervidores eléctricos 2026
   - fabricante hervidores eléctricos China

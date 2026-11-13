@@ -5,7 +5,7 @@ description: 'Guía práctica para importadores, distribuidores y marcas privada
 excerpt: 'Comprar pequeños electrodomésticos desde China puede ser una gran oportunidad, pero una decisión incorrecta puede generar problemas de calidad, costes ines'
 image: /images/blog/18.jpg
 author: 'Adrian'
-category: 'Guía de Compras B2B'
+category: 'Guía de compra B2B'
 tags:
   - pequeños electrodomésticos al por mayor
   - importar desde China

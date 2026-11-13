@@ -5,7 +5,7 @@ description: 'Descubre las principales tendencias de pequeños electrodoméstico
 excerpt: 'El mercado de pequeños electrodomésticos está cambiando. Los compradores B2B deben conocer qué productos de cocina tendrán mayor demanda en 2026 para crear'
 image: /images/blog/11.jpg
 author: 'Adrian'
-category: 'Tendencias de mercado'
+category: 'Tendencias de producto'
 tags:
   - tendencias pequeños electrodomésticos 2026
   - importar desde China

@@ -5,7 +5,7 @@ description: 'Guía práctica para importadores B2B sobre certificaciones CE, Ro
 excerpt: 'Antes de importar pequeños electrodomésticos desde China, entender las certificaciones es clave para evitar bloqueos en aduanas y problemas de venta en Eur'
 image: /images/blog/2.jpg
 author: Adrian
-category: Certificaciones de Exportación
+category: Certificaciones
 tags:
   - CE
   - RoHS

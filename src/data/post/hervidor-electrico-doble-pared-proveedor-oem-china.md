@@ -5,7 +5,7 @@ description: 'Guía para compradores B2B que buscan importar hervidores eléctri
 excerpt: 'Los compradores de pequeños electrodomésticos buscan productos con mayor valor añadido. Los hervidores eléctricos de doble pared ofrecen ventajas en seguri'
 image: /images/blog/25.jpg
 author: 'Adrian'
-category: 'Hervidores Eléctricos'
+category: 'Hervidores eléctricos'
 tags:
   - hervidor eléctrico doble pared
   - fabricante hervidores eléctricos China

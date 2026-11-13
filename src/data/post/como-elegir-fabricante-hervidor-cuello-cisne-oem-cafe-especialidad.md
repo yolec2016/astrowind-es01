@@ -5,7 +5,7 @@ description: 'Guía para importadores, distribuidores y marcas de café que busc
 excerpt: 'Encontrar un fabricante adecuado de hervidores de cuello de cisne no solo depende del precio. Esta guía explica qué deben revisar los compradores B2B para'
 image: /images/blog/29.jpg
 author: 'Adrian'
-category: 'Hervidores Eléctricos OEM'
+category: 'Hervidores eléctricos'
 tags:
   - fabricante hervidor cuello de cisne China
   - proveedor OEM hervidores eléctricos

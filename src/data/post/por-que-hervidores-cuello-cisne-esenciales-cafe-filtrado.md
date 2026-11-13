@@ -5,7 +5,7 @@ description: 'Descubre por qué los hervidores de cuello de cisne son fundamenta
 excerpt: 'Para los compradores B2B de café, elegir el hervidor adecuado puede marcar la diferencia. Conoce por qué los hervidores de cuello de cisne se han convertid'
 image: /images/blog/32.jpg
 author: 'Adrian'
-category: 'Café Profesional'
+category: 'Café Profesional OEM'
 tags:
   - hervidor cuello de cisne
   - café filtrado

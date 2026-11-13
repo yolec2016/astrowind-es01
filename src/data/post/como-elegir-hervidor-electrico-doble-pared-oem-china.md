@@ -5,7 +5,7 @@ description: 'Guía para compradores B2B que quieren importar hervidores eléctr
 excerpt: 'Los compradores profesionales buscan algo más que un precio bajo. Los hervidores eléctricos de doble pared ofrecen nuevas oportunidades para marcas, distri'
 image: /images/blog/26.jpg
 author: 'Adrian'
-category: 'Hervidores Eléctricos OEM'
+category: 'Hervidores eléctricos'
 tags:
   - fabricante hervidores eléctricos China
   - proveedor OEM hervidores eléctricos

@@ -5,7 +5,7 @@ description: 'Guía para importadores y marcas que buscan un proveedor OEM de he
 excerpt: 'Para muchos compradores B2B, elegir un hervidor eléctrico no se trata solo del precio. Descubre cómo los modelos de doble pared pueden ayudar a crear produ'
 image: /images/blog/27.jpg
 author: 'Adrian'
-category: 'Hervidores Eléctricos OEM'
+category: 'Hervidores eléctricos'
 tags:
   - fabricante hervidores eléctricos China
   - proveedor OEM hervidores eléctricos

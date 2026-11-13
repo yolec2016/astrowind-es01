@@ -39,7 +39,7 @@ for (const f of fs.readdirSync(path.join(__dirname, 'src/data/post'))) {
     categoryCount[s] = (categoryCount[s] || 0) + 1;
   }
 }
-const thinCategories = new Set(Object.keys(categoryCount).filter((s) => categoryCount[s] < 2));
+const thinCategories = new Set(Object.keys(categoryCount).filter((s) => categoryCount[s] < 3));
 
 const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
@@ -53,6 +53,8 @@ export default defineConfig({
       filter: (page) => {
         const pathname = new URL(page).pathname;
         if (/^\/blog\/\d+\/?$/.test(pathname)) return false;
+        // La paginación de categorías lleva noindex: fuera del sitemap.
+        if (/^\/categoria\/[^/]+\/\d+\/?$/.test(pathname)) return false;
         const cat = pathname.match(/^\/categoria\/([^/]+)\/?$/);
         if (cat && thinCategories.has(cat[1])) return false;
         return true;

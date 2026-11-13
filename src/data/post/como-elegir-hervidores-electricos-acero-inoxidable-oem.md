@@ -5,7 +5,7 @@ description: 'Guía para compradores B2B sobre cómo elegir hervidores eléctric
 excerpt: 'Para importadores y marcas privadas, elegir el material correcto del hervidor eléctrico afecta directamente a la calidad del producto, la satisfacción del'
 image: /images/blog/23.jpg
 author: 'Adrian'
-category: 'Hervidores Eléctricos OEM'
+category: 'Hervidores eléctricos'
 tags:
   - hervidores eléctricos OEM
   - hervidor acero inoxidable 304
